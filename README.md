@@ -1,4 +1,4 @@
-# Filling in missing series information
+## Filling in missing series information
 
 Presentation to ALA Core CNIG February 1, 2021
 
