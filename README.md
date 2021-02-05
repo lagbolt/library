@@ -24,6 +24,8 @@ You can find the data described in this presentation, and the code used to gener
 
 #### [Why is language coding so bad?](https://github.com/lagbolt/library/blob/main/Why%20is%20Language%20Coding%20So%20Bad.pptx)
 
+Presentation to ALA ALCTS CaMMS CNIG (now ALA Core CNIG) June 9, 2020
+
 ## CORE Blog Posts
 
 (various posts to [ALA Core News](https://alacorenews.org/))
