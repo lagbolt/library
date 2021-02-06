@@ -38,3 +38,24 @@ Presentation to ALA ALCTS CaMMS CNIG (now ALA Core CNIG) June 9, 2020
 
 [Metadata Quality](https://github.com/lagbolt/library/blob/main/Metadata%20Quality.docx)
 
+## My own blog at [lagbolt.wordpress.com](https://lagbolt.wordpress.com)
+
+Which I post to quite infrequently.
+
+[Subject Headings](https://lagbolt.wordpress.com/2020/08/10/subject-headings/)
+
+[Displaying Availability on a Phone Screen](https://lagbolt.wordpress.com/2019/08/25/displaying-availability-on-a-phone-screen/)
+
+[2019 is the Year of ... What?](https://lagbolt.wordpress.com/2019/01/23/2019-is-the-year-of-what/)
+
+[In search of the perfect library patron](https://lagbolt.wordpress.com/2019/01/03/in-search-of-the-perfect-library-patron/)
+
+[Janus, the God of Cataloging](https://lagbolt.wordpress.com/2018/12/16/janus-the-god-of-cataloging/)
+
+Here I seem to have been infected by cutesy title syndrome.  This post is about how catalogers vs. patrons see the catalog.
+
+[Keeping track of the books you want to borrow](https://lagbolt.wordpress.com/2018/11/02/keeping-track-of-the-books-you-want-to-borrow/)
+
+[What do seniors want from the library?](https://lagbolt.wordpress.com/2018/11/01/what-do-seniors-want-from-the-library/)
+
+
