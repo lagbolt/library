@@ -40,4 +40,27 @@ Which is a perfect segue to ...
 
 ### Wayfinding
 
-Why is this such a problem?  I think that part of the problem is that the people who put up signs in a public library have been working there for decades.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.
+Why is this such a problem?  I think that part of the problem is that the people who put up signs in a public library have been working there for decades.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
+
+Wayfinding starts outside the library, whether you arrive by car, bus, wheelchair or unicycle.  Is your library identifiable as a library?  Yesterday I visited a library which was only identified as "1771".  Library buildings shouldn't be coy.
+
+Can you tell where the main entrance is?  Can you safely navigate the parking lot?  In a wheelchair?  In a walker?
+
+I'm going to include a few photos I have taken inside and outside libraries.  If you're interested, I have a *lot* more.  Btw, you can see the images in full size by right-clicking on the image and selecting "Open image in new tab".
+
+I find this sign infuriating:
+
+<img src="images\Centennial Hills Branch bookdrop sign.jpg" alt="sign in door saying Please return all materials to the outside bookdrop (except iPads and hotspots) Thank you!" height="300" />
+
+It's infuriating because it leaves out the one piece of information that would be useful to someone returning materials:  if you're looking at the sign, *the bookdrop is behind you*.
+
+Let's return to empathy and library anxiety.  If someone arrives at the library already anxious and they have difficulty finding the book drop, they're going to feel foolish and more anxious.
+
+I don't want to belabor this point, but why is it even called a "book drop" when you can return other materials?  To make things worse, the book drops at this branch are labelled "BOOKS".
+
+What happens when you go through the library doors?  Is the signage right there clear enough for someone with limited vision?  Where will you go if you're in a hurry and you're looking for a book to help you with a certification exam at work?  Not to service desks labelled "Discover" or "Explore"!  In fact, if those words or anything like them appear anywhere at all, you're now a little more confused and a little more anxious.
+
+Here's a photo from inside the same branch:
+
+<img src="images\Centennial Branch LARGE PR.jpg" alt="Book shelves inside library, one labelled LARGE and the other labelled PRINT, partially obscured" height="300" />
+
