@@ -8,13 +8,11 @@ You should read this if you have (i) the ability, and (ii) the willingness to ch
 
 (Or, what I have read recently)
 
-In 2016, Rachel Clarke wrote a PhD thesis called "It’s Not ~~Rocket~~ Library Science:  Design Epistemology and American Librarianship".  It's great, it won several awards, but some of it is quite dense.
+In 2016, Rachel Clarke wrote a PhD thesis called "It’s Not ~~Rocket~~ Library Science:  Design Epistemology and American Librarianship".  It's great, it won several awards, but some of it is quite dense.  I'm certainly not the person to comment on the thesis, although I do think as a practical matter it's very helpful.  Here's Clarke's design epistemology in two sentences:  Don't delay change until you know exactly what will happen.  You'll find out as you go along.
 
-In 2020, Clarke wrote a book called "Design Thinking" which summarized the less theoretical parts of her thesis (e.g., no epistemology).  I'm certainly not the person to comment on the thesis, although I do as a practical matter it's helpful.  Here's Clarke's design epistemology in two sentences:  Don't delay change until you know exactly what will happen.  You'll find out as you go along.
+In 2020, Clarke wrote a book called "Design Thinking" which summarized the less theoretical parts of her thesis (e.g., no epistemology).  I actually read the book first (ALA had a half-off sale!), then the thesis, then the book again.  I generally agree with the book.  I would have emphasized some things more, but that falls into the category of commenting on the book I would have written, rather than responsing fairly to Clarke's book.
 
-I actually read the book first (ALA had a half-off sale!), then the thesis, then the book again.  I generally agree with the book.  I would have emphasized some things more, but that falls into the category of commenting on the book I would have written, rather than responsing fairly to Clarke's book.
-
-Clarke does an excellent job discussing the role of trial and error in design and change, using the same three examples that she presents in more detail in her thesis.  It makes no sense to propose "Allow yourself to risk failure!" as an abstract rule if you're not actuall going to show a sequence of failures with gradually improving results.
+Clarke does an excellent job discussing the role of trial and error in design and change, using the same three examples that she presents in more detail in her thesis.  It makes no sense to propose "Allow yourself to risk failure!" as an abstract rule if you're not actually going to show a sequence of failures with gradually improving results.
 
 Clarke also mentions the role of empathy in user (i.e., patrpn) focus.  Perhaps I would have been clearer that empathy with the patron means identifying and addressing their feelings -- possibly quite irrational -- rather than working towards satisfying their stated or unstated needs.
 
@@ -54,13 +52,38 @@ I find this sign infuriating:
 
 It's infuriating because it leaves out the one piece of information that would be useful to someone returning materials:  if you're looking at the sign, *the bookdrop is behind you*.
 
-Let's return to empathy and library anxiety.  If someone arrives at the library already anxious and they have difficulty finding the book drop, they're going to feel foolish and more anxious.
-
-I don't want to belabor this point, but why is it even called a "book drop" when you can return other materials?  To make things worse, the book drops at this branch are labelled "BOOKS".
+Let's return to empathy and library anxiety.  If someone arrives at the library already anxious and they have difficulty finding the book drop, they're going to feel foolish and more anxious.  I don't want to belabor this point, but why is it even called a "book drop" when you can return other materials?  To make things worse, the book drops at this branch are labelled "BOOKS".
 
 What happens when you go through the library doors?  Is the signage right there clear enough for someone with limited vision?  Where will you go if you're in a hurry and you're looking for a book to help you with a certification exam at work?  Not to service desks labelled "Discover" or "Explore"!  In fact, if those words or anything like them appear anywhere at all, you're now a little more confused and a little more anxious.
 
-Here's a photo from inside the same branch:
+I claim that you should be able to find anything inside the library just by following signs, without asking for help.  Here's a photo from inside the same branch:
 
 <img src="images\Centennial Branch LARGE PR.jpg" alt="Book shelves inside library, one labelled LARGE and the other labelled PRINT, partially obscured" height="300" />
 
+You can see one problem with the "LARGE PRINT" sign:  someone has decided to put *permanent* shelves in front of the right-hand shelving unit, leaving "LARGE PR".  The other problem is that this style -- large vertical letters on the end of the shelving units -- occurs nowhere else in the library.  I hope no one thought it was funny to have the sign for large print books in large print.  No, just no.
+
+Signs can be complicated because the collection has a complicated structure.  Just considering large print books, you might separately shelve LP fiction, LP non-fiction, *new* LP fiction and *new* LP non-fiction.
+
+What happens when one part of the collection expands into the space of another?  This:
+
+<img src="images\Summerlin Contradictory Signs.jpg" alt="Two shelving units.  One has a large Audio Books sign and smaller Large Print signs.  The other has one small complicated sign" height="300" />
+
+You see that large "Audio Books" sign?  That shelving unit has no audio books, which start halfway down the other shelving unit.  When the large print books moved into the space formerly occupied by audio books, someone carefully made the small signs explaining where things are, but didn't notice that the larger sign needed to be moved.
+
+Remember that large print books are used by people with vision limitations!
+
+### ADA compliance
+
+I assume you think you're ADA compliant.  I'm not an ADA expert by any means, but there are two areas I want to comment on.
+
+There are two general guidelines that apply to book drops:  you should be able to operate them with one hand, and the opening or handle should be within 48 inches of the ground.
+
+Here are two book drops with slightly different designs:
+
+<img src="images\Sahara West book drops.jpg" alt="Outside the library, two book drops of slightly different design and height" height="300" />
+
+The one on the right can be operated with one hand -- the opening has a flap that you can push the book through -- but the opening is more than 48 inches above the roadway.  The one on the left is within 48 inches of the roadway but can't be operated with one hand -- you need one hand to pull down on the handle and one to put the book in.
+
+Also, it's not very pedestrian friendly to have to stand in the roadway to use the book drops, let along how it must feel using a walker or wheelchair.
+
+The other question has to do with wayfinding.  If, for example, you have computers that can be used from a wheelchair, how easy is it to find them from the front entrance?
