@@ -8,9 +8,9 @@ You should read this if you have (i) the ability, and (ii) the willingness to ch
 
 (Or, what I have read recently)
 
-In 2016, Rachel Clarke wrote a PhD thesis called "It’s Not ~~Rocket~~ Library Science:  Design Epistemology and American Librarianship".  It's great, it won several awards, but some of it is quite dense.  I'm certainly not the person to comment on the thesis, although I do think as a practical matter it's very helpful.  Here's Clarke's design epistemology in two sentences:  Don't delay change until you know exactly what will happen.  You'll find out as you go along.
+In 2016, Rachel Clarke wrote a PhD thesis called "It’s Not ~~Rocket~~ Library Science:  Design Epistemology and American Librarianship".  It's great, it won several awards, but some of it is quite dense.  I'm certainly not the person to comment on the thesis, although I do think as a practical matter it's very helpful.  Read it if you have the time.  Here's Clarke's design epistemology in two sentences:  Don't delay change until you know exactly what will happen.  You'll find out as you go along.
 
-In 2020, Clarke wrote a book called "Design Thinking" which summarized the less theoretical parts of her thesis (e.g., no epistemology).  I actually read the book first (ALA had a half-off sale!), then the thesis, then the book again.  I generally agree with the book.  I would have emphasized some things more, but that falls into the category of commenting on the book I would have written, rather than responsing fairly to Clarke's book.
+In 2020, Clarke wrote a book called "Design Thinking" which summarized the less theoretical parts of her thesis (e.g., no epistemology).  I actually read the book first (ALA had a half-off sale!), then the thesis, then the book again.  I generally agree with the book.  I would have emphasized some things more, but that falls into the category of commenting on the book I would have written, rather than responding fairly to Clarke's book.
 
 Clarke does an excellent job discussing the role of trial and error in design and change, using the same three examples that she presents in more detail in her thesis.  It makes no sense to propose "Allow yourself to risk failure!" as an abstract rule if you're not actually going to show a sequence of failures with gradually improving results.
 
@@ -38,7 +38,7 @@ Which is a perfect segue to ...
 
 ### Wayfinding
 
-Why is this such a problem?  I think that part of the problem is that the people who put up signs in a public library have been working there for decades.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
+Why is this so hard to get right?  I think that part of the problem is that the people who put up signs in a public library have been working there for decades.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
 
 Wayfinding starts outside the library, whether you arrive by car, bus, wheelchair or unicycle.  Is your library identifiable as a library?  Yesterday I visited a library which was only identified as "1771".  Library buildings shouldn't be coy.
 
@@ -82,8 +82,24 @@ Here are two book drops with slightly different designs:
 
 <img src="images\Sahara West book drops.jpg" alt="Outside the library, two book drops of slightly different design and height" height="300" />
 
-The one on the right can be operated with one hand -- the opening has a flap that you can push the book through -- but the opening is more than 48 inches above the roadway.  The one on the left is within 48 inches of the roadway but can't be operated with one hand -- you need one hand to pull down on the handle and one to put the book in.
+The one on the right can be operated with one hand -- the opening has a flap that you can push a book through -- but the opening is more than 48 inches above the roadway.  The one on the left is within 48 inches of the roadway but can't be operated with one hand -- you need one hand to pull down on the handle and one to put the book in.
 
-Also, it's not very pedestrian friendly to have to stand in the roadway to use the book drops, let along how it must feel using a walker or wheelchair.
+Also, it's not very pedestrian friendly to have to stand in the road to use a book drop, let along how it must feel using a walker or wheelchair.
 
 The other question has to do with wayfinding.  If, for example, you have computers that can be used from a wheelchair, how easy is it to find them from the front entrance?
+
+### The web site
+
+Obviously, there's a lot to say about making your web site accessible and easy to use.  I just want to comment on one thing.
+
+You're an information professional.  You wouldn't throw all the library's books into a big pile in the middle of the building, and you shouldn't do the equivalent with the web site.
+
+The organization of the web site -- the major categories, the way information is laid out within categories, and the way a patron navigates from page to page -- should reflect the best that you can do.
+
+### The online catalog
+
+You probably can't change the usability of your catalog -- that's controlled by an external vendor -- but you can control the completeness and correctness of the data *in* the catalog.
+
+
+
+
