@@ -22,11 +22,11 @@ In 2020, Clarke wrote a book called "Design Thinking" which summarized the less 
 
 Clarke does an excellent job discussing the role of trial and error in design and change, using the same three examples that she presents in more detail in her thesis.  It makes no sense to propose "Allow yourself to risk failure!" as an abstract rule if you're not actually going to show a sequence of failures with gradually improving results.
 
-Clarke also mentions the role of empathy in user (i.e., patrpn) focus.  Perhaps I would have been clearer that empathy with the patron means identifying and addressing their feelings -- possibly quite irrational -- rather than working towards satisfying their stated or unstated needs.
+Clarke also mentions the role of empathy in user (i.e., patron) focus.  Perhaps I would have been clearer that empathy with the patron means identifying and addressing their feelings -- possibly quite irrational -- rather than working towards satisfying their stated or unstated needs.
 
 Finally, Clarke points out that a patron walks into the library -- or goes to the online catalog -- in the middle of things.  They're already worried about making dinner or getting the car fixed before they ever decide to look for a book or movie.
 
-I think that librarians are generally aware of the possibility of change, of improvement.  And many are aware that the usual methodology -- form a committee to draft a recommendation for review by the board -- isn't radical enough.  Clarke's point, inter alia, is that a different methodology isn't enough.  You have to build change rather than decide it in advance.
+I think that librarians are generally aware of the possibility of change, of improvement.  And many are aware that the usual methodology -- form a committee to draft a recommendation for review by the board -- isn't radical enough.  Clarke's point, inter alia, is that a different methodology by itself isn't enough.  You have to build change rather than decide it in advance.
 
 One of the good things about reading books and articles by librarians is that the references are always extensive and often quite helpful.  I tracked down [Edward Luca and Bhuva Narayan's Signage by Design](https://doi.org/10.3998/weave.12535642.0001.501) and it's an excellent supplement to Clarke's examples of trial and error.  I always find signage fun to read about because the "before" examples are so terrifyingly bad.
 
@@ -50,11 +50,11 @@ Which is a perfect segue to ...
 
 Why is this so hard to get right?  I think that part of the problem is that the people who put up signs in a public library have been working there for decades and know where everything is.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
 
-Wayfinding starts outside the library, whether you arrive by car, bus, wheelchair or unicycle.  Is your library identifiable as a library?  Yesterday I visited a library which was only identified as "1771".  Library buildings shouldn't be coy.
+Wayfinding starts outside the library, whether you arrive by car, bus, wheelchair or unicycle.  Is your library identifiable as a library?  Yesterday I visited a library which was only identified on the outside of the building as "1771".  Library buildings shouldn't be coy.
 
 Can you tell where the main entrance is?  Can you safely navigate the parking lot?  In a wheelchair?  In a walker?
 
-I'm going to include a few photos I have taken inside and outside libraries.  If you're interested, I have a *lot* more.  Btw, you can see the images in full size by right-clicking on the image and selecting "Open image in new tab".
+I'm going to include a few photos I have taken both inside and outside libraries.  If you're interested, I have a *lot* more.  Btw, you can see the images in full size by right-clicking on the image and selecting "Open image in new tab".
 
 I find this sign infuriating:
 
@@ -92,11 +92,11 @@ Here are two book drops with slightly different designs:
 
 <img src="images\Sahara West book drops.jpg" alt="Outside the library, two book drops of slightly different design and height" height="300" />
 
-The one on the right can be operated with one hand -- the opening has a flap that you can push a book through -- but the opening is more than 48 inches above the roadway.  The one on the left is within 48 inches of the roadway but can't be operated with one hand -- you need one hand to pull down on the handle and one to put the book in.
+The one on the right can be operated with one hand -- the opening has a flap that you can push a book through -- but the opening is more than 48 inches above the roadway.  The one on the left is within 48 inches of the roadway but can't be operated with one hand -- you need one hand to pull down on the handle and one to put the book in.  Not good.
 
 Also, it's not very pedestrian friendly to have to stand in the road to use a book drop, let along how it must feel using a walker or wheelchair.
 
-The other question has to do with wayfinding.  If, for example, you have computers that can be used from a wheelchair, how easy is it to find them from the front entrance?
+The other comment has to do with wayfinding.  If, for example, you have computers that can be used from a wheelchair, how easy is it to find them from the front entrance?
 
 ### The web site
 
@@ -122,7 +122,7 @@ Library patrons don't interact with the library as a set of distinct services.  
 
 Library patrons interact with the library as part of a day that is filled with other things, from cooking and laundry to jogging and gardening.  They decide to use the library as part of their plan for the day.  The library's accessibility -- or usability or whatever -- isn't  a single value at a single point, it's a description of a path that begins with that decision.
 
-A call for empathy suggests that goals and evaluation methods be turned inside out, not looking at each distinct service but looking at the effect of the library on the whole of the patron's day.
+Empathy with patrons suggests that goals and evaluation methods be turned inside out, not looking at each distinct service but looking at the effect of the library on the whole of the patron's day.
 
 ### The second conclusion
 
