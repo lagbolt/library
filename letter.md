@@ -4,6 +4,14 @@ This is an assortment (aka braindump) of some of my thinking over the past year 
 
 You should read this if you have (i) the ability, and (ii) the willingness to change.  The easiest way to verify this is if you have already changed something -- anything -- at your library.
 
+### Preamble
+
+Version History:
+0.1.0   5/1/2020    Graeme Williams
+
+License:
+CC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/
+
 ### Literature Review
 
 (Or, what I have read recently)
@@ -17,6 +25,8 @@ Clarke does an excellent job discussing the role of trial and error in design an
 Clarke also mentions the role of empathy in user (i.e., patrpn) focus.  Perhaps I would have been clearer that empathy with the patron means identifying and addressing their feelings -- possibly quite irrational -- rather than working towards satisfying their stated or unstated needs.
 
 Finally, Clarke points out that a patron walks into the library -- or goes to the online catalog -- in the middle of things.  They're already worried about making dinner or getting the car fixed before they ever decide to look for a book or movie.
+
+I think that librarians are generally aware of the possibility of change, of improvement.  And many are aware that the usual methodology -- form a committee to draft a recommendation for review by the board -- isn't radical enough.  Clarke's point, inter alia, is that a different methodology isn't enough.  You have to build change rather than decide it in advance.
 
 One of the good things about reading books and articles by librarians is that the references are always extensive and often quite helpful.  I tracked down [Edward Luca and Bhuva Narayan's Signage by Design](https://doi.org/10.3998/weave.12535642.0001.501) and it's an excellent supplement to Clarke's examples of trial and error.  I always find signage fun to read about because the "before" examples are so terrifyingly bad.
 
@@ -38,7 +48,7 @@ Which is a perfect segue to ...
 
 ### Wayfinding
 
-Why is this so hard to get right?  I think that part of the problem is that the people who put up signs in a public library have been working there for decades.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
+Why is this so hard to get right?  I think that part of the problem is that the people who put up signs in a public library have been working there for decades and know where everything is.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
 
 Wayfinding starts outside the library, whether you arrive by car, bus, wheelchair or unicycle.  Is your library identifiable as a library?  Yesterday I visited a library which was only identified as "1771".  Library buildings shouldn't be coy.
 
@@ -90,15 +100,35 @@ The other question has to do with wayfinding.  If, for example, you have compute
 
 ### The web site
 
-Obviously, there's a lot to say about making your web site accessible and easy to use.  I just want to comment on one thing.
+Obviously, there's a lot to say about making your web site accessible and easy to use.  I want to comment on just one thing.
 
 You're an information professional.  You wouldn't throw all the library's books into a big pile in the middle of the building, and you shouldn't do the equivalent with the web site.
 
-The organization of the web site -- the major categories, the way information is laid out within categories, and the way a patron navigates from page to page -- should reflect the best that you can do.
+The organization of the web site -- the major categories, the way information is laid out within categories, and the way a patron navigates from page to page -- should reflect the best that you can do.  And it should reflect how patrons think about the library, not how the library staff, or even the collection, is arranged.
 
 ### The online catalog
 
 You probably can't change the usability of your catalog -- that's controlled by an external vendor -- but you can control the completeness and correctness of the data *in* the catalog.
+
+The catalog is the very definition of accessibility.  If an item isn't in the catalog, it can't be found.  And if the author's name is incorrect or series information is missing, perhaps an item won't be found.
+
+I had something to say about correctness on the ALA Core blog:  [Metadata Quality](https://alacorenews.org/2020/10/22/metadata-quality/)  I'm going to repeat myself:  you need to know the current error rate of the records in your catalog, you need to know what you want it to be, and you need a plan to get from here to there.
+
+I have a *lot* more to say about this, so if you're a public library interested in catalog remediation work, feel free to contact me.
+
+### The first conclusion
+
+Library patrons don't interact with the library as a set of distinct services.  The building, the signage, the web site, the catalog, the staff and the library policies all help to determine how patrons feel about the library, irrespective of which services they use.
+
+Library patrons interact with the library as part of a day that is filled with other things, from cooking and laundry to jogging and gardening.  They decide to use the library as part of their plan for the day.  The library's accessibility -- or usability or whatever -- isn't  a single value at a single point, it's a description of a path that begins with that decision.
+
+A call for empathy suggests that goals and evaluation methods be turned inside out, not looking at each distinct service but looking at the effect of the library on the whole of the patron's day.
+
+### The second conclusion
+
+It's too much to expect anyone to know *in advance* how a change to library signage or the web site or a new service will affect every kind of patron.  Clarke is persuasive that the methodology of design, suspending the need for certainty, provides the tools for building change in a way that simultaneously builds knowledge about the change.
+
+You can't wait until you're sure you know what will happen.
 
 
 
