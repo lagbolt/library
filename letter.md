@@ -112,6 +112,10 @@ You probably can't change the usability of your catalog -- that's controlled by 
 
 The catalog is the very definition of accessibility.  If an item isn't in the catalog, it can't be found.  And if the author's name is incorrect or series information is missing, perhaps an item won't be found.
 
+It doesn't make sense to have special events and displays for MLK Day unless your online catalog accurately and completely represents BIPOC authors and themes.  And the same is true for Gay Pride Month and your LGBTQIA+ materials.
+
+If you'd like to improve services to bilingual families, a good place to start is to make sure that bilingual materials are easy to find in the catalog.
+
 I had something to say about correctness on the ALA Core blog:  [Metadata Quality](https://alacorenews.org/2020/10/22/metadata-quality/)  I'm going to repeat myself:  you need to know the current error rate of the records in your catalog, you need to know what you want it to be, and you need a plan to get from here to there.
 
 I have a *lot* more to say about this, so if you're a public library interested in catalog remediation work, feel free to contact me.
