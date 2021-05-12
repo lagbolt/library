@@ -1,13 +1,21 @@
 ## Letter to a New Library Director
 
-This is an assortment (aka braindump) of some of my thinking over the past year or so regarding how to change public libraries for the benefit of patrons.
+I have no training or experience as a librarian, but I've been thinking about the public library patron experience for more than a decade.  While my initial focus was on the catalog and OPAC -- my background is in software -- my interests gradually broadened.
 
-You should read this if you have (i) the ability, and (ii) the willingness to change.  The easiest way to verify this is if you have already changed something -- anything -- at your library.
+I believe that the patron experience is an important factor in public libraries meeting their current challenges, including the rapid changes in media and entertainment.  There are three ways that you can improve the patron experience:  you can add new services, you can eliminate services that aren't working, or you can improve the services you have.  My focus is on improving the public libraries core services.
+
+If you're interested, you can find my bio at https://github.com/lagbolt
+
+### Who should read this note
+
+You should read this if you want to improve basic public library services.  It's best if this is a more than a theoretical interest.  If you have the ability to make improvements, and you've already started making improvements, this note may help encourage you and speed you on your way.
+
+If you have any feedback on this note, I'd be happy to hear it at carryonwilliams@gmail.com
 
 ### Preamble
 
 Version History:
-0.1.0   5/1/2020    Graeme Williams
+0.1.0   5/11/2020    Graeme Williams
 
 License:
 CC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/
