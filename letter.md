@@ -1,8 +1,8 @@
 ## Letter to a New Library Director
 
-I have no training or experience as a librarian, but I've been thinking about the public library patron experience for more than a decade.  While my initial focus was on the catalog and OPAC -- my background is in software -- my interests gradually broadened.
+I have no training or experience as a librarian, but I've been thinking about the public library patron experience for more than a decade.  While my initial focus was on the catalog and the OPAC -- my background is in software -- my interests gradually broadened.
 
-I believe that the patron experience is an important factor in public libraries meeting their current challenges, including the rapid changes in media and entertainment.  There are three ways that you can improve the patron experience:  you can add new services, you can eliminate services that aren't working, or you can improve the services you have.  My focus is on improving the public libraries core services.
+I believe that the patron experience is an important factor in public libraries meeting their current challenges, including the rapid changes in media and entertainment.  There are three ways that you can improve the patron experience:  you can add new services, you can eliminate services that aren't working, or you can improve the services you have.  My focus is on improving public libraries' core services.
 
 If you're interested, you can find my bio at https://github.com/lagbolt
 
