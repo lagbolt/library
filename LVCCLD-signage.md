@@ -38,7 +38,7 @@ On the other hand, here's the **Sahara West branch**:
 
 <img src="images\Sahara West Branch aerial view.png" alt="Google Maps satellite view of Sahara West Public Library in Las Vegas, NV" height="300" />
 
-There are two entrance roads:  one on the left (West) and one at the bottom (South), entering from West Sahara Avenue.  Neither has a crosswalk.
+There are two entrance roads:  one on the upper left (West) and one at the bottom (South), entering from West Sahara Avenue.  Neither has a crosswalk.
 
 If you're trying to enter the library from West Sahara Avenue, there's a sidewalk on the left, but it stops abruptly.  And if you're coming from the right, you have to cross the entrance without a crosswalk.  Imagine doing this in a wheelchair!
 
@@ -50,13 +50,13 @@ There's a small and silly problem with the **Spring Valley Branch**:
 
 <img src="images\Spring Valley Branch aerial view.png" alt="Google Maps satellite view of Spring Valley Public Library in Las Vegas, NV" height="300" />
 
-You can see the bus stop icon at the bottom of the image.  There's no crosswalk from the bus stop to the front door of the library.  That might be a problem if you're using a wheelchair or walker, or you're carrying groceries and a child.
+You can see the blue and white bus stop icon at the bottom of the image.  There's no crosswalk from the bus stop to the front door of the library.  That might be a problem if you're using a wheelchair or walker, or you're carrying groceries and a child.
 
 ### Identifying the library building
 
 Library buildings shouldn't be coy!
 
-What is this:
+What is this building:
 
 <img src="images\Rainbox Branch building from the front.jpg" alt="photo outside the entrance to the Rainbox Library building in Las Vegas, NV" height="300" />
 
@@ -78,7 +78,7 @@ The one on the right can be operated with one hand -- the opening has a flap tha
 
 Also, it's not very pedestrian friendly to have to stand in the road to use a book drop, let along how it must feel using a walker or wheelchair.
 
-None of the branches I visited had book drops that would satisfy these two guidelines (photos available on request).  Also, at one branch, the book drop was labelled "BOOKS", which isn't very helpful.  Surely the correct label is "RETURNS".
+None of the branches I visited had book drops that would satisfy these two guidelines (photos available on request).  Also, at one branch, the book drop was labelled "BOOKS", which isn't very helpful if you want to return a DVD.  Surely the correct label is "RETURNS".
 
 And I find this sign infuriating:
 
@@ -88,7 +88,7 @@ It's infuriating because it leaves out the one piece of information that would b
 
 ## Inside the library
 
-What is the first thing you see when you go through the library doors?  Let's takea look!
+What is the first thing you see when you go through the library doors?  Let's take a look!
 
 ### At the library entrance
 
@@ -96,7 +96,7 @@ Let me freely admit that this photo of the entrance to the **West Charleston bra
 
 <img src="images\West Charleston branch entrance.jpg" alt="photo just inside the entrance to the West Charleston library in Las Vegas, NV showing security gates in the foreground and the interior of the library in the background" height="300" />
 
-Looking straight ahead into the library, the signage is a bit of a mess.  *BUT* ... on the right you can clearly see signs for HOLDS and RETURNS.  So someone who wasn't familiar with this branch could come in and complete these tasks -- returning materials or picking up a hold easily and efficiently.
+Looking straight ahead into the library, the signage is a bit of a mess.  *BUT* ... on the right you can clearly see signs for HOLDS and RETURNS.  So someone who wasn't familiar with this branch could come in and complete these tasks -- returning materials or picking up a hold -- easily and efficiently.
 
 On the other hand, not to let this branch off the hook completely, the checkout stations on the left are, I believe, unlabelled.
 
@@ -118,7 +118,7 @@ Here's an endcap in the Holds area:
 
 <img src="images\Sahara West sign in holds area.jpg" alt="three paper signs attached to the side of a wooden shelf; one says Please check out your hold items at the Circulation Desk or Self Check Machines before exiting the library" height="300" />
 
-One problem is that there is no Circulation Desk.  I presume there was a Circulation Desk when the sign was put up, but it is no longer.  Also, who says "exiting the library"?
+One problem is that there is no Circulation Desk.  I presume there was a Circulation Desk when the sign was put up, but no longer.  Also, who says "exiting the library"?
 
 Here's a sign on the stairs:
 
@@ -128,7 +128,7 @@ There is nothing upstairs labelled "Youth Services", although I suppose that mig
 
 ### Finding a particular collection
 
-Finding where in the library a particular "collection" is found can be hard because collections can have a complicated structure.  Just considering large print books, a branch might separately shelve LP fiction, LP non-fiction, *new* LP fiction and *new* LP non-fiction.  In addition, fiction might be shelved by author's name but non-fiction by classification number.
+Finding where in the library a particular "collection" is found can be hard because collections can have a complicated structure.  Just considering large print books, a branch might separately shelve LP fiction, LP non-fiction, *new* LP fiction and *new* LP non-fiction.  In addition, fiction is probably shelved by author's name but non-fiction by classification number.
 
 Which is how we get this sign at the **Centennial Branch**:
 
@@ -158,13 +158,13 @@ There are no audio books on the shelf labelled "Audio Books".  The Large Print s
 
 The paper signs are correct.  The first shelf contains Large Print Fiction, and the second shelf contains Large Print Non-Fiction and Audio Books.
 
-The only problem is that when the shelving was changed, no one moved the large blue "Audio Books" sign to the new location of the audio book.
+The problem is that when the shelving was changed, no one moved the large blue "Audio Books" sign to the new location of the audio books.
 
 ## Why is this so hard?
 
 I think that part of the problem is that the staff of a public library have been working there for years and know where everything is.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
 
-This kind of blindness isn't unique to librarians, of course.  The Target web site helpfully tells you which aisle a product is on, in case you want to go to the store to pick it up yourself, but it doesn't tell you how to find the aisle.  Presumably if Legos are on aisle A4, I'll know I've found aisle A4 when I see Legos?
+This kind of problem isn't unique to public libraries, of course.  The Target web site helpfully tells you which aisle a product is on, but it doesn't tell you how to find the aisle.  Presumably if Legos are on aisle A4, I'll know I've found aisle A4 when I see Legos?
 
 ### Conclusions
 
@@ -182,7 +182,7 @@ It's not unreasonable to review each branch for wayfinding problems once or twic
 
 And if you see a smaller "explanatory" sign added to a larger sign, that's a sign (sorry) that there's a problem.
 
-Something else you can look at are the kinds of questions that patrons ask at your help desk.  If you're getting a lot of questions about wayfinding, well, that's your oil light turning on.
+Something else you can look at are the kinds of questions that patrons ask at your help desk.  If you're getting a lot of questions about where things are, well, that's your oil light turning on.
 
 ## References
 
