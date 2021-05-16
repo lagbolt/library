@@ -2,13 +2,20 @@
 
 For the past year, I've been visiting different LVCCLD branches.  Before each visit, I take a look at the Google Map's satellite view of the branch.  During the visit, I look at and take photos of both the exterior of the building and the interior of the library.
 
-I'm interested in "wayfinding", or the path that people take when they walk up to and enter the library, and navigate through the library as they use library services.  I do the same few things at each branch.  I'll look to see how easy it is to locate common services like returning a book, picking up a hold or checking out.  I'll also try to locate particular collections like Large Print Non-Fiction or Science Fiction Paperbacks.
+I'm interested in "wayfinding", or the path that people take when they walk up to and enter the library, and navigate through the library as they use library services.  I do the same few things at each branch I visit.  I'll look to see how easy it is to locate common services like returning a book, picking up a hold or checking out.  I'll also try to locate particular collections like Large Print Non-Fiction or Science Fiction Paperbacks.
 
 I'll have a lot to say about signage, and I'll also touch on crosswalks and book drops.  Remember that signage isn't decoration -- it's solving a problem for a user of the library.
 
+### Why bother?
+
+Here's what Marcia Trotta, quoted [here](https://himissjulie.com/2017/08/16/outreach-in-a-time-of-uprising/), said in 1993:
+> We need to face reality and realize that not everyone is comfortable within our traditional library boundaries. The buildings are imposing, the amounts of information are overwhelming, unfamiliar cultural manifestations are threatening.
+
+Making wayfinding quick and easy is a way of making the library interior *and* exterior less "imposing ... overwhelming ... threatening".
+
 ### The photos
 
-I'm going to show you photos from a few LVCCLD branches.  I could do this in two ways:  I could go branch by branch and show you all the photos from one branch before going onto the next, or I could show you corresponding photos from each branch.  I'm going to do the latter because I'm trying to convince you that LVCCLD has systematic problems with signage.
+I'm going to show you photos from a few LVCCLD branches.  I could do this in two ways:  I could go branch by branch and show you all the photos from one branch before going onto the next, or I could group photos by type.  I'm going to do the latter because I'm trying to convince you that LVCCLD has systematic problems with signage.
 
 To avoid disrupting the branches I was visiting, and to avoid getting caught, I took all the photos with my cell phone and natural light.  You'll have to forgive some photos where the images are not ideal.  Remember that you're looking at what's *in* the photo rather than how good the photo is.  Btw, you can see the images in full size by right-clicking on the image and selecting "Open image in new tab".
 
@@ -176,7 +183,7 @@ What's needed is to see each branch through the eyes of a new patron -- someone 
 
 This isn't a problem that can be solved and then ignored.  Practically, signage has to be reviewed every time shelving changes.  Even a small change in shelving can cause a ripple effect in signage.
 
-So this is a maintenance problem -- one you need to devote time and money to.  It's a lot like the oil in your car's engine.  You change the oil regularly (I hope!) even if there's no indication that something is wrong.  But you'd also look at it if the oil light came on, or you found a puddle of oil on the garage floor.
+So this is a maintenance problem -- one you need to devote regular time and money to.  It's a lot like the oil in your car's engine.  You change the oil regularly (I hope!) even if there's no indication that something is wrong.  But you'd also look at it if the oil light came on, or you found a puddle of oil on the garage floor.
 
 It's not unreasonable to review each branch for wayfinding problems once or twice a year.  As I mentioned in the beginning of this note, I look for basic services like returns and checking out, as well as parts of the collection like Science Fiction Paperbacks.
 
