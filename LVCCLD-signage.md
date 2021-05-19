@@ -11,7 +11,7 @@ I'll have a lot to say about signage, and I'll also touch on crosswalks and book
 Here's what Marcia Trotta, quoted [here](https://himissjulie.com/2017/08/16/outreach-in-a-time-of-uprising/), said in 1993:
 > We need to face reality and realize that not everyone is comfortable within our traditional library boundaries. The buildings are imposing, the amounts of information are overwhelming, unfamiliar cultural manifestations are threatening.
 
-And in 2020, referring to services to the Hispanic population of Rochester, NY, Angelica Perez-Delgado said:
+And in 2020, referring to services to the Hispanic population of Rochester, NY, [Angelica Perez-Delgado said](https://www.wxxinews.org/post/struggles-spanish-speakers-libraries-fewer-choices-limited-services):
 > People don’t have time to ask for help. They’re trying to survive day to day, so we need to be here. We need to make sure that resources are available, that we’re providing services in a way that [is] meaningful to them ...
 
 Making wayfinding quick and easy is a way of making services more "available" and "meaningful" and less "imposing ... overwhelming ... threatening".  After all, you can't use a service if you can't find it.
@@ -27,6 +27,8 @@ Finally, some of the aerial views have been rotated so that North is not up.
 ### License
 
 CC BY-NC-SA 4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+If you have questions or comments, you can reach me at carryonwilliams@gmail.com.
 
 ## Outside the Library
 
@@ -170,7 +172,7 @@ The paper signs are correct.  The first shelf contains Large Print Fiction, and 
 
 The problem is that when the shelving was changed, no one moved the large blue "Audio Books" sign to the new location of the audio books.
 
-## Why is this such a problem?
+## Why is this tricky to solve?
 
 I think that part of the reason is that the staff of a public library have been working there for years and know where everything is.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
 
@@ -186,7 +188,7 @@ What's needed is to see each branch through the eyes of a new patron -- someone 
 
 ### Maintenance
 
-This isn't a problem that can be solved and then ignored.  Practically, signage has to be reviewed every time shelving changes.  Even a small change in shelving can cause a ripple effect in signage.
+This isn't a problem that can be addressed and then ignored.  Practically, signage has to be reviewed every time shelving changes.  Even a small change in shelving can cause a ripple effect in signage.
 
 So this is a maintenance problem -- one you need to devote regular time and money to.  It's a lot like the oil in your car's engine.  You change the oil regularly (I hope!) even if there's no indication that something is wrong.  But you'd also look at it if the oil light came on, or you found a puddle of oil on the garage floor.
 
