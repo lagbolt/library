@@ -6,12 +6,15 @@ I'm interested in "wayfinding", or the path that people take when they walk up t
 
 I'll have a lot to say about signage, and I'll also touch on crosswalks and book drops.  Remember that signage isn't decoration -- it's solving a problem for a user of the library.
 
-### Why bother?
+### Why is this important?
 
 Here's what Marcia Trotta, quoted [here](https://himissjulie.com/2017/08/16/outreach-in-a-time-of-uprising/), said in 1993:
 > We need to face reality and realize that not everyone is comfortable within our traditional library boundaries. The buildings are imposing, the amounts of information are overwhelming, unfamiliar cultural manifestations are threatening.
 
-Making wayfinding quick and easy is a way of making the library interior *and* exterior less "imposing ... overwhelming ... threatening".
+And in 2020, referring to services to the Hispanic population of Rochester, NY, Angelica Perez-Delgado said:
+> People don’t have time to ask for help. They’re trying to survive day to day, so we need to be here. We need to make sure that resources are available, that we’re providing services in a way that [is] meaningful to them ...
+
+Making wayfinding quick and easy is a way of making services more "available" and "meaningful" and less "imposing ... overwhelming ... threatening".  After all, you can't use a service if you can't find it.
 
 ### The photos
 
@@ -167,13 +170,15 @@ The paper signs are correct.  The first shelf contains Large Print Fiction, and 
 
 The problem is that when the shelving was changed, no one moved the large blue "Audio Books" sign to the new location of the audio books.
 
-## Why is this so hard?
+## Why is this such a problem?
 
-I think that part of the problem is that the staff of a public library have been working there for years and know where everything is.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
+I think that part of the reason is that the staff of a public library have been working there for years and know where everything is.  Where do you put the sign for biographies?  Well, you put it where the biographies are shelved.  Now, how do you find the biographies?  You find the sign ... ?
 
 This kind of problem isn't unique to public libraries, of course.  The Target web site helpfully tells you which aisle a product is on, but it doesn't tell you how to find the aisle.  Presumably if Legos are on aisle A4, I'll know I've found aisle A4 when I see Legos?
 
 ### Conclusions
+
+The examples I've given aren't hard or expensive to fix; you just need to notice them.
 
 I don't think you can solve this problem by trying harder, because I guess that signage has become invisible to the staff in each branch.  Contrariwise, I believe LVCCLD has the expertise to make progress on wayfinding without waiting for a consultant.
 
