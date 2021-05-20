@@ -4,7 +4,7 @@ For the past year, I've been visiting different LVCCLD branches.  Before each vi
 
 I'm interested in "wayfinding", or the path that people take when they walk up to and enter the library, and navigate through the library as they use library services.  I do the same few things at each branch I visit.  I'll look to see how easy it is to locate common services like returning a book, picking up a hold or checking out.  I'll also try to locate particular collections like Large Print Non-Fiction or Science Fiction Paperbacks.
 
-I'll have a lot to say about signage, and I'll also touch on crosswalks and book drops.  Remember that signage isn't decoration -- it's solving a problem for a user of the library.
+I'll have a lot to say about signage, and I'll also touch on crosswalks and bookdrops.  Remember that signage isn't decoration -- it's solving a problem for a user of the library.
 
 ### Why is this important?
 
@@ -40,8 +40,6 @@ Here's an aerial view of the **Windmill Branch**:
 
 <img src="images\Windmill Branch aerial view.png" alt="Google Maps satellite view of Windmill Public Library in Las Vegas, NV" height="300" />
 
-Btw, you probably *should* open the full size image by right-clicking and opening in a new tab.
-
 There's not too much wrong here.  You can see that there's a crosswalk across the entrance road, and once you're on the right (East) side of the entrance, there's are paths and crosswalks that will take you all the way to the front door.
 
 Good!
@@ -49,6 +47,8 @@ Good!
 On the other hand, here's the **Sahara West branch**:
 
 <img src="images\Sahara West Branch aerial view.png" alt="Google Maps satellite view of Sahara West Public Library in Las Vegas, NV" height="300" />
+
+Btw, you probably *should* open this image full size by right-clicking and opening in a new tab.
 
 There are two entrance roads:  one on the upper left (West) and one at the bottom (South), entering from West Sahara Avenue.  Neither has a crosswalk.
 
@@ -80,17 +80,17 @@ Architecture is all well and good, but some patrons will appreciate *something* 
 
 ### Bookdrops
 
-There are two general ADA guidelines that apply to book drops:  you should be able to operate them with one hand, and the opening or handle should be within 48 inches of the ground.
+There are two general ADA guidelines that apply to bookdrops:  you should be able to operate them with one hand, and the opening or handle should be within 48 inches of the ground.
 
-Here are two book drops at the **Sahara West branch** with slightly different designs:
+Here are two bookdrops at the **Sahara West branch** with slightly different designs:
 
-<img src="images\Sahara West book drops.jpg" alt="Outside the Sahara West library in Las Vegas, NV, two book drops of slightly different design and height" height="300" />
+<img src="images\Sahara West bookdrops.jpg" alt="Outside the Sahara West library in Las Vegas, NV, two bookdrops of slightly different design and height" height="300" />
 
 The one on the right can be operated with one hand -- the opening has a flap that you can push a book through -- but the opening is more than 48 inches above the roadway.  The one on the left is within 48 inches of the roadway but can't be operated with one hand -- you need one hand to pull down on the handle and one to put the book in.  Not good.
 
-Also, it's not very pedestrian friendly to have to stand in the road to use a book drop, let along how it must feel using a walker or wheelchair.
+Also, it's not very pedestrian friendly to have to stand in the road to use a bookdrop, let along how it must feel using a walker or wheelchair.
 
-None of the branches I visited had book drops that would satisfy these two guidelines (photos available on request).  Also, at one branch, the book drop was labelled "BOOKS", which isn't very helpful if you want to return a DVD.  Surely the correct label is "RETURNS".
+None of the branches I visited had bookdrops that would satisfy these two guidelines (photos available on request).  Also, at one branch, the bookdrop was labelled "BOOKS", which isn't very helpful if you want to return a DVD.  Surely the correct label is "RETURNS".
 
 And I find this sign infuriating:
 
@@ -110,7 +110,7 @@ Let me freely admit that this photo of the entrance to the **West Charleston bra
 
 Looking straight ahead into the library, the signage is a bit of a mess.  *BUT* ... on the right you can clearly see signs for HOLDS and RETURNS.  So someone who wasn't familiar with this branch could come in and complete these tasks -- returning materials or picking up a hold -- easily and efficiently.
 
-On the other hand, not to let this branch off the hook completely, the checkout stations on the left are, I believe, unlabelled.
+On the other hand, not to let this branch off the hook completely, the checkout stations out of frame to the left are, I believe, unlabelled.
 
 Here's the front entrance to the **Rainbow branch**:
 
@@ -168,7 +168,7 @@ This:
 
 There are no audio books on the shelf labelled "Audio Books".  The Large Print section has expanded onto this shelf and pushed the audio books to the right.
 
-The paper signs are correct.  The first shelf contains Large Print Fiction, and the second shelf contains Large Print Non-Fiction and Audio Books.
+The plain paper signs are correct.  The first shelf contains Large Print Fiction, and the second shelf contains Large Print Non-Fiction and Audio Books.
 
 The problem is that when the shelving was changed, no one moved the large blue "Audio Books" sign to the new location of the audio books.
 
