@@ -98,7 +98,7 @@ There are two general guidelines that apply to book drops:  you should be able t
 
 Here are two book drops with slightly different designs:
 
-<img src="images\Sahara West book drops.jpg" alt="Outside the library, two book drops of slightly different design and height" height="300" />
+<img src="images\Sahara West bookdrops.jpg" alt="Outside the library, two book drops of slightly different design and height" height="300" />
 
 The one on the right can be operated with one hand -- the opening has a flap that you can push a book through -- but the opening is more than 48 inches above the roadway.  The one on the left is within 48 inches of the roadway but can't be operated with one hand -- you need one hand to pull down on the handle and one to put the book in.  Not good.
 
