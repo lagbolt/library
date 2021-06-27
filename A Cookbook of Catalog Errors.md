@@ -25,23 +25,23 @@ Your error rate is useful because the tools and techniques you use will be diffe
 
 #### Spot Checks
 
-- A check on authority control using an author search on "Scalzi, John", specifically:
-
-> au:Scalzi -au:1969
-
-which gives the items which specify "Scalzi" as the author but do not use the authorized form, "Scalzi, John, 1969-".
+- A check on authority control using an author search on "Scalzi, John", specifically "au:Scalzi -au:1969", which gives the items which specify "Scalzi" as the author but do not use the authorized form, "Scalzi, John, 1969-".
 
 Below, I discuss a Python solution for finding these cases automatically.
 
 - A check on authority control using an  author search on "Schwab, V. E."
 
-Some of the items have the author given as "Schwab, V. E." and some will have "Schwab, Victoria".  It turns out that neither is correct.  LC revised the LCNAF entry in 2020 and now the correct form is "Schwab, Victoria".
+Some of the items have the author given as "Schwab, V. E." and some have "Schwab, Victoria".  LC revised the LCNAF entry in 2020 and now the correct form is "Schwab, Victoria".
 
 You can only fix these problems by checking against the LCNAF, and by keeping up-to-date with all updates.  I'm working on a Python solution but the LCNAF is a 40GB beast.
 
 - A check on authority control:  P!nk not Pink
 
 The correct form -- for controlled fields -- is P!nk.  Transcribed fields will vary with the item.  You might look to the OPAC to see if these two terms can be set up as synonyms.  When someone changes their name -- and the LC revises their entry in the LCNAF -- you need to update your records.
+
+- Deadnaming
+
+You are still deadnaming Elliot Page.
 
 - Typos in subject headings
 
@@ -93,13 +93,13 @@ There's a lot more data hiding in the left-hand facets.
 
 #### Event-based Cataloging
 
-If you're celebrating Citrus Week with a kids drawing competition, politicians photographed in front of the library holding a lemon, and a giant piñata in the parking lot in the shape of an orange, it doesn't make any sense to ignore the catalog.  And a carefully created list of books and movies about limes and limeys is easy to tweet, but it violates the precept about "Give a person a fish ...".
+If you're celebrating Citrus Week with a kids drawing competition, politicians photographed in front of the library holding a lemon, and a giant piñata in the parking lot in the shape of an orange, it doesn't make any sense to ignore the catalog.  And a carefully curated list of books and movies about limes and limeys is easy to tweet, but it violates the precept about "Give a person a fish ...".
 
 Cataloging can participate in Citrus Week in two ways.  The first is with a bit of training.  You could point out, for example, that books about individual fruits will be classified under the specific fruit, while only books about citrus fruits as a whole will be classified under "citrus".  The second way is to give some sample searches.  If you show people a search for "orange OR lemon OR lime" that will demonstrate a bit of search syntax that they might not be familiar with.
 
-The point isn't that citrus cataloging should be perfunctory the rest of the year, but rather if the event is worth getting a piñata, it's also worth some extra cataloging effort.
+The point isn't that citrus cataloging should be perfunctory the rest of the year, but rather if the event is worth a piñata, it's also worth some extra cataloging effort.
 
-Now for some slightly more sensible examples ...
+And now for some slightly more sensible examples ...
 
 ###### Indigenous History Month
 
@@ -111,11 +111,11 @@ What's the best way of helping patrons who are interested in Indigenous History 
 
 ##### First Nations
 
-The challenge for First Nation material is getting the language coding  and description right.  In the case of Calgary Public Library, this is complicated by the fact that the MARC 546 field -- language note -- is not displayed by the OPAC, although it's possible it's included in search.
+One challenge for First Nation material is getting the language coding  and description right.  In the case of Calgary Public Library, this is complicated by the fact that the MARC 546 field -- language note -- is not displayed by the OPAC, although it's possible it's included in search.
 
 ###### Nakoda
 
-For Nakoda language materials, another wrinkle is that the LC does not have a language code for Nakoda.  In the Calgary catalog, one Nakoda item is coded Dakota, which looks right.
+For Nakoda language materials, another wrinkle is that the LC doesn't have a language code for Nakoda.  In the Calgary catalog, one Nakoda item is coded Dakota, which looks right.
 
 If you do a keyword search on Nakoda, you'll get 38 items, of which 22 have Language=Undetermined.  Most of these should be coded Nakoda (i.e., Dakota) or bilingual.  Many should also have a subject heading for bilingual materials.
 
@@ -141,11 +141,11 @@ One intriguing possibility for catalog enhancement is to "promote" tags to subje
 
 ###### Bisexual
 
-I picked this term as a test because of its putative unambiguity compared with other terms, such as "queer".  I have summary data (i.e., counts) from 100+ libraries for subject heading and tag searches.
+I picked this term as a test because of its putative unambiguity compared with other terms, such as "queer".  I have summary data (i.e., counts) from 100+ libraries for subject heading and tag searches for "bisexual".
 
 At Calgary Public Library, a keyword search returned 125 items, a subject heading search returned 111 and a tag search returned 300.  An advanced search including items with the tag and excluding items with the subject heading returned 277.  So, the overlap between tags and subject headings is 23 items.  This is low but typical.
 
-It means that there are potentially 277 items that could be given a subject heading of "bisexual", more than tripling the the number of items returned by a subject heading search.  Unfortunately, I don't know of any way to check these 277 items other than one by one, by hand.
+It means that there are potentially 277 tagged items that could be given a subject heading of "bisexual", more than tripling the the number of items returned by a subject heading search.  Unfortunately, I don't know of any way to check these 277 items other than one by one, by hand.
 
 ###### Lesbian
 
@@ -159,21 +159,21 @@ I'm not sure I know exactly what "queer" means, so I'm pretty sure that if I had
 
 ###### Where's the light at the end of the tunnel?
 
-Where the tunnel?  Three things would help to figure out what kind of catalog enhancement might be useful:
+Where the tunnel?  Three things would help to figure out what kind of catalog enhancement might be useful for LGBTIA+ material:
 
 1. Going through at least some of the tagged items to see if the subject heading should be added;
 2. Looking at search logs to see how often each type of search is used with LGBTIA+ search terms;
-3. Talking to LGBTIA+ specifically about how they use the catalog.
+3. Talking to LGBTIA+ patrons specifically about how they use the catalog.
 
 #### Automated Checks Using MARC Records
 
 I don't have access to MARC records from Calgary Public Library, and at the time of writing, I don't have the time to scrape and analyze them.  What follows is some tests and checks I have run on other datasets using Python and SQL.  In some cases, the Python code is available.
 
-Remember that these checks are meant to act just as a sieve, and return a set of records that justify further checking, possibly by hand.
+Remember that these checks are meant to just act  as a sieve, and return a set of records that justify further checking, possibly by hand.
 
 ###### Normal Stuff
 
-You probably already have tools for checking normal stuff, like a 6xx field with second indicator = 7 but no $2 subfield.
+You probably already have tools for checking normal stuff, like a record with no 6xx fields, or a 6xx field with second indicator = 7 but no $2 subfield.
 
 ###### A useful summary report
 
@@ -189,13 +189,13 @@ The "Basic" 505 field is theoretically acceptable, but unhelpful in practice.  T
 
 It's straightforward to distinguish between the two types -- without relying on the second indicator -- and list the records that include a Basic 505 field.
 
-It's also useful to list the items with 505 records that have "partial contents" to consider if they should be enhanced.
+It's also useful to list the items with 505 records that have "partial contents" (first indicator=2) to consider if they should be enhanced.
 
 ###### Language Coding
 
-Language coding encompasses the language code in the 008 field, as well as 041 and 546 fields if present.  My opinion is that the 041 and 546 work in tandem.  The 041 can be used for searches, while the 546 explains the same information in plain English.
+Language coding includes the language code in the 008 field as well as 041 and 546 fields if present.  My opinion is that the 041 and 546 work in tandem.  The 041 can be used for searches, while the 546 explains the same information in plain English.
 
-One wrinkle in checking language coding from the OPAC is that while BiblioCommons advanced search will let you search for particular languages (e.g., "language:eng language:spa"), the search engine does not appear to distinguish between (e.g.) $aeng$hspa and $aeng$aspa in the 041 field.  This means that some searches are better done in MARC.
+One wrinkle in checking language coding from the OPAC is that while BiblioCommons advanced search will let you search for a particular language or combination of languages (e.g., "language:eng AND language:spa"), the search engine does not appear to distinguish between subfield codes in the 041 field (e.g., $aeng$hspa vs. $aeng$aspa).  This means that some searches are better done in MARC.
 
 There are a couple of thing to check in a record's language coding:
 
