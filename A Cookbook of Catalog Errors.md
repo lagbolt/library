@@ -8,9 +8,9 @@ Because Calgary Public Library uses BiblioCommons, where I give search examples,
 
 License:   [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-Graeme Williams
-Las Vegas, NV
-carryonwilliams@gmail.com
+Graeme Williams  
+Las Vegas, NV  
+carryonwilliams@gmail.com  
 [github.com/lagbolt](https://github.com/lagbolt)
 
 #### How many errors do you have?
