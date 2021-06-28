@@ -45,11 +45,11 @@ The correct form -- for controlled fields -- is P!nk.  Transcribed fields will v
 
 - Deadnaming
 
-You are still deadnaming Elliot Page.
+Calgary PL is still deadnaming Elliot Page.
 
 - Typos in subject headings
 
-Typos in subject headings are amusing but quite rare.  Calgary has one instance of "Untied States" -- definitely my favorite typo -- four instances of "supsense", fourteen of "ficton" and twenty nine of "ficiton".
+Typos in subject headings are amusing but quite rare.  Calgary PL has one instance of "Untied States" -- definitely my favorite typo -- four instances of "supsense", fourteen of "ficton" and twenty nine of "ficiton".
 
 You can check for these by comparing subject headings to the Library of Congress data, or even just to a word list such as /usr/dict.  There are also "typo lists" available on the internet.
 
@@ -69,11 +69,11 @@ You can't infer much of anything from these spot checks.  They're like the tempe
 
 #### Using the OPAC search facets
 
-This depends on exactly how your OPAC presents search results!  BiblioCommons includes a set of "filter" facets on the left-hand side.  The *intention* of these facets is to allow patrons to limit search results, but since the facets are populated with values from the catalog, a side-effect of displaying the facets is to show you data from the catalog.  One example will suffice ...
+This depends on exactly how your OPAC presents search results!  BiblioCommons includes a set of "filter" facets on the left-hand side.  The *intention* of these facets is to allow patrons to limit search results, but since the facets are populated with values from the catalog, a side-effect of displaying the facets is to show you data from the catalog.  To set this up, you just need to do a search which returns all the items in the catalog, such as "onorder:FALSE".  One example will suffice ...
 
 - Published Date
 
-If we open up the "Published Date" facet and click on "Show more" we'll see a list of possible dates ranging from 2021 (745 items so far) to 1749 (documents from the British Government on two microfiches).  The data looks clean!  No dates like 20101102 or 1111.  Huzzah!
+If we do the "onorder:FALSE" search on the Calgary PL catalog, open up the "Published Date" facet and click on "Show more" we'll see a list of possible dates ranging from 2021 (745 items so far) to 1749 (documents from the British Government on two microfiches).  The data looks clean!  No dates like 20101102 or 1111.  Huzzah!
 
 Let's be clear what the OPAC just did:  it went through the entire catalog and showed us the value of publication data in every record.  It doesn't mean that that every date is correct, and it doesn't mean that every record has a publication date, but it means that there are no crazy values.  Again, huzzah!
 
@@ -93,7 +93,7 @@ Also, 1,080 items are classified as "No linguistic content".  This refers to thi
 
 - What else?
 
-There's a lot more data hiding in the left-hand facets.
+There's a lot more data hiding in the left-hand facets.  Keep looking!
 
 #### Event-based Cataloging
 
@@ -237,7 +237,7 @@ It's also possible to do this by hand in OPACs that display data from the Name A
 
 
 
-Miscellaneous errors I found hand-checking records in the Calgary Public Library catalog.
+Miscellaneous errors I found by hand-checking records in the Calgary Public Library catalog.
 
 ```
 797399095   "Cree" is not an LC subject heading
