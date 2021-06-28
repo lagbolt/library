@@ -25,13 +25,15 @@ Your error rate is useful because the tools and techniques you use will be diffe
 
 #### Spot Checks
 
-- A check on authority control using an author search on "Scalzi, John", specifically "au:Scalzi -au:1969", which gives the items which specify "Scalzi" as the author but do not use the authorized form, "Scalzi, John, 1969-".
+- A check on authority control using an author search on "Scalzi, John"
+
+Specifically "au:Scalzi -au:1969", which gives the items which specify "Scalzi" as the author but do not use the authorized form, "Scalzi, John, 1969-".  This returns 12 items, of which 9 are incorrect.  (The remaining three mention Scalzi in uncontrolled fields.)
 
 Below, I discuss a Python solution for finding these cases automatically.
 
 - A check on authority control using an  author search on "Schwab, V. E."
 
-Some of the items have the author given as "Schwab, V. E." and some have "Schwab, Victoria".  LC revised the LCNAF entry in 2020 and now the correct form is "Schwab, Victoria".
+Some of the items returned have the author given as "Schwab, V. E." and some have "Schwab, Victoria".  LC revised the LCNAF entry in 2020 and now the correct form is "Schwab, Victoria".
 
 You can only fix these problems by checking against the LCNAF, and by keeping up-to-date with all updates.  I'm working on a Python solution but the LCNAF is a 40GB beast.
 
@@ -45,7 +47,7 @@ You are still deadnaming Elliot Page.
 
 - Typos in subject headings
 
-Typos in subject headings are quite rare, but they're amusing.  Calgary has one instance of "Untied States" -- definitely my favorite typo -- four instances of "supsense", fourteen of "ficton" and twenty nine of "ficiton".
+Typos in subject headings are amusing but quite rare.  Calgary has one instance of "Untied States" -- definitely my favorite typo -- four instances of "supsense", fourteen of "ficton" and twenty nine of "ficiton".
 
 You can check for these by comparing subject headings to the Library of Congress data, or even just to a word list such as /usr/dict.  There are also "typo lists" available on the internet.
 
@@ -53,7 +55,7 @@ You can check for these by comparing subject headings to the Library of Congress
 
 Calgary PL has ~20 works by Gabriel Garcia Marquez, some of which I checked by hand.
 
-No 041 or 546 field:  "De l'amour et autres demons"; "Love in the Time of Cholera"; and "News of a Kidnapping", at which point I stopped checking.
+These titles have no 041 or 546 field:  "De l'amour et autres demons"; "Love in the Time of Cholera"; and "News of a Kidnapping", at which point I stopped checking.
 
 "Torrijos" appears to have a badly formatted 041 -- but this doesn't appear to affect searching.
 
