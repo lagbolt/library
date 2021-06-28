@@ -8,6 +8,8 @@ Because Calgary Public Library uses BiblioCommons, where I give search examples,
 
 License:   [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
+The short URL for this page is https://git.io/JcksP
+
 Graeme Williams  
 Las Vegas, NV  
 carryonwilliams@gmail.com  
