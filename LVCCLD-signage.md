@@ -6,6 +6,17 @@ I'm interested in "wayfinding", or the path that people take when they walk up t
 
 I'll have a lot to say about signage, and I'll also touch on crosswalks and bookdrops.  Remember that signage isn't decoration -- it's solving a problem for a user of the library.
 
+#### Details
+
+The short URL for this note is https://git.io/Jc9Lb
+
+The license is [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Graeme Williams  
+Las Vegas, NV  
+carryonwilliams@gmail.com  
+[github.com/lagbolt](https://github.com/lagbolt)
+
 ### Why is this important?
 
 Here's what Marcia Trotta, quoted [here](https://himissjulie.com/2017/08/16/outreach-in-a-time-of-uprising/), said in 1993:
