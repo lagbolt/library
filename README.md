@@ -4,7 +4,7 @@
 
 Technicalities article, V40, N4, July/August 2020.
 
-## Public Library Cataloging Data and Analysis
+## Public Library (Mostly) Technical Servics
 
 #### [Cataloging Errors and How to Find Them](https://github.com/lagbolt/library/blob/main/Technicalities%20V41%20N1%20JanFeb21%20Cataloging%20Errors%20and%20How%20to%20Find%20Them.pdf)
 
@@ -13,6 +13,22 @@ Technicalities article, V41, N1, January/February 2021.
 #### Language Coding
 
 See below for "Why is language coding so bad?" which includes some public library data.
+
+#### [A Cookbook of Catalog Errors](https://git.io/JcksP)
+
+Things to look for when checking a catalog for errors.
+
+#### [A Look at Wayfinding](https://github.com/lagbolt/library/blob/main/LVCCLD-signage.md)
+
+A critical look at signage and wayfinding in some of the (urban) branches of the Las Vegas library system.
+
+#### [A Patron's View of the Library's Online Catalog](https://github.com/lagbolt/library/blob/main/A%20Patron's%20View%20of%20the%20Library's%20Online%20Catalog.md)
+
+My initial reaction to the deployment of a BiblioCommons OPAC at the Las Vegas Library.
+
+#### [Letter to a New Library Director](https://github.com/lagbolt/library/blob/main/letter.md)
+
+The letter I would send to an imaginary new library director.
 
 ## Conference Presentations
 
