@@ -6,6 +6,13 @@ Public libraries are in a tricky spot, even a bit worse than bricks 'n clicks co
 
 It will be clear, if you make it to the end of this note, that I don't actually want a better online catalog.  I want a PBA, a Personal Bibliographic Assistant.  I blunder around using various tools to navigate the bibliographic universe -- mostly books -- and it's irritating a lot of the time.  These notes (mostly) aren't theoretical objections to the catalog, but places where the catalog doesn't work for me.  What I want isn't necessarily all that reasonable, but I believe it would be wrong to discard it for that reason.  The Internet has demonstrated that today's stability can quickly become tomorrow's disruption.  What if Amazon decided it would like to be a public library?
 
+License:   [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Graeme Williams  
+Las Vegas, NV  
+carryonwilliams@gmail.com  
+[github.com/lagbolt](https://github.com/lagbolt)
+
 #### What am I doing?
 
 Well, other than obtaining, reading and returning books, I'm keeping track of books that I might like to read.  I'm grateful to Cossham for pointing out that among the "activities and processes associated with the bibliographic universe" is "finding things to read" [1].  Quite.
