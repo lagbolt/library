@@ -19,7 +19,7 @@ This is the first example where I think Polger fails to make clear something tha
 
 Evaluating the relationship between a sign and a library user is complicated, and Polger complicates it nicely.  Once you've mentioned eye-tracking (page 20), you're a couple of steps past our hypothetical medium-sized library director.  Let's dump the "How good?" question into the too-hard basket and proceed to, "What's the simplest, cheapest thing I can do?"
 
-Mollerup (2005 and 2013) points out the distinction between the layout and signage of the (library) building, for which he coined the term "wayshowing", and the "wayfinding" that a patron does to navigate the layout.  But for libraries, this misses a step.  The library patron is not trying to locate a particular place within the building, they are trying to:
+Mollerup (*Wayshowing > Wayfinding*, 2005 and 2013) points out the distinction between the layout and signage of the (library) building, for which he coined the term "wayshowing", and the "wayfinding" that a patron does to navigate the layout.  But for libraries, this misses a step.  The library patron is not trying to locate a particular place within the building, they are trying to:
 
    - locate a particular part of the collection, or
    - solve a particular problem (say, renewing their card)
@@ -53,6 +53,8 @@ There's a lot of useful information in Polger's book, and quite a bit of useful 
 ### Coda 1:  Before and After
 
 Like other books on signage projects, this book has a collection of before and after pictures.  I find these endlessly fascinating, because one question leaps immediately to mind:  is the "after" picture really better than the "before" picture.  Let's look at one example (page 60, unnumbered photos from Brookdale Community College, New Jersey).
+
+<img src="images\Polger before and after.png" alt="Two photos of the library entrance showing two different signs, as explained in the text" height="300" />
 
 The before photo shows what looks like a paper sign printed by computer.  It says, "WELCOME!  THE LIBRARY IS OPEN TODAY UNTIL 4:30 PM".  It looks terrible, but the one piece of information on the sign ("open until 4:30") is clear.  You could probably walk past this sign and absorb this subconsciously.
 
