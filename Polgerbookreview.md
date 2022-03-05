@@ -1,6 +1,19 @@
 This is a review of, or perhaps just a reaction to, *Library Signage and Wayfinding Design* by Mark Aaron Polger.  A book is written with particular goals for a particular audience.  One way to review a book unfairly is to measure it against some other goals, for some other book entirely, perhaps the book the reviewer themselves would have written.  I'm probably guilty of that.  In any case, my interest and focus is on public libraries.
 
-*Library Signage and Wayfinding Design* seems to be a summary and literature review.  I'm not sure how you review a literature review, other than by doing your own literature review and comparing the two for completeness.  Which, I should be clear, I am neither willing nor qualified to do.
+#### Details
+
+This note can be found online at https://github.com/lagbolt/library/blob/main/Polgerbookreview.md
+
+The license is [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Graeme Williams  
+Las Vegas, NV  
+carryonwilliams@gmail.com  
+[github.com/lagbolt](https://github.com/lagbolt)
+
+## *Library Signage and Wayfinding Design*
+
+*Library Signage and Wayfinding Design* by Mark Aaron Polger seems to be a summary and literature review.  I'm not sure how you review a literature review, other than by doing your own literature review and comparing the two for completeness.  Which, I should be clear, I am neither willing nor qualified to do.
 
 Who is this book for?  Polger doesn't say.  Here are two possibilities:
 
