@@ -1,4 +1,6 @@
-This is a review of, or perhaps just a reaction to, *Library Signage and Wayfinding Design* by Mark Aaron Polger.  A book is written with particular goals for a particular audience.  One way to review a book unfairly is to measure it against some other goals, for some other book entirely, perhaps the book the reviewer themselves would have written.  I'm probably guilty of that.  In any case, my interest and focus is on public libraries.
+This note is a review of, or perhaps just a reaction to, *Library Signage and Wayfinding Design* by Mark Aaron Polger.
+
+A book is written with particular goals for a particular audience.  One way to review a book unfairly is to measure it against some other goals, for some other book entirely, perhaps the book the reviewer themselves would have written.  I'm probably guilty of that.  In any case, my interest and focus is on public libraries.  The signage I'm most interested in is signage for wayfinding, rather than, say, policy or marketing announcements.
 
 #### Details
 
@@ -13,7 +15,7 @@ carryonwilliams@gmail.com
 
 ## *Library Signage and Wayfinding Design*
 
-*Library Signage and Wayfinding Design* by Mark Aaron Polger seems to be a summary and literature review.  I'm not sure how you review a literature review, other than by doing your own literature review and comparing the two for completeness.  Which, I should be clear, I am neither willing nor qualified to do.
+*Library Signage and Wayfinding Design* by Mark Aaron Polger focuses on research methods and a literature review.  I'm not sure how you review a literature review, other than by doing your own literature review and comparing the two for completeness.  Which, I should be clear, I am neither willing nor qualified to do.
 
 Who is this book for?  Polger doesn't say.  Here are two possibilities:
 
@@ -71,7 +73,7 @@ Like other books on signage projects, this book has a collection of before and a
 
 The before photo shows what looks like a paper sign printed by computer.  It says, "WELCOME!  THE LIBRARY IS OPEN TODAY UNTIL 4:30 PM".  It looks terrible, but the one piece of information on the sign ("open until 4:30") is clear.  You could probably walk past this sign and absorb this subconsciously.
 
-The after photo show a column with a large vertical sign.  The largest text is "Welcome!".  There is a *lot* of text, as well as five icons.  The two most important pieces of information on the sign are "open until 5:00PM" and "straight ahead" but they get lost in the design and the beautiful sans serif display font.  So for me, the sign "looks nice" but doesn't seem all that functional.
+The after photo show a column with a large vertical sign.  The largest text is "Welcome!".  There is a *lot* of text, as well as five icons.  The two most important pieces of information on the sign are "open until 5:00PM" and "straight ahead" but they get lost in the design and the beautiful sans serif display font.  So for me, the sign "looks nice" but doesn't seem all that functional.  It's also worth pointing out that this sign voilates every rule you've heard about not putting too many words on one sign.
 
 It's easy to think of a better layout.  You could move "Welcome!" to the top of the sign and move "straight ahead" to where "Welcome!" is now.  You also need to graphically distinguish between the two kinds of information (closing time and directions).
 
