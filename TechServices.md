@@ -5,13 +5,13 @@ This is my input to:
    * The Frederick County Public Library 2023-2025 Three Year Plan, and
    * An effort in an unnamed Virginia public library to "update and reinvigorate Technical Services"
 
-It's a coincidence that these two things happened to drop at the same time.  I'll be talking mostly about Technical Services, depending on where you draw the line.  For example, I'll discuss the web site, and signage.
+It's a coincidence that these two things happened to drop at the same time.  I'm able to address then both at the same time because my interest and focus in public libraries is in Technical Services, depending on where you draw the line.  For example, I'll discuss the web site, and signage.
 
 #### The Disclaimer
 
 What follows is just what I've been thinking about lately.  I couldn't hope to be able to specifically identify the top two or three things that will drive change in technical services.
 
-### Context
+#### Context
 
 You can't do more with less.  In fact, you probably can't do what you think you're doing with the resources you think you're allocating to technical services.  (In case it's not absolutely clear, "you" means a public library).  You can only do more with more.
 
@@ -24,7 +24,7 @@ This note can be found online at https://github.com/lagbolt/library/blob/main/Te
 The license is [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Graeme Williams  
-Las Vegas, NV  
+Las Vegas, NV & Frederick, MD
 carryonwilliams@gmail.com  
 [github.com/lagbolt](https://github.com/lagbolt)
 
@@ -35,9 +35,11 @@ More than a tag line, every campaign needs a button.  I suggest two:
    * It takes a Library
    * Together We Can
 
-One of the themes I want to emphasize is that Technical Services should be involved in all, or perhaps most, library services.  I have no particular brief against organizational silos; nevertheless, sometimes silos should work together.  The whole library organization should be working together.  Of the two buttons, I like the second a bit better than the first since it brings in the community as well as the library — as long as you remember that different parts of the library should work "together".
+One of the themes I want to emphasize is that Technical Services should be involved in all, or perhaps most, library services.  I have no particular brief against organizational silos; nevertheless, sometimes silos should work together.  The whole library organization should be working together.  Of the two buttons, I like the second a bit better than the first since it brings in the community as well as the library — as long as you remember that different parts of the library should "work together" as well as the library and the community.
 
 ## Service Modes
+
+I want to be very clear that Technical Services *are* services.  To that end, it will be useful to look at the various ways patrons use library services.
 
 * Digital
 
@@ -51,19 +53,28 @@ A patron goes to the library and interacts with a librarian to obtain informatio
 
 * Non-interactive
 
-A patron goes to the library and obtains information or borrows an item without interacting with a librarian.  Here's where I'll have something to say about signage.
+A patron goes to the library and obtains information or borrows an item without interacting with a librarian.  Here's where I'll have something to say about signage, among other things.
 
 * Independent
 
-A patron attends an event at the library without interacting with a librarian
+A patron attends a non-library event at the library without interacting with a librarian.
 
-* Marketing
+* Push Marketing
 
-Information provided by the library in a tweet, email newsletter or a display in the library.
+This is a bit of a misuse of a marketing term.  What I'm referring to is any information provided by the library in a tweet, email newsletter, a display in the library or an image carousel on the web site.  So, any information that is *not* in response to a patron inquery.
 
 Obviously, the boundaries between these modes are not absolute.  For example, a patron might borrow a book and have a librarian check the book out.  Or a patron might see an event listed on the web site and then later attend the event.
 
-The goal is to make service equally easy and effective in each mode.  I want to be clear that "If you have a question, ask a librarian" is not an easy or effective solution for Digital or Non-Interactive modes.  I'll expand on my reasoning below.
+### Fish and Fishing
+
+The library has a few million items that patrons can borrow.
+
+
+The goal is to make service equally easy and effective in each mode.
+
+I want to be clear that "If you have a question, ask a librarian" is not an easy or effective solution for Digital or Non-Interactive modes.  I'll expand on my reasoning below.
+
+
 
 I want to use this framework to discuss Technical Services from three angles:
 
@@ -72,6 +83,8 @@ I want to use this framework to discuss Technical Services from three angles:
 * How other library functions can enhance Technical Services
 
 * How Technical Services can improve its own operation
+
+
 
 ## Technical Services Adding Value to Other Services
 
@@ -198,4 +211,16 @@ What about tweeting a reference to maryland.overdrive.com?
 
 Offensive subject headings // critcat
 
+-
+
+
+
+
+## Notes
+
+[1] Beall, Jeffrey, 10 Ways to Improve Data Quality, American Libraries, Vol. 36, No. 3 (Mar., 2005), pp. 36-37
+
+Here's the tenth entry:  "**Involve all library staff in database maintenance.**  Have staffers report errors to a central person, preferably someone in the cataloging department.  Many library staff make extensive use of the library catalog and are in a position to observe errors.  Take advantage of their catalog use and ask them to report the errors they find.
+
+"Library catalogs should be tools for research; we must not allow them to become barriers to retrieval.  Libraries are obligated to to make services as error-free as possible.  A coordinated effort to eliminate errors in online catalogs demonstrates a strong commitment to quality service.  The reward of this work will be better access to library materials for our patrons."
 
