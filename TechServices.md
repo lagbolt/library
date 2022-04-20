@@ -157,7 +157,17 @@ It's obviously some work to implement custom searching with a custom results pag
 
 ### Enhancing the Catalog
 
-Almost anything you do in this area, other than paying a third party to do it, is going to involve a combination of automatic and manual checking.
+Almost anything you do in this area, other than paying a third party to do it, is going to involve a combination of automatic and manual checking.  There is no magic bullet.
+
+#### Errors and Omissions
+
+One reason to be concerned with the catalog is that errors and omissions in the catalog mean that patrons will see incorrect results from a search.
+
+In 2005, Jeffrey Beall wrote a column for the ALA's American Libraries magazine
+
+##### Is this a big problem?
+
+Well, that's a good place to start!
 
 #### Quality Control
 
