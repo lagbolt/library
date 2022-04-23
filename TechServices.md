@@ -2,7 +2,7 @@
 
 This is my input to:
 
-   * The Frederick County Public Library 2023-2025 Three Year Plan, and
+   * The Frederick County Public Library (FCPL) 2023-2025 Three Year Plan, and
    * An effort in an unnamed Virginia public library to "update and reinvigorate Technical Services"
 
 It's a coincidence that these two things happened to drop at the same time.  I'm able to address then both at the same time because my interest and focus in public libraries is in Technical Services, depending on where you draw the line.  For example, I'll discuss the web site, and signage.
@@ -143,6 +143,26 @@ Here I want to discuss a few different areas that maybe aren't all Technical Ser
 
 ### Wayfinding and Signage
 
+Mark Aaron Polger was written a book on signage called *Library Signage and Wayfinding Design* which you can [buy from ALA](https://www.alastore.ala.org/wayfinding).
+
+My general comments on signage, and specific comments on the book, [can be found here](https://github.com/lagbolt/library/blob/main/Polgerbookreview.md).
+
+I've reviewed the wayfinding and signage at a number of branches of the Las Vegas Clark County Library District.  My review [can be found here](https://github.com/lagbolt/library/blob/main/LVCCLD-signage.md)
+
+I'm going to show a couple of examples from the Frederick County Public Libraries system, specifically the central, C. Burr Artz branch.  I'm shpwing these examples because I happened upon them, not because either the branch or the system is deficient in some way.
+
+The shelving upstairs in the library is laid out sensibly, and the signage is clear.  The signs are color-coded:  one color for fiction and one for non-fiction.  And then there's this sign:
+
+<img src="images\ArtzEndcapSign.jpg" alt="Photo of a sign on the end of a library shelf, explained in the text" height="300" />
+
+One side of this shelf holds the beginning (AA-BA) of the fiction section.  The other side of the shelf holds Large Print Biography, Large Print Non-Fiction, and the end (SZ??) of the Large Print Fiction section.
+
+The person who wrote this sign tried to get all this information into a sign that's exactly the same size as all the other signs.  It's too much!
+
+Most of the shelves are perpendicular to the main aisle, so the signs on the ends of the shelves are quite visible.  The Science Fiction shelves are against the wall on the right, parallel to the aisle.  Here's one of the signs:
+
+
+
 ### Searching the catalog
 
 -- the web site would pop-up links to tutorials
@@ -163,11 +183,15 @@ Almost anything you do in this area, other than paying a third party to do it, i
 
 One reason to be concerned with the catalog is that errors and omissions in the catalog mean that patrons will see incorrect results from a search.
 
-In 2005, Jeffrey Beall wrote a column for the ALA's American Libraries magazine
+In 2005, Jeffrey Beall wrote a column for the ALA's American Libraries magazine giving "Ten Ways to Improve Data Quality" [1].  The reason I'm mentioning this here is that his tenth point was that everyone in the library should be involved in finding catalog errors.  This is part of what elevates catalog quality from a sticky note to a part of strategy.
 
 ##### Is this a big problem?
 
-Well, that's a good place to start!
+Well, that's a good place to start!  How many of your catalog records have errors?
+
+I've done some exploration of this question with the Las Vegas catalog (at https://lvccld.bibliocommons.com/) [2]
+
+
 
 #### Quality Control
 
@@ -233,4 +257,6 @@ Offensive subject headings // critcat
 Here's the tenth entry:  "**Involve all library staff in database maintenance.**  Have staffers report errors to a central person, preferably someone in the cataloging department.  Many library staff make extensive use of the library catalog and are in a position to observe errors.  Take advantage of their catalog use and ask them to report the errors they find.
 
 "Library catalogs should be tools for research; we must not allow them to become barriers to retrieval.  Libraries are obligated to to make services as error-free as possible.  A coordinated effort to eliminate errors in online catalogs demonstrates a strong commitment to quality service.  The reward of this work will be better access to library materials for our patrons."
+
+Something Einstein didn't say:  Everything should be made as simple as possible, but not simpler.
 
