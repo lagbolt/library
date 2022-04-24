@@ -2,10 +2,16 @@
 
 This is my input to:
 
-   * The Frederick County Public Library (FCPL) 2023-2025 Three Year Plan, and
+   * The Frederick County Public Libraries (FCPL) 2023-2025 Three Year Plan, and
    * An effort in an unnamed Virginia public library to "update and reinvigorate Technical Services"
 
-It's a coincidence that these two things happened to drop at the same time.  I'm able to address then both at the same time because my interest and focus in public libraries is in Technical Services, depending on where you draw the line.  For example, I'll discuss the web site, and signage.
+It's a coincidence that these two things happened to drop at the same time.  I'm able to address then both at the same time because my interest and focus in public libraries is in Technical Services.  To be honest, I'm not sure what is Technical Services and what is not.  I'll be looking at:
+
+   * the online catalog
+   * the web site
+   * wayfinding and signage
+
+When I need to refer to these three things in a bucket, I'll call the bucket "Non-interactive services", meaning services that don't entail interacting in person with a librarian.
 
 #### The Disclaimer
 
@@ -30,63 +36,42 @@ carryonwilliams@gmail.com
 
 ### The Button
 
+There are three threads running through this note:
+
+   * different organizations within the library should work together
+   * the quality and ease of service a patron experiences shouldn't depend on whether they interact in person with a librarian
+   * patrons should be educated in using library resources
+
+This last comes down to teaching patrons to fish *in addition to* giving them fish.
+
 More than a tag line, every campaign needs a button.  I suggest two:
 
    * It takes a Library
    * Together We Can
 
-One of the themes I want to emphasize is that Technical Services should be involved in all, or perhaps most, library services.  I have no particular brief against organizational silos; nevertheless, sometimes silos should work together.  The whole library organization should be working together.  Of the two buttons, I like the second a bit better than the first since it brings in the community as well as the library — as long as you remember that different parts of the library should "work together" as well as the library and the community.
+I like the second a bit better than the first since it brings in the community as well as the library — as long as you remember that different parts of the library should "work together" as well as the library and the community.
 
-## Service Modes
+## All services are services
 
-I want to be very clear that Technical Services *are* services.  To that end, it will be useful to look at the various ways patrons use library services.
+I want to be very clear that Non-interactive Service, Technical Services, *are* services.  Let's look at some ways patrons use library services:
 
-* Digital
+* A patron goes to the web site or catalog and borrows e-media;
 
-A patron goes to the web site or catalog and obtains information or borrows e-media.
+* A patron goes to the library and borrows an item without interacting with a librarian;
 
-[I'm not really sure whether the web site should count as part of Technical Services, so unfortunately sometimes in this note I treat it as separate and sometimes not.]
+* A patron attends a non-library event at the library;
 
-* Interactive
+* A patron sees a tweet or email message or display in the library and adds a new book to their TBR list;
 
-A patron goes to the library and interacts with a librarian to obtain information, borrow an item, attend an event (e.g., story hour) or use a library facility (e.g., 3d printing).
+* Based on something a friend says, a patron checks the catalog and discovers a new book by a favorite author.
 
-* Non-interactive
+If you regard non-interactive services as no less than interactive services — and I do — you have to treat non-interactive services as self-sufficient.  "If you have a question, ask a librarian" undercuts that commitment by turning a non-interactive service into an interactive service.  This has obvious implications for, e.g., signage.
 
-A patron goes to the library and obtains information or borrows an item without interacting with a librarian.  Here's where I'll have something to say about signage, among other things.
+## How Services Relate to Each Other
 
-* Independent
+Here's a brain dump, or a mind map if you're inclined to be charitable:
 
-A patron attends a non-library event at the library without interacting with a librarian.
-
-* Push Marketing
-
-This is a bit of a misuse of a marketing term.  What I'm referring to is any information provided by the library in a tweet, email newsletter, a display in the library or an image carousel on the web site.  So, any information that is *not* in response to a patron inquery.
-
-Obviously, the boundaries between these modes are not absolute.  For example, a patron might borrow a book and have a librarian check the book out.  Or a patron might see an event listed on the web site and then later attend the event.
-
-### Fish and Fishing
-
-The library has a few million items that patrons can borrow.
-
-
-The goal is to make service equally easy and effective in each mode.
-
-I want to be clear that "If you have a question, ask a librarian" is not an easy or effective solution for Digital or Non-Interactive modes.  I'll expand on my reasoning below.
-
-
-
-I want to use this framework to discuss Technical Services from three angles:
-
-* How Technical Services can enhance other library functions
-
-* How other library functions can enhance Technical Services
-
-* How Technical Services can improve its own operation
-
-
-
-## Technical Services Adding Value to Other Services
+<img src="images\TS-Mindmap.jpg" alt="Diagram showing how library programs relate to non-interactive services, including the web site and catalog" height="300" />
 
 If the catalog HAS value, it will ADD value whenever the collection is relevant to another library activity.  The activity doesn't even need to be book related.  If a local potter is doing a pottery demonstration, the promotional materials could include a QR code to search the catalog for materials on pottery.
 
@@ -98,15 +83,26 @@ The problem is this barely touches the collection and the catalog at all.  How s
 
 If a librarian tweets a book recommendation, why doesn't that tweet include a link to the catalog?  If a librarian goes to the trouble of compiling a list of 10 or 20 crocodile books, why doesn't that list end with a canned OPAC search for more crocodile books or movies.
 
-Let's abandon crocodiles and see what we can do during  Gay Pride Month (which happens to be June).  I'll use the service mode framework I defined above.
+Let's abandon crocodiles and see what we can do during  Gay Pride Month (which happens to be June).
 
-#### Digital Service Mode
+#### Landing Pages & Readers Advisory
+
+In "landing pages" I include true landing pages like [Bulding Bridges](https://fcpl.org/building-bridges) as well as child pages like [Building Bridges Adult Titles](https://fcpl.org/building-bridges-adult-titles).  Let's look at the latter.
+
+There are 40 books on this page.  It's a pretty good list, but the library probably has thousands of similar books.  For example, the list includes three cookbooks.  By clicking to each cookbook and clicking on subject headings, I found 27 African American, 22 African, 35 Chinese and 5 Philippine cookbooks.
+
+That operation — clicking on a book then clicking on its subject headings — is something that any patron should be comfortable with.
+
+
+
+-- gap --
 
 Suppose you build a landing page for Gay Pride Month on the web site.  (It could be fcpl.org/gaypride, for example.)  What should be on the landing page?
 
+There are lots of examples of landing pages on the current web site.  For example, 
+
 -- lists or searches, that is the question!
 
-Do you give someone a fish or teach them to fish?  Or you could give someone a fish and offer to teach them to fish.
 
 BiblioCommons has an interesting feature where you can interpolate other information between results on the search results page.  If someone searches for any of the terms in LGBTQIA+, the search results page could include a pointer to the Gay Pride landing page.  This would be useful year round, and not just for a month.  Of course in this, as in so many other things, you're at the mercy of your OPAC vendor.
 
@@ -131,12 +127,7 @@ A tweet or FB post could explain how to do Boolean searches, using as an example
 
 ## Improvements within Technical Services
 
-Here I want to discuss a few different areas that maybe aren't all Technical Services:
 
- * The organization of the web site
- * Wayfinding and Signage
- * Searching the catalog
- * Catalog correctness and completeness
 
 ### The Organization of the Web Site
 
@@ -159,9 +150,17 @@ One side of this shelf holds the beginning (AA-BA) of the fiction section.  The 
 
 The person who wrote this sign tried to get all this information into a sign that's exactly the same size as all the other signs.  It's too much!
 
-Most of the shelves are perpendicular to the main aisle, so the signs on the ends of the shelves are quite visible.  The Science Fiction shelves are against the wall on the right, parallel to the aisle.  Here's one of the signs:
+Most of the shelves are perpendicular to the main aisle, so the signs on the ends of the shelves are quite visible.  The Science Fiction shelves are against the wall on the right, parallel to the aisle.  Here's one of the signs for Science Fiction:
 
+<img src="images\ArtzScienceFictionSign.jpg" alt="Photo of a sign on the end of a library shelf, explained in the text" height="300" />
 
+Can you see the sign?  Nor can I.  Let's zoom in:
+
+<img src="images\ArtzScienceFictionZoomed.jpg" alt="Photo of a sign on the end of a library shelf, explained in the text" height="300" />
+
+The problem is that this sign, like all the others, has been placed on the end of the shelf.  There's *almost* nowhere along the central aisle where this sign is readable.
+
+What's missing is a sign at what Polger calls a "bump point".  A place where the patron has to be bumped in the right direction.
 
 ### Searching the catalog
 
