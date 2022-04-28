@@ -187,7 +187,7 @@ In 2005, Jeffrey Beall wrote a column for the ALA's American Libraries magazine 
 
 I've written about catalog quality for Technicalities [3].  That article has several interesting examples of data I've collected from the LVCCLD (Las Vegas) catalog.
 
-I'm interested in three different, separate three standards for catalog quality:
+I'm interested in three different, separate standards for catalog quality:
 
 1. Assessing catalog records against a standard, either internal or external
 2. Effectiveness in supporting library programs
@@ -195,19 +195,32 @@ I'm interested in three different, separate three standards for catalog quality:
 
 #### Is this a big problem?
 
-Well, that's a good place to start!  How many of your catalog records have errors?
+Well, that's a good place to start!  How many of your catalog records have errors?  If you wanted to know what percentage of your patrons were taller than 6', you take a random sample and measure them.  It's the same with catalog records.  You need to take a random sample of, say, 100 records and check them.
 
- [Note:  Goodreads series data is far more complete than Novelist, and I have the data to prove it.]
+I've done this once [ibid].  The most common "error" was missing series information, which I put in quotes since it's not clear that series information — however useful it is for patrons — is required by any cataloging standard.
 
- #### Typos
+I also have plenty of anecdotal data to suggest that in public libraries authority control of names and subject headings isn't very good.  Errors in authority control translate directly into patron-visible errors.  For example, in the FCPL catalog there are 8 books and a DVD with a subject heading of "supsense".  Those items simply won't appear in a search for "suspense".
 
-Any typo can potentially affect keyword searching, but typos in subject headings are particularly bad, since the result is that an item disappears from search results.
+[Typos like this aren't actually very common.  I collected data for a handful of typos from 100+ public libraries in the US and for any given typo the median number of times it occurred was zero.]
 
-For example, there are 8 books and a DVD with a subject heading of "supsense" in the FCPL catalog.
+Most technical errors, such as "A is for Activist" with an incorrect 245 second indicator, have no visibility in the OPAC and no effect on patrons.
 
-Typos aren't actually very common.  I collected data for a handful of typos from 100+ public libraries in the US and for any given typo the median number of times it occurred was zero.
+My strong recommendation is that you check a random sample of records so you have some idea what your error rate is, and that you check your authority control against the original thesauri (e.g., the Library of Congress) on a regular basis.
 
-#### Offensive Subject Headings
+#### Supporting Library Programs
+
+Suppose the library is celebrating El día de los niños / El día de los libros (on April 30).
+
+So what, what, what??
+
+
+#### Supporting the Community
+
+Blah, blah, blah
+
+
+
+##### Offensive Subject Headings
 
 For example, a search of the FCPL catalog returns 675 items with the subject heading "Indians of North America".
 
