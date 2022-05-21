@@ -81,7 +81,7 @@ I hope we can agree that the web site is a service.  We just have to figure how 
 
 ### The Three Silos
 
-One speed bump is that "web site" means two different things.  From the outside, it probably means "the library on the internet", which includes the catalog and calendar; from the inside it probably means "the thing our web site builder builds".  For convenience, I'll use the latter meaning, but that's probably not how patrons think of it.
+One speed bump is that "web site" means two different things.  From the outside, it probably means "the library on the internet", which includes the catalog and calendar; from the inside it probably means "the thing our web site builder builds", excluding the catalog and calendar.  For convenience, I'll use the latter meaning, but that's probably not how patrons think of it.
 
 I'll give a small example of how these silos affect patrons using an imaginary site that combines features from a few different libraries and OPACs.
 
@@ -117,13 +117,15 @@ I've described the front page in mind-numbing detail to make the point that even
 
 Where does Inter-Library Loan go?  It's under "Visit".  Information about the Bookmobile?  It's under "Visit".  Newsletters?  Ditto.
 
-But it doesn't matter what I think, or how I would re-organize this menu bar.  What matters is how easy the library patrons in Frederick find it — particularly new patrons, or patrons that speak languages other than English.  This is the sort of UX/UI question that you might address using [card sorting](https://en.wikipedia.org/wiki/Card_sorting).
+But it doesn't matter what I think, or how I would re-organize this menu bar.  What matters is how easy the library patrons in Frederick find it — particularly new patrons, patrons that speak languages other than English, or patrons using screen readers.  This is a UX/UI question that you might address using [card sorting](https://en.wikipedia.org/wiki/Card_sorting), for example.  Whatever techniques you use to improve the patron experience, this is not a trivial amount of work, so it fits well within the context of a three-year plan.
 
 ### Online Documentation
 
 Documentation is just any part of the web site where you're explaining how to do something.  It's not easy;  one reason it's prone to errors is because the writer can miss uncommon cases.
  
 For example, on the FCPL web site, the FAQ for "Changing the Pickup location for Holds" seems to be incomplete.  It doesn't seem to apply to patrons who have never put something on hold, such as someone with a new account.
+
+This is the sort of small error that can accumulate if nothing is done.  I come from a computer science background with a spattering of software engineering, so I naturally think in terms of techniques like "pair programming", code reviews and dedicated testing time.  It's possible that you can eliminate this kind of error from the web site with good intentions, but — depending on the quality you want to achieve — this might require process changes at a structural level.
 
 For digita media, like Hoopla, libraries don't really attempt any documentation, just linking to the product's web site and help.  That's unfortunate, in my opinion.
 
@@ -135,19 +137,60 @@ I don't want to beat on the Hoopla documentation; there's not a lot of point, bu
 
 Libraries can wish that Hoopla had better documentation — or they can start writing it themselves.
 
+It's no different with searching the catalog.  As far as I can see, there's no documentation on searching the FCPL catalog anywhere, other than a couple of bullet points on the advanced search page.
+
+I discovered, with a little luck followed by a little experimentation, that the FCPL OPAC has a whole undocumented query language which you can use in the search box.  For example, you can type:
+```
+subject:oceans -title:oceans
+```
+into the search box and get all the books about oceans that don't contain "oceans" in the title.  Better, you can search for:
+```
+(tortoise OR turtle) AND habitat
+```
+something you *can't do* on the Advanced Search Page.
+
+On the Advanced Search Page, I believe you'd have to do two separate searches:
+```
+tortoise AND habitat
+turtle AND habitat
+```
+and combine the results.  It's too bad that none of this is described anywhere on the web site.
+
+And I have so many more questions ... Does a title search search the title of short stories in an anthology?  Does an author search search all the contributors to an item or just the "main" author?  Does a subject search for "turtle habitat" find items with "turtle" and "habitat" in any subject heading, or the same subject heading?
+
+With the same conclusion as before:  Libraries can wait for TLC or Bibliocommons to write documentation on searching the catalog, or they can start writing it themselves.
+
 ### Landing Pages
 
 In "landing pages" I include true landing pages like [Bulding Bridges](https://fcpl.org/building-bridges) as well as child pages like [Building Bridges - Adult Titles](https://fcpl.org/building-bridges-adult-titles).  Let's look at the latter.
 
 There are 40 books on this page.  It's a pretty good list, but the library probably has hundreds of similar books.  For example, the list includes three cookbooks.  By clicking through to each cookbook and clicking on subject headings, I found 27 African American, 22 African, 35 Chinese and 5 Philippine cookbooks.
 
-Let's suppose we want to help patrons find these 86 extra cookbooks, but maybe they already know what to do.  The first step in helping patrons is always determining whether they need help, and what kind of help.
+Let's suppose we want to help patrons find these 86 extra cookbooks — assuming for the moment that they don't already know what to do.  There are a couple of ways of enhancing the page to help patrons.
 
-There are a couple of 
+* Just add some text, "To find books similar to one listed, click on the book and then on the subject headings on the book page";
 
------ START HERE ------
+* The page could be re-organized into topics with links at the bottom of each topic, such as "Click here for more books about cooking".  Here, unfortunately, you're hurt by the horrible way the TLS OPAC displays saved searches [102.5].
+
+* You could, with some JavaScript, add a pop-up which appears when the patron hovers over a book cover.  (See the example below.)  The pop-up could include a link to "Books like this".
+
+* A simple enhancement would be to just add a link to a documentation page for searching the catalog.
+
+I want to compare the page we've been looking at with a similar — but not identical — page on Goodreads.  It's a page of [forthcoming Fantasy and Sci-Fi books](https://www.goodreads.com/blog/show/2313).
+
+One thing to notice is that this page is obviously fresh.  It's date of publication is noted, and the entries start with the current month.
+
+Also, underneath each book cover there are two widgets:  one for "I want to read this book" and one to rate the book after you've read it.
+
+Finally, if you hover over a cover, you'll see a pop-up which includes clickable links for the author and title, a description of the book and in some cases a clickable link for a preview of the book.
+
+Comparing the FCPL and Goodreads pages, it's clear that the Goodreads page is more active, with fresher content, inviting the user to interact with it.  It also, incidentally, advertises a few key Goodreads features, like the ability to add books to lists and the ability to rate them.
+
+How can a landing page be more than a page of cover images?  How can a landing page help promote the catalog?  So the goal for enhancing this page — and the other like it — should be two-fold:  to make a better, more useful page, and to show patrons something about the catalog.  This really depends on what patrons find useful and what they already know about the catalog.  That's obviously step one in any enhancement project.
 
 ### Accessibility
+
+Accessibility isn't anywhere in my diagram because it's everywhere.
 
 In *What Can A Body Do?* Sara Hendren makes the point that disability is a function of the built environment.  That is, a person is disabled not as an intrinsic characteristic, but because the built environment has disabled them.  The built environment naturally includes web sites.
 
@@ -159,39 +202,13 @@ Here's the FCPL home page:
 
 The page has a lot of images.  Some of the images include alt tags and some don't.  Alt tags are needed for screen readers to "read" the image.  By omitting alt tags, this web page has disabled patrons who use screen readers.
 
-Don't do this!  Every image on the web site, or in an email, tweet or post should include an alt tag.
+Don't do this!  Every image on the web site, or in an email, tweet or post should include an alt tag.  And the alt tag should include as much information as the image.
 
-#### Another example
+### What is the Web Site Worth?
 
-Here's a page from the catalog:
+A public library is not an e-commerce site.  It doesn't have to worry about click-throughs and conversion rates.  But it still makes sense to build the best possible web site (i) to provide the best possible service, and (ii) to reinforce the value of the library at budget time, or election time.
 
-<img src="images\FCPLfakearrows.png" alt="Top part of a catalog page for the book The everything healthy casserole cookbook, with arrows on the left and right of the page, circled" height="200" />
-
-What do those arrows do?  Nothing.
-
-#### So What?
-
-There are two related problems:  people's expectations are set by the best web sites they encounter; and people will avoid a poorly designed web site without necessarily being conscious of why.
-
-
-
-
-### Online Documentation
-
-
-
--- gap --
-
-Suppose you build a landing page for Gay Pride Month on the web site.  (It could be fcpl.org/gaypride, for example.)  What should be on the landing page?
-
-There are lots of examples of landing pages on the current web site.  For example, 
-
--- lists or searches, that is the question!
-
-***Following is out of place***
-
-BiblioCommons [103] has an interesting feature where you can interpolate other information between results on the search results page.  If someone searches for any of the terms in LGBTQIA+, the search results page could include a pointer to the Gay Pride landing page.  This would be useful year round, and not just for a month.  Of course in this, as in so many other things, you're at the mercy of your OPAC vendor.
-
+Critically, the web site is one particular channel for delivering non-interactive services.
 
 ## Wayfinding and Signage
 
@@ -221,7 +238,9 @@ Can you see the sign?  Nor can I.  Let's zoom in:
 
 The problem is that this sign, like all the others, has been placed on the end of the shelf.  There's *almost* nowhere along the central aisle where this sign is readable.
 
-What's missing is a sign at what Polger calls a "bump point".  A place where the patron has to be bumped in the right direction.
+What's missing is a sign at what Polger calls a "bump point",  a place where the patron has to be "bumped" in the right direction.
+
+Signage needs maintenance, something that Polger mentions but I don't think stresses enough.  You can assign signage maintenance to someone, but more important is *noticing problems* — or bug reporting, if you like — something that all staff should be involved in.
 
 ## The Catalog
 
@@ -229,40 +248,64 @@ What use is the catalog?
 
 If the catalog HAS value, it will ADD value whenever the collection is relevant to another library activity.  The activity doesn't even need to be book related.  If a local potter is doing a pottery demonstration, the promotional materials could include a QR code to search the catalog for materials on pottery.
 
+There are three threads running through this section:
+* using the catalog to enhance other library functions
+* using other library functions to promote the catalog
+* using other library functions to drive catalog enhancements
+
+^^^ out of order??
+
 ### Marketing the Catalog
 
-Let me start off with a *reductio ad absurdum*:  Libraries put a lot of effort into informing patrons about different library services and events, and none into how to use advanced search.  What would it look like if the entire library decided to help people search the catalog?
+Let me start off with a *reductio ad absurdum*:  Libraries put a lot of effort into informing patrons about different library services and events, and none into how to use advanced search.  What would it look like if the entire library was helping people search the catalog?
 
-Suppose a public library is going to celebrate National Crocodile Day.  There will be a display of crocodile books as you enter the library, crocodile puppets in the children's section and a talk about crocodiles by a local author, all of which will be heavily promoted on social media, including in the library email newsletter and on the library's Twitter, Facebook and Instagram feeds.  If the OPAC supports it, a librarian will create a list of crocodile books which will also appear in the library's social media feeds.
+Let's start off with two places where that might happen: social media and readers advisory.
 
-The problem is this barely touches the collection and the catalog at all.  How should technical services be involved in National Crocodile Day?
+#### Using social media
 
-If a librarian tweets a book recommendation, why doesn't that tweet include a link to the catalog?  If a librarian goes to the trouble of compiling a list of 10 or 20 crocodile books, why doesn't that list end with a canned OPAC search for more crocodile books or movies.
+I think it's important to give up the idea that the purpose of social media is to support programming.  Social media is a channel to patrons (and non-patrons!) to support all of the library's activities.
 
-Let's abandon crocodiles and see what we can do during  Gay Pride Month (which happens to be June).
+Look at [this tweet](https://twitter.com/FredCoLibrary/status/1520116958422880257?s=20&t=r0I_JGkzjgRFsobiYsLRBA).  It recommends Alice Walker's The Color Purple *without a link to the catalog*.  (Also, the image has no alt tag.)
 
-#### Social Media
+A variation on this kind of tweet is to promote a list of books, like the FCPL [Building Bridges Landing Page](https://www.fcpl.org/building-bridges), with nothing about the catalog *in the tweet*.
 
-A tweet or FB post could explain how to do Boolean searches, using as an example a search on ...
+There's no reason book-promoting tweets can't include a link to the catalog, either to a single item or a search. 
 
-#### Readers Advisory
+Suppose the person in charge of social media wanted to help patrons with searching the catalog.  How would they do it?  I don't know whether it would be effective to tweet weekly hints about advanced searching, but it think it's worth a try.
+
+Here's another idea ...
+
+##### Tagging - 1
+
+Let's go back to the [Building Bridges - Adult Titles](https://fcpl.org/building-bridges-adult-titles) page.
+
+I've already observed that FCPL probably has hundreds of books that are similar to the forty shown here.  What if several hundred adult books were tagged "Building Bridges"?
+
+First, this would allow you to add an "Even More" link at the bottom of the page which linked to a search on tag:"Building Bridges" (which would have the pleasant side-effect of showing patrons an example of tagging).  You could also include this link in tweets.
+
+Second, this would provide a pool of books to use to freshen the page.
+
+Third, this would provide a record of the books used for this page in case the page was temporarily retired.
+
+#### Using readers advisory
+
+Before I get to the mechanics of readers advisory — something, I want to make clear, I know nothing about — I want to talk about pamphlets.
+
 
 -- reference desk would display searches
 -- marketing materials would include sample searches
 
 -- in-library displays would include searches or a QR code
 
-### Searching the catalog
 
--- the web site would pop-up links to tutorials
 
-Some libraries have implemented a search page that is separate from the catalog and sits in front of it.
+------------- HERE
 
-For example, the [Tulsa City-County Library](https://www.tulsalibrary.org/) has a search box on their front page which returns results on a custom results page.  It's easier to see than it is to describe, so click on the link and search for "computer".  You'll see results from the catalog, the web site, and the events calendar.  You can get to the full catalog by clicking on "SEE ALL RESULTS IN CATALOG", or you can do another search in this simplified environment.
 
-Although Tulsa Library doesn't do it, the custom search results page could include links to help on searching.
 
-It's obviously some work to implement custom searching with a custom results page, but the advantage is that you've escaped the limitations of your OPAC.
+
+
+
 
 ### Enhancing the Catalog
 
@@ -296,12 +339,15 @@ Most technical errors, such as "A is for Activist" with an incorrect 245 second 
 
 My strong recommendation is that you check a random sample of records so you have some idea what your error rate is, and that you check your authority control against the original thesauri (e.g., the Library of Congress) on a regular basis.
 
-#### Supporting Library Programs
+#### Programming and the Catalog
 
-Suppose the library is celebrating El día de los niños / El día de los libros (on April 30).
+Suppose a public library is going to celebrate National Walnut Day (May 17).  There will be a display of walnut books as you enter the library, walnut puppets in the children's section and a talk about walnuts by a local author, all of which will be heavily promoted on social media, including in the library email newsletter and on the library's Twitter, Facebook and Instagram feeds.  If the OPAC supports it, a librarian will create a list of walnut books which itself will be promoted in the library's social media feeds.
 
-So what, what, what??
+The problem is this barely touches the collection and the catalog at all.  Where is the synergy between technical services and programming?
 
+If a librarian tweets a book recommendation, why doesn't that tweet include a link to the catalog?  If a librarian goes to the trouble of compiling a list of 10 or 20 walnut books, why doesn't that list end with a canned OPAC search for more walnut books or movies.
+
+Let's abandon walnuts and see what we can do during  Gay Pride Month (which happens to be June).
 
 #### Supporting a Diverse Community
 
@@ -368,7 +414,9 @@ Most of the people who developed the homosaurus are professional librarians.
 
 https://homosaurus.org/about
 
-##### My OPAC is better than your OPAC
+### Coda: My OPAC is better than your OPAC
+
+... It's important to compare yourself to other libraries.  Spend time looking!
 
 In reviewing the FCPL catalog, I noticed a couple of things that the FCPL (TCL) OPAC can't do that the Las Vegas (Bibliocommons) OPAC can.  (Of course, the opposite is also true.)
 
@@ -386,14 +434,85 @@ The most power a library has is when it issues an RFP.  The functions needed for
 
 For librarians, the obvious mechanism is the ALA.  I'd love to see librarians name and shame both libraries and vendors.  What would it mean for an ALA committee to give each public library a letter grade for their cataloging?
  
+### Coda:  Escaping the OPAC
+
+Some libraries have implemented a search page that is separate from the catalog and sits in front of it.
+
+For example, the [Tulsa City-County Library](https://www.tulsalibrary.org/) has a search box on their front page which returns results on a custom results page.  It's easier to see than it is to describe, so click on the link and search for "computer".  You'll see results from the catalog, the web site, and the events calendar.  You can get to the full catalog by clicking on "SEE ALL RESULTS IN CATALOG", or you can do another search in this simplified environment.
+
+Although Tulsa Library doesn't do it, the custom search results page could include links to help on searching.
+
+It's obviously some work to implement custom searching with a custom results page, but the advantage is that you've escaped the limitations of your OPAC.
+
+------------------------------------------
+
+## Notes
+
+[99]  Frick, Rachel L., and Merrilee Proffitt. 2022. *Reimagine Descriptive Workflows: A Community-informed Agenda for Reparative and Inclusive Descriptive Practice*. Dublin, OH: OCLC Research.
+https://doi.org/10.25333/wd4b-bs51
+
+Related:
+
+[Culturally Safe Libraries: A collaborative step towards cultural change](https://blogs.ifla.org/arl/2022/04/26/culturally-safe-libraries-a-collaborative-step-towards-cultural-change/) which notes "increased cultural labour for some First Nations staff".  H/T to [@shigekisasagawa](https://twitter.com/shigekisasagawa)
+
+[5]  Books meaning physical books as opposed to e-materials.  AFAIK, that's the standard usage.
+
+[6]  I gave a presentation on language coding to ALA ALCTS CaMMS CNIG (now ALA Core CNIG) June 9, 2020.  The slides (which include speaker's notes) are [here](https://github.com/lagbolt/library/blob/main/Why%20is%20Language%20Coding%20So%20Bad.pptx).
+
+[7]  Thanks to [Ann Ryan](https://www.facebook.com/ann.ryan.35513/) for pointing out on Facebook that the $5 subfield which is included in the 655 field is not included in the 650 field.  If Overdrive had an LoC organization code it could, With a second indicator of 4 and its organization code in the $5 subfield, "legally" put anything it likes in a 655 field — but not in a 650 field.
+
+
+
+[101]  For example:
+
+[The Librarians Are Not Okay](https://annehelen.substack.com/p/the-librarians-are-not-okay)
+
+or:
+
+Fobazi Ettarh & Chris Vidas (2022): “The Future of Libraries:” Vocational Awe in a “Post-COVID” World, The Serials Librarian, DOI: 10.1080/0361526X.2022.2028501
+
+[102]  The library serves Warren County, Virginia (population 40,727) from a single building in Front Royal.  So, a small library.
+
+[102.5]  A search for subject headings including "cooking" is turned into '{"isAnd":true,"searchTokens":[{"searchString":"cooking","type":"Contains","field":"Subject"}]}'
+
+[103]  I mention examples from the Bibliocommons OPAC a few times just because I happen to be familiar with it — it's what is used in Las Vegas.  I wouldn't give any OPAC a passing grade.
+
+For completeness, the Frederick OPAC is a TLC product.
+
+[104] Beall, Jeffrey, 10 Ways to Improve Data Quality, American Libraries, Vol. 36, No. 3 (Mar., 2005), pp. 36-37
+
+Here's the tenth entry:  "**Involve all library staff in database maintenance.**  Have staffers report errors to a central person, preferably someone in the cataloging department.  Many library staff make extensive use of the library catalog and are in a position to observe errors.  Take advantage of their catalog use and ask them to report the errors they find.
+
+"Library catalogs should be tools for research; we must not allow them to become barriers to retrieval.  Libraries are obligated to to make services as error-free as possible.  A coordinated effort to eliminate errors in online catalogs demonstrates a strong commitment to quality service.  The reward of this work will be better access to library materials for our patrons."
+
+[105]  Williams, Graeme, *Cataloging Errors and How to Find Them*   
+Technicalities, V41, N1, January/February 2021
+
+A PDF copy is [online here](https://github.com/lagbolt/library/blob/main/Technicalities%20V41%20N1%20JanFeb21%20Cataloging%20Errors%20and%20How%20to%20Find%20Them.pdf)
 
 
 
 
+
+-------------------------
 
 ==========================================
 
-SCRAPS
+# SCRAPS
+
+#### Another example
+
+Here's a page from the catalog:
+
+<img src="images\FCPLfakearrows.png" alt="Top part of a catalog page for the book The everything healthy casserole cookbook, with arrows on the left and right of the page, circled" height="200" />
+
+What do those arrows do?  Nothing.
+
+#### The Competition
+
+https://www.goodreads.com/blog/show/2313
+
+#### Multiple Languages
 
 Launching a successful multi-lingual program, Nicholas Brown
 Next Blog, OCLC, 5/4/2022
@@ -422,6 +541,10 @@ Create Your Story @ FCPL’s Memory Lab
 Tagging
 
 OCLC report, [99, p23]
+
+C:\Users\lagbo\OneDrive\Documents\Library\User Tags versus Subject Headings.pdf
+
+C:\Users\lagbo\OneDrive\Documents\Library\Rahman Social tagging versus Expert created subject headings.pdf
 
 Another possibility, which I'd describe as more of a research project because I haven't tried it yet, is to look at your search logs and check the results.  The advantage of this approach is that it fixes what is actually relevant to patrons.
 
@@ -452,45 +575,6 @@ Something Einstein didn't say:  Everything should be made as simple as possible,
 
 Oklahoma library bans programs and exhibits that relate to sexual or gender identity.  https://www.cnn.com/2022/04/23/us/book-club-romance-ban-lgbtq-enid-oklahoma-cec/index.html
 
+### Linking in the other direction
 
-## Notes
-
-[104] Beall, Jeffrey, 10 Ways to Improve Data Quality, American Libraries, Vol. 36, No. 3 (Mar., 2005), pp. 36-37
-
-Here's the tenth entry:  "**Involve all library staff in database maintenance.**  Have staffers report errors to a central person, preferably someone in the cataloging department.  Many library staff make extensive use of the library catalog and are in a position to observe errors.  Take advantage of their catalog use and ask them to report the errors they find.
-
-"Library catalogs should be tools for research; we must not allow them to become barriers to retrieval.  Libraries are obligated to to make services as error-free as possible.  A coordinated effort to eliminate errors in online catalogs demonstrates a strong commitment to quality service.  The reward of this work will be better access to library materials for our patrons."
-
-[105]  Williams, Graeme, *Cataloging Errors and How to Find Them*   
-Technicalities, V41, N1, January/February 2021
-
-A PDF copy is [online here](https://github.com/lagbolt/library/blob/main/Technicalities%20V41%20N1%20JanFeb21%20Cataloging%20Errors%20and%20How%20to%20Find%20Them.pdf)
-
-[99]  Frick, Rachel L., and Merrilee Proffitt. 2022. *Reimagine Descriptive Workflows: A Community-informed Agenda for Reparative and Inclusive Descriptive Practice*. Dublin, OH: OCLC Research.
-https://doi.org/10.25333/wd4b-bs51
-
-Related:
-
-[Culturally Safe Libraries: A collaborative step towards cultural change](https://blogs.ifla.org/arl/2022/04/26/culturally-safe-libraries-a-collaborative-step-towards-cultural-change/) which notes "increased cultural labour for some First Nations staff".  H/T to [@shigekisasagawa](https://twitter.com/shigekisasagawa)
-
-[103]  I mention examples from the Bibliocommons OPAC a few times just because I happen to be familiar with it — it's what is used in Las Vegas.  I wouldn't give any OPAC a passing grade.
-
-For completeness, the Frederick OPAC is a TLC product.
-
-[5]  Books meaning physical books as opposed to e-materials.  AFAIK, that's the standard usage.
-
-[6]  I gave a presentation on language coding to ALA ALCTS CaMMS CNIG (now ALA Core CNIG) June 9, 2020.  The slides (which include speaker's notes) are [here](https://github.com/lagbolt/library/blob/main/Why%20is%20Language%20Coding%20So%20Bad.pptx).
-
-[7]  Thanks to [Ann Ryan](https://www.facebook.com/ann.ryan.35513/) for pointing out on Facebook that the $5 subfield which is included in the 655 field is not included in the 650 field.  If Overdrive had an LoC organization code it could, With a second indicator of 4 and its organization code in the $5 subfield, "legally" put anything it likes in a 655 field — but not in a 650 field.
-
-[102]  The library serves Warren County, Virginia (population 40,727) from a single building in Front Royal.  So, a small library.
-
-[101]  For example:
-
-[The Librarians Are Not Okay](https://annehelen.substack.com/p/the-librarians-are-not-okay)
-
-or:
-
-Fobazi Ettarh & Chris Vidas (2022): “The Future of Libraries:” Vocational Awe
-in a “Post-COVID” World, The Serials Librarian, DOI: 10.1080/0361526X.2022.2028501
-
+BiblioCommons [103] has an interesting feature where you can interpolate other information between results on the search results page.  If someone searches for any of the terms in LGBTQIA+, the search results page could include a pointer to the Gay Pride landing page.  This would be useful year round, and not just for a month.  Of course in this, as in so many other things, you're at the mercy of your OPAC vendor.
