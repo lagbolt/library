@@ -293,15 +293,13 @@ Before I get to the mechanics of readers advisory — something, I want to make 
 
 Public libraries love pamphlets.  There are pamphlets for Hoopla, for ebooks, for Summer Reading, for Popular Crime Fiction and on and on.  And if a pamphlet isn't suitable, perhaps a set of bookmarks is.  I'd like to see a pamphlet — or a set of bookmarks — on searching the catalog.  (I pointed out above that there's no online documentation for the FCPL "search language".)
 
-Now I suppose the Reference Desk sees several kinds of questions, and so produces several kinds of answers.  Some questions won't have anything to do with the catalog, like "When are you open?" or "How many DVDs can I borrow at once?".  For others, there'll be an opportunity to educate the patron about the catalog.
+Now I suppose the Reference Desk sees several kinds of questions, and so produces several kinds of answers.  Some questions won't have anything to do with the catalog, like "When are you open?" or "How many DVDs can I borrow at once?".  For others, there'll be an opportunity to educate the patron about the catalog.  For example, if a patron asks for help locating books about a topic which is not a "legal" subject heading, the librarian could show the patron a number of different search strategies for finding what they want, and even save the searches to their account.
 
 I want to mention something here and expand on it below.  Emily Drabinski says [1000]:
 
-   "Queer theory invites a shift in responsibility from catalogers, positioned to offer functional solutions, to public services librarians, who can teach patrons to dialogically engage the catalog as a complex and biased text, just as critical catalogers do."
+>"Queer theory invites a shift in responsibility from catalogers, positioned to offer functional solutions, to public services librarians, who can teach patrons to dialogically engage the catalog as a complex and biased text, just as critical catalogers do."
 
-+------------- MORE HERE
-
-
+The catalog is not something you solve or perfect, but the subject of dialog between patrons and librarians.
 
 ### Enhancing the Catalog
 
@@ -342,19 +340,6 @@ Most technical errors, such as "A is for Activist" with an incorrect 245 second 
 
 My strong recommendation is that you check a random sample of records so you have some idea what your error rate is, and that you check your authority control against the original thesauri (e.g., the Library of Congress) on a regular basis.
 
-#### Programming and the Catalog
-
-Suppose a public library is going to celebrate National Walnut Day (May 17).  There will be a display of walnut books as you enter the library, walnut puppets in the children's section and a talk about walnuts by a local author, all of which will be heavily promoted on social media, including in the library's email newsletter and on the library's Twitter, Facebook and Instagram feeds.  If the OPAC supports it, a librarian will create a list of walnut books which itself will be promoted in the library's social media feeds.
-
-The problem is this barely touches the collection and the catalog at all.  Where is the synergy between technical services and programming?  This synergy could go both ways.  The catalog could be used to enhance programming, and programming could be used to focus enhancements to the catalog.
-
-
-+-------- THIS -------------
-
-If a librarian tweets a book recommendation, why doesn't that tweet include a link to the catalog?  If a librarian goes to the trouble of compiling a list of 10 or 20 books about walnuts, why doesn't that list end with a canned OPAC search for more walnut books or movies.
-
-
-
 #### Supporting a Diverse Community
 
 There are two problems with Lesbian Visibility Day (April 26).  First, lesbian visibility shouldn't be limited to a single day.  Second, it shouldn't be limited to lesbians.  As the [University of Wisconsin Platteville says](https://www.uwplatt.edu/events/2022/04/lesbian-visibility-day), "It is essential that Lesbian Visibility Week is a voice for unity and lifts up ALL women, especially those who come from marginalized communities."
@@ -363,7 +348,7 @@ Lesbians should always be able to find themselves represented at the library, on
 
 A keyword search on "lesbian fiction" (no quotes throughout) returned 244 items; a subject heading search returned 6 items.  What's going on?
 
-It turns out the the correct subject heading isn't "Lesbian Fiction", it's "Lesbians--Fiction" with an 's'.  Given that the OPAC will punish errors rather than helping, isn't it the patron's responsibilty to know the Library of Congress subject headings?  After all, there's only 400,000 of them.
+It turns out the the correct subject heading isn't "Lesbian Fiction", it's "Lesbians--Fiction" with an 's'.  Given that the OPAC will punish errors rather than helping, is it the patron's responsibilty to know the Library of Congress subject headings?  After all, there's only 400,000 of them.
 
 The problem is those six hits.  If you look at one of those six books, "Lesbian -- Fiction" will appear as one of the subject headings.  You can click on it and get back to the list of six books.  It *looks* as though you've done the right thing.
 
@@ -378,6 +363,24 @@ This is disastrous!  Overdrive have invented their own subject heading, "LGBTQIA
 To be completely clear, there's nothing wrong with subject headings from a thesaurus other than LCSH.  It's not even so bad that Overdrive has made up their own code for the $2 subfield, although it's technically incorrect [7].
 The problem is that the "LGBTQIA+ (Fiction)" subject heading is only included in some of the items it applies to, with the result that search results will be incomplete.
 
+#### Tagging - 2
+
+Can tagging — tags added to the catalog by patrons — enhance the catalog?
+
+In the abstract t0 "Transcending Library Catalogs" [B], Adler says:
+
+>"While folksonomies are democratic and respond quickly to shifts and expansions of categories, they lack control and may inhibit findability of resources. Neither tags nor subject headings are perfect systems by themselves, but they may complement each other well in library catalogs. Bringing users’ voices into catalogs through the addition of tags might greatly enhance organization, representation, and retrieval of transgender-themed materials."
+
+Adler contradicts herself in the space of three sentences, going from "inhibit findability" to "enhance ... retrieval".  But she's not wrong.
+
+In "Queering the Catalog", Drabinski locates the work to be done in addressing bias in the catalog at the interaction between the librarian and the patron [C]:
+
+>"Defining the problem of biased classification and cataloging as queer and analytic shifts the burden of engaging and struggling with that bias from catalogers to reference and instruction librarians working with patrons at the desk or in the classroom."
+
+Although Drabinski mentions tagging only in passing, I think it's fair to locate tagging in the same place, in the interaction between librarian and patron.  Although I insist that the catalog provides a non-interactive service, enhancing the catalog is surely a joint project between librarians and patrons.
+
+I don't want to over-specify the solution, but I love the idea of tagging parties, like a quilting bee or barn raising.  Imagine the trans community getting together under the guidance of a librarian to develop a set of tags as subject headings and working through the collection adding tags.
+
 #### Offensive Subject Headings
 
 For example, a search of the FCPL catalog returns 675 items with the subject heading "Indians of North America".
@@ -390,17 +393,31 @@ Talking about the tension between local variation and network standardization, t
 
 The question of power and control is central to any discussion of alternative subject headings, and the OCLC report spends a significant fraction of the report considering it.  As a patron and not a librarian, I'm comfortable with the idea that patrons could select subject headings, but I understand that professional librarians might not be so sanguine.
 
-##### Now Read This
+Tagging provides a way of beginning the work of eliminating offensive headings — without waiting for the Library of Congress.  And a path forward is available via the progression tagging —→ local unregistered thesaurus —→ registered thesaurus.
+
+##### Now Read This!
 
 Read [this twitter thread](https://twitter.com/JewWhoHasItAll/status/1519674135428964353?s=20&t=i9g8YoR8lgLdfcB5twgH3g).
 
 This happens to be about Christianity and Judaism, but I hope you can see that this criticism applies to any attempt to package someone else's culture.  Tread carefully!
 
-#### Tagging - 2
+#### Programming and the Catalog
 
+Suppose a public library is going to celebrate National Walnut Day (May 17).  The 3D printer will be making nutcrackers, there will be a display of walnut books as you enter the library, walnut puppets in the children's section and a talk about walnuts by a local author, all of which will be heavily promoted on social media, including in the library's email newsletter and on the library's Twitter, Facebook and Instagram feeds.  If the OPAC supports it, a librarian will create a list of walnut books which itself will be promoted in the library's social media feeds.
 
-+------------ AND HERE -----------------
+How can Technical Services support this effort:
+* check for gaps in the collection.  Do you have adequate coverage of black walnuts?
+* Is all the walnut material fully and correctly cataloged?
+* Do subject headings correspond to the terms that patrons use?
 
+>> what have we already discussed??  Tweets, etc.?
+>> example searches in tweets, on posters
+>> compare OPAC to Google?
+>> one-slide tax:  every presentation has to include one slide on searching the catalog
+
++-------- MORE -------------
+
+If a librarian tweets a book recommendation, why doesn't that tweet include a link to the catalog?  If a librarian goes to the trouble of compiling a list of 10 or 20 books about walnuts, why doesn't that list end with a canned OPAC search for more walnut books or movies.
 
 ### Coda: My OPAC is better than your OPAC
 
@@ -434,8 +451,9 @@ It's obviously some work to implement custom searching with a custom results pag
 
 ## Notes
 
-[99]  Frick, Rachel L., and Merrilee Proffitt. 2022. *Reimagine Descriptive Workflows: A Community-informed Agenda for Reparative and Inclusive Descriptive Practice*. Dublin, OH: OCLC Research.
-https://doi.org/10.25333/wd4b-bs51
+[1000]  Drabinski, Emily. "Queering the catalog: Queer theory and the politics of correction." The Library Quarterly 83.2 (2013): 94-111.  https://doi.org/10.1086/669547
+
+[99]  Frick, Rachel L., and Merrilee Proffitt. 2022. *Reimagine Descriptive Workflows: A Community-informed Agenda for Reparative and Inclusive Descriptive Practice*. Dublin, OH: OCLC Research.  https://doi.org/10.25333/wd4b-bs51
 
 Related:
 
@@ -511,15 +529,24 @@ but
 
 "people can develop relationships and mutual support through discussion and sharing"  - from [A]
 
+"While folksonomies are democratic and respond quickly to shifts and expansions of categories, they lack control and may inhibit findability of resources. Neither tags nor subject headings are perfect systems by themselves, but they may complement each other well in library catalogs. Bringing users’ voices into catalogs through the addition of tags might greatly enhance organization, representation, and retrieval of transgender-themed materials." [B], Abstract.  Adler contradicts herself in the space of three sentences, going from "inhibit findability" to "enhance ... retrieval".  But she's not wrong.
+
+
 "This analytic approach locates the trouble with library classification and cataloging systems in the project of fixity itself"  -  from [C]
 
 "In the library context, queer theories can refocus attention away from the project of producing 'correct' knowledge organization systems, pointing toward a project of dialogic pedagogical interventions that push all users to consider how the organization of, and access to, knowledge is politically and socially produced" - from [C]
 
 "Librarians who are themselves engaged with a queer approach to knowledge organization can teach the user how to understand what she sees when she searches the OPAC—and what she does not see—as directly related to the structure of the knowledge organization system she searches against.
 
-Defining the problem of biased classification and cataloging as queer and analytic shifts the burden of engaging and struggling with that bias from catalogers to reference and instruction librarians working with patrons at the desk or in the classroom." - from [C]
+
 
 FCPL has hundreds of books about lesbians but less than ten about dykes.
+
+In 2006, Sandy Berman submitted a proposal to the Library of Congressfor a "genderqueer" subject heading (from [B]).  Now, in 2022, the LoC recognizes "Genderqueer comics", but not genderqueer people, who are classified as "Gender-nonconforming people".
+
+"I am not entirely a lesbian, in fact I am something even more different than that; Lesbian should be replaced by Dyke because that is the vernacular I use to describe myself" [c]
+
+FCPL has hundreds of books about lesbians but less than ten about dykes.  A search on "subject:dyke" returns two books about Dick Van Dyke.
 
 ##### But
 
