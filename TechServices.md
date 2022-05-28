@@ -403,21 +403,33 @@ This happens to be about Christianity and Judaism, but I hope you can see that t
 
 #### Programming and the Catalog
 
-Suppose a public library is going to celebrate National Walnut Day (May 17).  The 3D printer will be making nutcrackers, there will be a display of walnut books as you enter the library, walnut puppets in the children's section and a talk about walnuts by a local author, all of which will be heavily promoted on social media, including in the library's email newsletter and on the library's Twitter, Facebook and Instagram feeds.  If the OPAC supports it, a librarian will create a list of walnut books which itself will be promoted in the library's social media feeds.
+Suppose a public library is going to celebrate AAPI (or AANHPI) Heritage Month.  Readers Advisory will put together a list of cookbooks, there'll be a talk on Hawaiian history from a local author, and the children's department will hold an event where kids make canoes out of popsicle sticks, all of which will be heavily promoted on social media, including in the library's email newsletter and on the library's Twitter, Facebook and Instagram feeds.
 
-How can Technical Services support this effort:
-* check for gaps in the collection.  Do you have adequate coverage of black walnuts?
-* Is all the walnut material fully and correctly cataloged?
-* Do subject headings correspond to the terms that patrons use?
+Teen Vogue has [a good summary of AAPI Heritage Month](https://www.teenvogue.com/story/aapi-heritage-month-guide) with their usual critical eye:
 
->> what have we already discussed??  Tweets, etc.?
->> example searches in tweets, on posters
->> compare OPAC to Google?
->> one-slide tax:  every presentation has to include one slide on searching the catalog
+>"Supporting the AAPI community should go beyond just liking Instagram infographics during May. ... By supporting AAPI creators, you’re supporting the idea that AAPI voices deserve a place at the table in mainstream media."
 
-+-------- MORE -------------
+It's not hard to translate this into library terms.  A good way to expand a library's support for the AAPI community beyond a single month is to add more AAPI authors to the collection and make sure AAPI authors and AAPI materials can be found in the catalog.
 
-If a librarian tweets a book recommendation, why doesn't that tweet include a link to the catalog?  If a librarian goes to the trouble of compiling a list of 10 or 20 books about walnuts, why doesn't that list end with a canned OPAC search for more walnut books or movies.
+If you're spending money — or time, which is money — on AAPI Heritage Month, it makes sense to consider spending some of that money on acquisitions, but really it's more cost effective to improve access to the materials you have.
+
+AAPI Heritage Month is a good month to go through the AAPI materials in the catalog and check that the catalog records are free from errors and omissions, and to the extent possible ensuring that the records can be retrieved using the terms that patrons actually use.
+
+One of the reasons I like comparing public libraries is that it's endlessly enlightening.  [The Las Vegas system](https://lvccld.org) is four or five times the size of [the Frederick County system](https://fcpl.org), but they're not so different.  LVCCLD tweeted dozens of times during AAPI Heritage Month; FCPL not at all.  A search in LVCCLD for "aapi" or "aanhpi" returns nothing; FCPL has twenty items tagged "aapi".  Of course this is only one data point, so you can argue that it's not fair or representative.
+
+But still.  If an FCPL patron does a search on "aapi" and looks at one of the books, they'll see that the "right" subject search is "asian american", which returns 52 items.  The same search in LVCCLD returns 223 items, but you need to know that "asian american" is the right term, something that's not mentioned in any of the dozens of tweets.
+
+Why hasn't FCPL mentioned AAPI Heritage Month on social media, not even once?  (Asian Americans make up 5% of Frederick County, and the percentage is increasing.)  I guess it's because Frederick County didn't do any programming for AAPI Heritage Month, combined with the unwritten rule that you can only tweet about programs, job opportunites and book recommendations.
+
+There's no reason for the rule.  A tweet is a tweet is a tweet.  It could be as simple as:
+
+>May is Asian American Pacific Islander Heritage Month.  To see Asian American materials click on https://catalog.fcpl.org/?section=search&term=su%3A%22asian%20americans%22
+
+
+## Conclusions
+
++----  Marker  ----
+
 
 ### Coda: My OPAC is better than your OPAC
 
@@ -540,7 +552,6 @@ but
 
 
 
-FCPL has hundreds of books about lesbians but less than ten about dykes.
 
 In 2006, Sandy Berman submitted a proposal to the Library of Congressfor a "genderqueer" subject heading (from [B]).  Now, in 2022, the LoC recognizes "Genderqueer comics", but not genderqueer people, who are classified as "Gender-nonconforming people".
 
