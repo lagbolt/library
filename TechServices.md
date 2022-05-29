@@ -85,7 +85,7 @@ One speed bump is that "web site" means two different things.  From the outside,
 
 I'll give a small example of how these silos affect patrons using an imaginary site that combines features from a few different libraries and OPACs.
 
-Because the [Samuels Public Library](https://www.samuelslibrary.net/) [102] only has one location, the web site gives the telephone number and hours right on the front page.  On the other hand, the [Frederick Public Libraries](https://fcpl.org/) has multiple locations, so you have to navigate to a "Branches" page to see the hours of each branch.  Suppose you could tell the FCPL web site which branch was your local branch, so it could display the hours on the front page.
+Because the [Samuels Public Library](https://www.samuelslibrary.net/) [102] only has one location, the web site gives the telephone number and hours right on the front page.  On the other hand, the [Frederick Public Libraries](https://fcpl.org/) (FCPL) has multiple locations, so you have to navigate to a "Branches" page to see the hours of each branch.  Suppose you could tell the FCPL web site which branch was your local branch, so it could display the hours on the front page.
 
 The FCPL calendar allows you to choose which of the eight branches you want to see events for.  Suppose you could tell the calendar which branch was your local branch, so it could display just events for that branch.
 
@@ -164,7 +164,7 @@ With the same conclusion as before:  Libraries can wait for TLC or Bibliocommons
 
 In "landing pages" I include true landing pages like [Bulding Bridges](https://fcpl.org/building-bridges) as well as child pages like [Building Bridges - Adult Titles](https://fcpl.org/building-bridges-adult-titles).  Let's look at the latter.
 
-There are 40 books on this page.  It's a pretty good list, but the library probably has hundreds of similar books.  For example, the list includes three cookbooks.  By clicking through to each cookbook and clicking on subject headings, I found 27 African American, 22 African, 35 Chinese and 5 Philippine cookbooks.
+There are 40 books on this page.  It's a pretty good list, but the library probably has hundreds of similar books.  For example, the list includes three cookbooks.  By clicking through to each cookbook and clicking on subject headings, I found 35 Chinese, 27 African American, 22 African and 5 Philippine cookbooks.
 
 Let's suppose we want to help patrons find these 86 extra cookbooks — assuming for the moment that they don't already know what to do.  There are a couple of ways of enhancing the page to help patrons.
 
@@ -192,7 +192,7 @@ What service does a web page provide?  Is it limited to displaying some informat
 
 Accessibility isn't anywhere in my diagram because it's everywhere.
 
-In *What Can A Body Do?* Sara Hendren makes the point that disability is a function of the built environment.  That is, a person is disabled not as an intrinsic characteristic, but because the built environment has disabled them.  The built environment naturally includes web sites.
+In *What Can A Body Do?* [98] Sara Hendren makes the point that disability is a function of the built environment.  That is, a person is disabled not as an intrinsic characteristic, but because the built environment has disabled them.  The built environment naturally includes web sites.
 
 #### An Example
 
@@ -220,9 +220,7 @@ Even a patron who has been to the library many times may be lost finding a new p
 
 In effect, the building is providing — or not providing — a navigation service.
 
-Mark Aaron Polger has written a book on signage called *Library Signage and Wayfinding Design* which you can [buy from ALA](https://www.alastore.ala.org/wayfinding).
-
-My general comments on signage, and specific comments on the book, [can be found here](https://github.com/lagbolt/library/blob/main/Polgerbookreview.md).
+Mark Aaron Polger has written a book on signage called *Library Signage and Wayfinding Design* which you can [buy from ALA](https://www.alastore.ala.org/wayfinding).  My general comments on signage, and specific comments on the book, [can be found here](https://github.com/lagbolt/library/blob/main/Polgerbookreview.md).
 
 I've reviewed the wayfinding and signage at a number of branches of the Las Vegas Clark County Library District.  My review [can be found here](https://github.com/lagbolt/library/blob/main/LVCCLD-signage.md)
 
@@ -254,7 +252,7 @@ Signage needs maintenance, something that Polger mentions but I don't think stre
 
 What use is the catalog?
 
-If the catalog HAS value, it will ADD value whenever the collection is relevant to another library activity.  The activity doesn't even need to be book related.  If a local potter is doing a pottery demonstration, the promotional materials could include a QR code to search the catalog for materials on pottery.
+If the catalog **has** value, it will **add** value whenever the collection is relevant to another library activity.  The activity doesn't even need to be book related.  If a local potter is doing a pottery demonstration, the promotional materials could include a QR code to search the catalog for materials on pottery.
 
 There are three threads running through this section:
 * using other library functions to promote the catalog
@@ -509,12 +507,12 @@ For completeness, the Frederick OPAC is a TLC product.
 
 [104] Beall, Jeffrey, 10 Ways to Improve Data Quality, American Libraries, Vol. 36, No. 3 (Mar., 2005), pp. 36-37
 
-Here's the tenth entry:  "**Involve all library staff in database maintenance.**  Have staffers report errors to a central person, preferably someone in the cataloging department.  Many library staff make extensive use of the library catalog and are in a position to observe errors.  Take advantage of their catalog use and ask them to report the errors they find.
+Here's the tenth entry:
 
-"Library catalogs should be tools for research; we must not allow them to become barriers to retrieval.  Libraries are obligated to to make services as error-free as possible.  A coordinated effort to eliminate errors in online catalogs demonstrates a strong commitment to quality service.  The reward of this work will be better access to library materials for our patrons."
+>"**Involve all library staff in database maintenance.**  Have staffers report errors to a central person, preferably someone in the cataloging department.  Many library staff make extensive use of the library catalog and are in a position to observe errors.  Take advantage of their catalog use and ask them to report the errors they find.
+
+>"Library catalogs should be tools for research; we must not allow them to become barriers to retrieval.  Libraries are obligated to to make services as error-free as possible.  A coordinated effort to eliminate errors in online catalogs demonstrates a strong commitment to quality service.  The reward of this work will be better access to library materials for our patrons."
 
 [105]  Williams, Graeme, *Cataloging Errors and How to Find Them*   
-Technicalities, V41, N1, January/February 2021
-
-A PDF copy is [online here](https://github.com/lagbolt/library/blob/main/Technicalities%20V41%20N1%20JanFeb21%20Cataloging%20Errors%20and%20How%20to%20Find%20Them.pdf)
+Technicalities, V41, N1, January/February 2021.  A PDF copy is [online here](https://github.com/lagbolt/library/blob/main/Technicalities%20V41%20N1%20JanFeb21%20Cataloging%20Errors%20and%20How%20to%20Find%20Them.pdf)
 
