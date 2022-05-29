@@ -5,7 +5,7 @@ This is my input to:
    * The Frederick County Public Libraries (FCPL) 2023-2025 Three Year Plan, and
    * An effort in an unnamed Virginia public library to "update and reinvigorate Technical Services"
 
-It's a coincidence that these two things happened to drop at the same time.  I'm able to address them both at the same time because my interest and focus in public libraries is in Technical Services.  To be honest, I'm not sure what is Technical Services and what is not.  I'll be looking at:
+It's a coincidence that these two things happened to drop at the same time.  I'm able to address them both at the same time because my interest and focus in public libraries is in Technical Services.  Although, to be honest, I'm not sure what is Technical Services and what is not.  I'll be looking at:
 
    * the online catalog
    * the web site
@@ -65,7 +65,7 @@ I want to be very clear that Non-interactive Services, Technical Services, *are*
 
 * Based on something a friend says, a patron checks the catalog and discovers a new book by a favorite author.
 
-If you regard non-interactive services as no less than interactive services — and I do — you have to treat non-interactive services as self-sufficient.  "If you have a question, ask a librarian" undercuts that commitment by turning a non-interactive service into an interactive service.  This has obvious implications for, e.g., online documentation or signage.
+If you regard non-interactive services as no less than interactive services — and I do — you have to treat non-interactive services as self-sufficient.  "If you have a question, ask a librarian" undercuts that commitment by turning a non-interactive service into an interactive service.  Committing to non-interactive services staying non-interactive has obvious implications for, e.g., online documentation or signage.
 
 ## How Services Relate to Each Other
 
@@ -117,7 +117,7 @@ I've described the front page in mind-numbing detail to make the point that even
 
 Where does Inter-Library Loan go?  It's under "Visit".  Information about the Bookmobile?  It's under "Visit".  Newsletters?  Ditto.  These don't seem natural to me.
 
-But it doesn't matter what I think, or how I would re-organize this menu bar.  What matters is how easy the library patrons in Frederick find it — particularly new patrons, patrons that speak languages other than English, or patrons using screen readers.  This is a UX/UI question that you might address using [card sorting](https://en.wikipedia.org/wiki/Card_sorting), for example.  Whatever techniques you use to improve the patron experience, this is not a trivial amount of work, so it fits well within the context of a three-year plan.
+But it doesn't matter what I think, or how I would re-organize this menu bar.  What matters is how easy the library patrons in Frederick find it — particularly new patrons, patrons that speak languages other than English, or patrons using screen readers.  This is a UX/UI question that you might address using [card sorting](https://en.wikipedia.org/wiki/Card_sorting), for example.  Whatever techniques you use to improve the patron experience on the web site, this is not a trivial amount of work, so it fits well within the context of a three-year plan.
 
 ### Online Documentation
 
@@ -186,7 +186,7 @@ Finally, if you hover over a cover, you'll see a pop-up which includes clickable
 
 Comparing the FCPL and Goodreads pages, it's clear that the Goodreads page is more active, with fresher content, inviting the user to interact with it.  It also, incidentally, advertises a few key Goodreads features, like the ability to add books to lists and the ability to rate them.
 
-How can a landing page be more than a page of cover images?  How can a landing page help promote the catalog?  So the goal for enhancing the FCPL page — and the others like it — should be two-fold:  to make a better, more useful page, and to show patrons something about the catalog.  This really depends on what patrons find useful and what they already know about the catalog.  That's obviously step one in any enhancement project.
+What service does a web page provide?  Is it limited to displaying some information, or can it teach patrons something.  A page can be more than a display of cover images if it teaches patrons something about the catalog, even something as simple as a search.  This really depends on what patrons already know about the catalog and what they would find useful to learn.  That's obviously step one in any enhancement project.
 
 ### Accessibility
 
@@ -204,7 +204,7 @@ The page has a lot of images.  Some of the images include alt tags and some don'
 
 Don't do this!  Every image on the web site, or in an email, tweet or post should include an alt tag.  And the alt tag should include as much information as the image.
 
-Having an accessible site requires the sort of deliberate engineering and regular maintenance that I mentioned above.
+You can't make your web site accessible and then stop.  Having an accessible site requires the sort of deliberate engineering and regular maintenance that I mentioned above.
 
 ### What is the Web Site Worth?
 
@@ -214,13 +214,19 @@ Critically, the web site is one particular channel for delivering non-interactiv
 
 ## Wayfinding and Signage
 
+When a new patron walks into a library, they may already be anxious, in a hurry, or nervous about their ability to communicate in English.  They may not be comfortable approaching a librarian for help.  Their experience finding what they want depends to a great extent on how clear the signage is in the library.
+
+Even a patron who has been to the library many times may be lost finding a new part of the collection, such as biographies or large print non-fiction.
+
+In effect, the building is providing — or not providing — a navigation service.
+
 Mark Aaron Polger has written a book on signage called *Library Signage and Wayfinding Design* which you can [buy from ALA](https://www.alastore.ala.org/wayfinding).
 
 My general comments on signage, and specific comments on the book, [can be found here](https://github.com/lagbolt/library/blob/main/Polgerbookreview.md).
 
 I've reviewed the wayfinding and signage at a number of branches of the Las Vegas Clark County Library District.  My review [can be found here](https://github.com/lagbolt/library/blob/main/LVCCLD-signage.md)
 
-I'm going to show a couple of examples from the Frederick County Public Libraries system, specifically the central, C. Burr Artz branch.  I'm shpwing these examples because I happened upon them, not because either the branch or the system is deficient in some way.
+I'm going to show a couple of examples from the Frederick County Public Libraries system, specifically the central, C. Burr Artz branch.  I'm showing these examples because I happened upon them, not because either the branch or the system is particularly weak in some way.
 
 The shelving upstairs in the library is laid out sensibly, and the signage is clear.  The signs are color-coded:  one color for fiction and one for non-fiction.  And then there's this sign:
 
@@ -257,21 +263,21 @@ There are three threads running through this section:
 
 ### Marketing the Catalog
 
-Let me start off with a *reductio ad absurdum*:  Libraries put a lot of effort into informing patrons about different library services and events, and none into how to use advanced search.  What would it look like if the entire library was helping people search the catalog?
+Let me start off with a *reductio ad absurdum*:  Libraries put a lot of effort into informing patrons about different library services and events, and none into how to use advanced search.  What would it look like if the entire library was helping people engage with the catalog?
 
 Let's start off with two places where that might happen: social media and readers advisory.
 
 #### Using social media
 
-I think it's important to give up the idea that the purpose of social media is to support programming.  Social media is a channel to patrons (and non-patrons!) to support all of the library's activities.
+I think it's critical to give up the idea that the purpose of social media is just to support programming.  Social media is a channel to patrons (and non-patrons!) to support all of the library's activities, including technical services.
 
 Look at [this tweet](https://twitter.com/FredCoLibrary/status/1520116958422880257?s=20&t=r0I_JGkzjgRFsobiYsLRBA).  It recommends Alice Walker's The Color Purple *without a link to the catalog*.  (Also, the image has no alt tag.)
 
-A variation on this kind of tweet is to promote a list of books, like the FCPL [Building Bridges Landing Page](https://www.fcpl.org/building-bridges), with nothing about the catalog *in the tweet*.
+A variation is to promote a list of books, like [this LVCCLD tweet for AAPI Heritage Month](https://twitter.com/LVCCLD/status/1530292784581726217?s=20&t=ECBT2GD3HF7CbjRUkT8E9g), which leads to a list of books in the catalog, but doesn't provide a way to find more, similar books.
 
 There's no reason book-promoting tweets can't include a link to the catalog, either to a single item or a search. 
 
-Suppose the person in charge of social media wanted to help patrons with searching the catalog.  How would they do it?  I don't know whether it would be effective to tweet weekly hints about advanced searching, but it think it's worth a try.
+Suppose the person in charge of social media wanted to help patrons learn about searching the catalog.  How would they do it?  I don't know whether it would be effective to tweet weekly hints about advanced searching, but it think it's worth a try.
 
 Here's another idea ...
 
@@ -287,6 +293,8 @@ Second, this would provide a pool of books to use to freshen the page.
 
 Third, this would provide a record of the books used for this page in case the page was temporarily retired.
 
+The catalog and the collection provide a service to patrons, and tagging provides a way to enrich that channel using terms that are logical for patrons.
+
 #### Using readers advisory
 
 Before I get to the mechanics of readers advisory — something, I want to make clear, I know nothing about — I want to talk about pamphlets.
@@ -295,7 +303,7 @@ Public libraries love pamphlets.  There are pamphlets for Hoopla, for ebooks, fo
 
 Now I suppose the Reference Desk sees several kinds of questions, and so produces several kinds of answers.  Some questions won't have anything to do with the catalog, like "When are you open?" or "How many DVDs can I borrow at once?".  For others, there'll be an opportunity to educate the patron about the catalog.  For example, if a patron asks for help locating books about a topic which is not a "legal" subject heading, the librarian could show the patron a number of different search strategies for finding what they want, and even save the searches to their account.
 
-I want to mention something here and expand on it below.  Emily Drabinski says [1000]:
+I want to mention something here and expand on it later.  Emily Drabinski says [1000]:
 
 >"Queer theory invites a shift in responsibility from catalogers, positioned to offer functional solutions, to public services librarians, who can teach patrons to dialogically engage the catalog as a complex and biased text, just as critical catalogers do."
 
@@ -320,9 +328,9 @@ I've written about catalog quality for Technicalities [105].  That article has s
 
 I'm interested in three different, separate standards for catalog quality:
 
-1. Assessing catalog records against a standard, either internal or external
-2. Effectiveness in supporting library programs
-3. Effectiveness in supporting the community
+* Assessing catalog records against a standard, either internal or external
+* Effectiveness in supporting the community
+* Effectiveness in supporting library programs
 
 #### Is this a big problem?
 
@@ -358,7 +366,7 @@ And now this:
 
 <img src="images\FCPLnottheonlyfruit.png" alt="Screenshot of part of a MARC record, including 650 7 $a LGBTQIA+ (Fiction) $2 Overdrive" height="100" />
 
-This is disastrous!  Overdrive have invented their own subject heading, "LGBTQIA+ (Fiction)"; there are 338 items (ebooks and audiobooks) that use this heading.  First, these items will be invisible to a search using the "official" subject headings.  Second, if you're looking at one of these items, you'll see this subject heading and can click on it, but what will be returned will be these 338 items.  You might possibly conclude that FCPL has no books [5] of LGBTQIA+ Fiction.
+This is disastrous!  Overdrive have invented their own subject heading, "LGBTQIA+ (Fiction)"; there are 338 items (ebooks and audiobooks) that use this heading.  First, these items will be invisible to a search using the "official" subject headings.  Second, if you're looking at one of these items, you'll see this subject heading and can click on it, but what will be returned will be these 338 ebooks and audiobooks.  You might possibly conclude that FCPL has no physical books of LGBTQIA+ Fiction at all.
 
 To be completely clear, there's nothing wrong with subject headings from a thesaurus other than LCSH.  It's not even so bad that Overdrive has made up their own code for the $2 subfield, although it's technically incorrect [7].
 The problem is that the "LGBTQIA+ (Fiction)" subject heading is only included in some of the items it applies to, with the result that search results will be incomplete.
@@ -367,7 +375,7 @@ The problem is that the "LGBTQIA+ (Fiction)" subject heading is only included in
 
 Can tagging — tags added to the catalog by patrons — enhance the catalog?
 
-In the abstract t0 "Transcending Library Catalogs" [B], Adler says:
+In the abstract to "Transcending Library Catalogs" [B], Adler says:
 
 >"While folksonomies are democratic and respond quickly to shifts and expansions of categories, they lack control and may inhibit findability of resources. Neither tags nor subject headings are perfect systems by themselves, but they may complement each other well in library catalogs. Bringing users’ voices into catalogs through the addition of tags might greatly enhance organization, representation, and retrieval of transgender-themed materials."
 
@@ -393,7 +401,7 @@ Talking about the tension between local variation and network standardization, t
 
 The question of power and control is central to any discussion of alternative subject headings, and the OCLC report spends a significant fraction of the report considering it.  As a patron and not a librarian, I'm comfortable with the idea that patrons could select subject headings, but I understand that professional librarians might not be so sanguine.
 
-Tagging provides a way of beginning the work of eliminating offensive headings — without waiting for the Library of Congress.  And a path forward is available via the progression tagging —→ local unregistered thesaurus —→ registered thesaurus.
+Tagging provides a way of beginning the work of eliminating offensive headings — without waiting for the Library of Congress.  And a path onward is available via the progression tagging —→ local unregistered thesaurus —→ registered thesaurus.
 
 ##### Now Read This!
 
@@ -425,11 +433,19 @@ There's no reason for the rule.  A tweet is a tweet is a tweet.  It could be as 
 
 >May is Asian American Pacific Islander Heritage Month.  To see Asian American materials click on https://catalog.fcpl.org/?section=search&term=su%3A%22asian%20americans%22
 
-
 ## Conclusions
 
-+----  Marker  ----
+A public library is an exemplary example of a multi-channel service organization.  All channels should provide the same high standard of service and, where possible, work together for the best patron experience.
 
+Non-interactive services are services.  When a patron visits the web site, or visits a library building, the service they experience should meet the same high standard that you expect for the reference desk or story hour.
+
+The catalog is problematic because its functionality is more or less fixed by the vendor.  Reaching a high standard of service requires educating the patron using whatever channels can be enlisted.
+
+How well the catalog serves patrons depends on the correctness and completeness of catalog records, and vocabulary that patrons are familiar with.
+
+Programming shouldn't exist in isolation.  Connecting programming, the collection and the catalog helps all three.
+
+The work to be done requires resources and time.  Like any enhancement effort, it should start with understanding patrons.
 
 ### Coda: My OPAC is better than your OPAC
 
@@ -471,8 +487,6 @@ Related:
 
 [Culturally Safe Libraries: A collaborative step towards cultural change](https://blogs.ifla.org/arl/2022/04/26/culturally-safe-libraries-a-collaborative-step-towards-cultural-change/) which notes "increased cultural labour for some First Nations staff".  H/T to [@shigekisasagawa](https://twitter.com/shigekisasagawa)
 
-[5]  Books meaning physical books as opposed to e-materials.  AFAIK, that's the standard usage for OPACs.
-
 [6]  I gave a presentation on language coding to ALA ALCTS CaMMS CNIG (now ALA Core CNIG) June 9, 2020.  The slides (which include speaker's notes) are [here](https://github.com/lagbolt/library/blob/main/Why%20is%20Language%20Coding%20So%20Bad.pptx).
 
 [7]  Thanks to [Ann Ryan](https://www.facebook.com/ann.ryan.35513/) for pointing out on Facebook that the $5 subfield which is included in the 655 field is not included in the 650 field.  If Overdrive had an LoC organization code it could, With a second indicator of 4 and its organization code in the $5 subfield, "legally" put anything it likes in a 655 field — but not in a 650 field.
@@ -504,149 +518,3 @@ Technicalities, V41, N1, January/February 2021
 
 A PDF copy is [online here](https://github.com/lagbolt/library/blob/main/Technicalities%20V41%20N1%20JanFeb21%20Cataloging%20Errors%20and%20How%20to%20Find%20Them.pdf)
 
-
-
-
-
--------------------------
-
-==========================================
-
-# SCRAPS
-
-At FCPL, "dyke -author:dyke" doesn't work very well because of:
-* basic 505s that should be enhanced
-* missing "related work field"
-
-Homosaurus
-
-Most of the people who developed the homosaurus are professional librarians.
-
-https://homosaurus.org/about
-
-See also:
-
-[A]
-Marika Cifor & K.J. Rawson (2022) Mediating Queer and Trans Pasts: The Homosaurus as Queer Information Activism, Information, Communication & Society, DOI: [10.1080/1369118X.2022.2072753](https://doi.org/10.1080/1369118X.2022.2072753)
-
-[B]
-Adler, M. (2009). Transcending Library catalogs: A comparative Study of controlled terms in Library of Congress Subject Headings and user-generated tags in LibraryThing for Transgender books. Journal of Web Librarianship, 3(4), 309–331. https://doi.org/10.1080/19322900903341099
-
-[C]
-Drabinski, Emily. "Queering the catalog: Queer theory and the politics of correction." The Library Quarterly 83.2 (2013): 94-111.  https://doi.org/10.1086/669547
-
-‘tags do tend to lack uniformity because there is no governing body regulating [their] establishment,’  -  [B] quoted in [A]
-
-but
-
-"people can develop relationships and mutual support through discussion and sharing"  - from [A]
-
-"While folksonomies are democratic and respond quickly to shifts and expansions of categories, they lack control and may inhibit findability of resources. Neither tags nor subject headings are perfect systems by themselves, but they may complement each other well in library catalogs. Bringing users’ voices into catalogs through the addition of tags might greatly enhance organization, representation, and retrieval of transgender-themed materials." [B], Abstract.  Adler contradicts herself in the space of three sentences, going from "inhibit findability" to "enhance ... retrieval".  But she's not wrong.
-
-
-"This analytic approach locates the trouble with library classification and cataloging systems in the project of fixity itself"  -  from [C]
-
-"In the library context, queer theories can refocus attention away from the project of producing 'correct' knowledge organization systems, pointing toward a project of dialogic pedagogical interventions that push all users to consider how the organization of, and access to, knowledge is politically and socially produced" - from [C]
-
-"Librarians who are themselves engaged with a queer approach to knowledge organization can teach the user how to understand what she sees when she searches the OPAC—and what she does not see—as directly related to the structure of the knowledge organization system she searches against.
-
-
-
-
-In 2006, Sandy Berman submitted a proposal to the Library of Congressfor a "genderqueer" subject heading (from [B]).  Now, in 2022, the LoC recognizes "Genderqueer comics", but not genderqueer people, who are classified as "Gender-nonconforming people".
-
-"I am not entirely a lesbian, in fact I am something even more different than that; Lesbian should be replaced by Dyke because that is the vernacular I use to describe myself" [c]
-
-FCPL has hundreds of books about lesbians but less than ten about dykes.  A search on "subject:dyke" returns two books about Dick Van Dyke.
-
-##### But
-
-Couldn't a patron just ask at the reference desk?  There are a couple of answers to that, starting with, "Hell, No!!".
-
-Are you sure that the reference librarian understands enough about boolean searching to work through all the possibilities in that Venn Diagram?  How much training have they had on your catalog?  And on the many permutations of gender and sexuality?
-
-Assuming the patron is comfortable discussing gender and sexuality with the reference librarian at all, what do you want the response to be:
-
-* "Here's a list of books"
-* "Here's how I used the catalog to search for these books"
-
-or both, of course.
-
-#### Another example
-
-Here's a page from the catalog:
-
-<img src="images\FCPLfakearrows.png" alt="Top part of a catalog page for the book The everything healthy casserole cookbook, with arrows on the left and right of the page, circled" height="200" />
-
-What do those arrows do?  Nothing.
-
-#### The Competition
-
-https://www.goodreads.com/blog/show/2313
-
-#### Multiple Languages
-
-Launching a successful multi-lingual program, Nicholas Brown
-Next Blog, OCLC, 5/4/2022
-
-https://blog.oclc.org/next/three-lessons-for-launching-successful-multilingual-programs-at-your-library/
-
-Money quote:
-
-"You should look across everything your library does when identifying needs. They could be related to content areas and programs, but also welcome emails, forms, signage, social media, and partnership opportunities. Make staff at every level aware of what you’re doing so they can contribute at any/all stages of that cycle."
-
-Memory Lab
-
-[Samuels Public Library](https://www.samuelslibrary.net/) [102] has a hero banner for the Memory Lab which says:
-<pre align="center">
-Preserve VHS Tapes, Photos, Slides & More
-Memory Lab
-Learn More (button)
-</pre>
-
-In contrast, the banner on [the page for the Memory Lab](https://www.fcpl.org/programs-events/create-your-story-fcpl%E2%80%99s-memory-lab) at FCPL says:
-<pre align="center">
-Create Your Story @ FCPL’s Memory Lab
-</pre>
-
-
-Tagging
-
-OCLC report, [99, p23]
-
-C:\Users\lagbo\OneDrive\Documents\Library\User Tags versus Subject Headings.pdf
-
-C:\Users\lagbo\OneDrive\Documents\Library\Rahman Social tagging versus Expert created subject headings.pdf
-
-Another possibility, which I'd describe as more of a research project because I haven't tried it yet, is to look at your search logs and check the results.  The advantage of this approach is that it fixes what is actually relevant to patrons.
-
--
-
-Tweeted April 16:
-Just a reminder that all FCPL locations will be closed tomorrow, Sunday, April 17, in observance of Easter.
-
-I just can't express how angry this makes me.
-
--
-
-V. E. Schwab has two NARs.  Andrea Stewart has one but it's not the LoC value.
-
--
-
-What about tweeting a reference to maryland.overdrive.com?
-
--
-
-Offensive subject headings // critcat
-
--
-
-Something Einstein didn't say:  Everything should be made as simple as possible, but not simpler.
-
--
-
-Oklahoma library bans programs and exhibits that relate to sexual or gender identity.  https://www.cnn.com/2022/04/23/us/book-club-romance-ban-lgbtq-enid-oklahoma-cec/index.html
-
-### Linking in the other direction
-
-BiblioCommons [103] has an interesting feature where you can interpolate other information between results on the search results page.  If someone searches for any of the terms in LGBTQIA+, the search results page could include a pointer to the Gay Pride landing page.  This would be useful year round, and not just for a month.  Of course in this, as in so many other things, you're at the mercy of your OPAC vendor.
