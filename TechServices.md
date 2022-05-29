@@ -21,7 +21,7 @@ What follows is just what I've been thinking about lately.  I couldn't hope to b
 
 You can't do more with less.  In fact, you probably can't do what you think you're doing now with the resources you think you're allocating to technical services.  (In case it's not absolutely clear, "you" means a public library).  You can only do more with more.
 
-Library workers need to be unionized.  This could help with a number of problems, including vocational awe, precarity [101], and various kinds of bias.
+Library workers need to be unionized.  This could help with a number of problems, including vocational awe, precarity [1], and various kinds of bias.
 
 #### Details
 
@@ -85,7 +85,7 @@ One speed bump is that "web site" means two different things.  From the outside,
 
 I'll give a small example of how these silos affect patrons using an imaginary site that combines features from a few different libraries and OPACs.
 
-Because the [Samuels Public Library](https://www.samuelslibrary.net/) [102] only has one location, the web site gives the telephone number and hours right on the front page.  On the other hand, the [Frederick Public Libraries](https://fcpl.org/) (FCPL) has multiple locations, so you have to navigate to a "Branches" page to see the hours of each branch.  Suppose you could tell the FCPL web site which branch was your local branch, so it could display the hours on the front page.
+Because the [Samuels Public Library](https://www.samuelslibrary.net/) [2] only has one location, the web site gives the telephone number and hours right on the front page.  On the other hand, the [Frederick County Public Libraries](https://fcpl.org/) (FCPL) has multiple locations, so you have to navigate to a "Branches" page to see the hours of each branch.  Suppose you could tell the FCPL web site which branch was your local branch, so it could display the hours on the front page.
 
 The FCPL calendar allows you to choose which of the eight branches you want to see events for.  Suppose you could tell the calendar which branch was your local branch, so it could display just events for that branch.
 
@@ -192,7 +192,7 @@ What service does a web page provide?  Is it limited to displaying some informat
 
 Accessibility isn't anywhere in my diagram because it's everywhere.
 
-In *What Can A Body Do?* [98] Sara Hendren makes the point that disability is a function of the built environment.  That is, a person is disabled not as an intrinsic characteristic, but because the built environment has disabled them.  The built environment naturally includes web sites.
+In *What Can A Body Do?* [3] Sara Hendren makes the point that disability is a function of the built environment.  That is, a person is disabled not as an intrinsic characteristic, but because the built environment has disabled them.  The built environment naturally includes web sites.
 
 #### An Example
 
@@ -230,7 +230,7 @@ The shelving upstairs in the library is laid out sensibly, and the signage is cl
 
 <img src="images\ArtzEndcapSign.jpg" alt="Photo of a sign on the end of a library shelf, explained in the text" height="300" />
 
-One side of this shelf holds the beginning (AA-BA) of the fiction section.  The other side of the shelf holds Large Print Biography, Large Print Non-Fiction, and the end (SZ ??) of the Large Print Fiction section.
+One side of this shelf holds the beginning (AA-BA) of the fiction section.  The other side of the shelf holds Large Print Biography, Large Print Non-Fiction, and the end (ST ??) of the Large Print Fiction section.  (By the way, you can click on the image to see the full-size version.)
 
 The person who wrote this sign tried to get all this information into a sign that's exactly the same size as all the other signs.  It's too much!  In addition to simply making the sign bigger, it probably needs a graphic designer to do something clever.
 
@@ -301,7 +301,7 @@ Public libraries love pamphlets.  There are pamphlets for Hoopla, for ebooks, fo
 
 Now I suppose the Reference Desk sees several kinds of questions, and so produces several kinds of answers.  Some questions won't have anything to do with the catalog, like "When are you open?" or "How many DVDs can I borrow at once?".  For others, there'll be an opportunity to educate the patron about the catalog.  For example, if a patron asks for help locating books about a topic which is not a "legal" subject heading, the librarian could show the patron a number of different search strategies for finding what they want, and even save the searches to their account.
 
-I want to mention something here and expand on it later.  Emily Drabinski says [1000]:
+I want to mention something here and expand on it later.  Emily Drabinski says [4]:
 
 >"Queer theory invites a shift in responsibility from catalogers, positioned to offer functional solutions, to public services librarians, who can teach patrons to dialogically engage the catalog as a complex and biased text, just as critical catalogers do."
 
@@ -320,9 +320,9 @@ One way or another, errors and omissions in the catalog mean that patrons will s
 
 Almost anything you do in this area, other than paying a third party to do it, is going to involve a combination of automatic and manual checking.  There is no magic bullet.
 
-In 2005, Jeffrey Beall wrote a column for the ALA's American Libraries magazine giving "Ten Ways to Improve Data Quality" [104].  The reason I'm mentioning this here is that his tenth point was that everyone in the library should be involved in finding catalog errors.  This is part of what elevates catalog quality from a sticky note to a part of strategy.
+In 2005, Jeffrey Beall wrote a column for the ALA's American Libraries magazine giving "Ten Ways to Improve Data Quality" [5].  The reason I'm mentioning this here is that his tenth point was that everyone in the library should be involved in finding catalog errors.  This is part of what elevates catalog quality from a sticky note to a part of strategy.
 
-I've written about catalog quality for Technicalities [105].  That article has several interesting examples of data I've collected from the LVCCLD (Las Vegas) catalog.
+I've written about catalog quality for Technicalities [6].  That article has several interesting examples of data I've collected from the LVCCLD (Las Vegas) catalog.
 
 I'm interested in three different, separate standards for catalog quality:
 
@@ -366,14 +366,13 @@ And now this:
 
 This is disastrous!  Overdrive have invented their own subject heading, "LGBTQIA+ (Fiction)"; there are 338 items (ebooks and audiobooks) that use this heading.  First, these items will be invisible to a search using the "official" subject headings.  Second, if you're looking at one of these items, you'll see this subject heading and can click on it, but what will be returned will be these 338 ebooks and audiobooks.  You might possibly conclude that FCPL has no physical books of LGBTQIA+ Fiction at all.
 
-To be completely clear, there's nothing wrong with subject headings from a thesaurus other than LCSH.  It's not even so bad that Overdrive has made up their own code for the $2 subfield, although it's technically incorrect [7].
-The problem is that the "LGBTQIA+ (Fiction)" subject heading is only included in some of the items it applies to, with the result that search results will be incomplete.
+To be completely clear, there's nothing wrong with subject headings from a thesaurus other than LCSH.  It's not even so bad that Overdrive has made up their own code for the $2 subfield, although it's technically incorrect [7].  The problem is that the "LGBTQIA+ (Fiction)" subject heading is only included in some of the items it applies to, with the result that search results will be incomplete.
 
 #### Tagging - 2
 
 Can tagging — tags added to the catalog by patrons — enhance the catalog?
 
-In the abstract to "Transcending Library Catalogs" [B], Adler says:
+In the abstract to "Transcending Library Catalogs" [8], Adler says:
 
 >"While folksonomies are democratic and respond quickly to shifts and expansions of categories, they lack control and may inhibit findability of resources. Neither tags nor subject headings are perfect systems by themselves, but they may complement each other well in library catalogs. Bringing users’ voices into catalogs through the addition of tags might greatly enhance organization, representation, and retrieval of transgender-themed materials."
 
@@ -391,11 +390,11 @@ I don't want to over-specify the solution, but I love the idea of tagging partie
 
 For example, a search of the FCPL catalog returns 675 items with the subject heading "Indians of North America".
 
-OCLC has just issued a report on this topic, *Reimagine Descriptive Workflows* [99].  It's worth reading the whole thing, but I want to pull a few sentences out of the report.
+OCLC has just issued a report on this topic, *Reimagine Descriptive Workflows* [9].  It's worth reading the whole thing, but I want to pull a few sentences out of the report.
 
-The report clearly advocates adding subject headings from alternative (i.e., non-LCSH) controlled vocabularies.  It gives an example of a record from the State Library of New South Wales which includes First Nations subject headings [99, p21].
+The report clearly advocates adding subject headings from alternative (i.e., non-LCSH) controlled vocabularies.  It gives an example of a record from the State Library of New South Wales which includes First Nations subject headings [9, p21].
 
-Talking about the tension between local variation and network standardization, the report states, "It is likely that future systems will need to accommodate elements of both." [99, p13].  To me, this is a  rejection of Library of Congress control in reaction to the time taken to respond to the "illegal aliens" heading.  Something other than, or in addition to, the Library of Congress change process is clearly needed.
+Talking about the tension between local variation and network standardization, the report states, "It is likely that future systems will need to accommodate elements of both." [9, p13].  To me, this is a  rejection of Library of Congress control in reaction to the time taken to respond to the "illegal aliens" heading.  Something other than, or in addition to, the Library of Congress change process is clearly needed.
 
 The question of power and control is central to any discussion of alternative subject headings, and the OCLC report spends a significant fraction of the report considering it.  As a patron and not a librarian, I'm comfortable with the idea that patrons could select subject headings, but I understand that professional librarians might not be so sanguine.
 
@@ -451,7 +450,7 @@ I think it's critical that a library compares itself to its peers.  You might th
 
 In reviewing the FCPL catalog, I noticed a couple of things that the FCPL (TCL) OPAC can't do that the Las Vegas (Bibliocommons) OPAC can.  Of course, the opposite is also true.
 
-One significant issue is that there is no way to search for bilingual material [6].  There is a language facet, but you can only choose one language at a time, and it uses the MARC 008 leader field, which can only specify a single language.
+One significant issue is that there is no way to search for bilingual material [10].  There is a language facet, but you can only choose one language at a time, and it uses the MARC 008 leader field, which can only specify a single language.
 
 You can try using subject headings: "spanish language materials -- bilingual" returns 220 results, but that doesn't seem to be complete, since a keyword search on "spanish bilingual" returns 284 items.
 
@@ -477,21 +476,7 @@ It's obviously some work to implement custom searching with a custom results pag
 
 ## Notes
 
-[1000]  Drabinski, Emily. "Queering the catalog: Queer theory and the politics of correction." The Library Quarterly 83.2 (2013): 94-111.  https://doi.org/10.1086/669547
-
-[99]  Frick, Rachel L., and Merrilee Proffitt. 2022. *Reimagine Descriptive Workflows: A Community-informed Agenda for Reparative and Inclusive Descriptive Practice*. Dublin, OH: OCLC Research.  https://doi.org/10.25333/wd4b-bs51
-
-Related:
-
-[Culturally Safe Libraries: A collaborative step towards cultural change](https://blogs.ifla.org/arl/2022/04/26/culturally-safe-libraries-a-collaborative-step-towards-cultural-change/) which notes "increased cultural labour for some First Nations staff".  H/T to [@shigekisasagawa](https://twitter.com/shigekisasagawa)
-
-[6]  I gave a presentation on language coding to ALA ALCTS CaMMS CNIG (now ALA Core CNIG) June 9, 2020.  The slides (which include speaker's notes) are [here](https://github.com/lagbolt/library/blob/main/Why%20is%20Language%20Coding%20So%20Bad.pptx).
-
-[7]  Thanks to [Ann Ryan](https://www.facebook.com/ann.ryan.35513/) for pointing out on Facebook that the $5 subfield which is included in the 655 field is not included in the 650 field.  If Overdrive had an LoC organization code it could, With a second indicator of 4 and its organization code in the $5 subfield, "legally" put anything it likes in a 655 field — but not in a 650 field.
-
-
-
-[101]  For example:
+[1]  For example:
 
 [The Librarians Are Not Okay](https://annehelen.substack.com/p/the-librarians-are-not-okay)
 
@@ -499,13 +484,13 @@ or:
 
 Fobazi Ettarh & Chris Vidas (2022): “The Future of Libraries:” Vocational Awe in a “Post-COVID” World, The Serials Librarian, DOI: 10.1080/0361526X.2022.2028501
 
-[102]  The library serves Warren County, Virginia (population 40,727) from a single building in Front Royal.  So, a small library.
+[2]  The library serves Warren County, Virginia (population 40,727) from a single building in Front Royal.  So, a small library.
 
-[103]  I mention examples from the Bibliocommons OPAC a few times just because I happen to be familiar with it — it's what is used in Las Vegas.  I wouldn't give any OPAC a passing grade.
+[3]  Hendren, Sarah, *What Can a Body Do?: How We Meet the Built World*, Riverhead Books, NY, 2020.  http://www.worldcat.org/oclc/1255977027
 
-For completeness, the Frederick OPAC is a TLC product.
+[4]  Drabinski, Emily. "Queering the catalog: Queer theory and the politics of correction." The Library Quarterly 83.2 (2013): 94-111.  https://doi.org/10.1086/669547
 
-[104] Beall, Jeffrey, 10 Ways to Improve Data Quality, American Libraries, Vol. 36, No. 3 (Mar., 2005), pp. 36-37
+[5] Beall, Jeffrey, 10 Ways to Improve Data Quality, American Libraries, Vol. 36, No. 3 (Mar., 2005), pp. 36-37
 
 Here's the tenth entry:
 
@@ -513,6 +498,23 @@ Here's the tenth entry:
 
 >"Library catalogs should be tools for research; we must not allow them to become barriers to retrieval.  Libraries are obligated to to make services as error-free as possible.  A coordinated effort to eliminate errors in online catalogs demonstrates a strong commitment to quality service.  The reward of this work will be better access to library materials for our patrons."
 
-[105]  Williams, Graeme, *Cataloging Errors and How to Find Them*   
+[6]  Williams, Graeme, *Cataloging Errors and How to Find Them*   
 Technicalities, V41, N1, January/February 2021.  A PDF copy is [online here](https://github.com/lagbolt/library/blob/main/Technicalities%20V41%20N1%20JanFeb21%20Cataloging%20Errors%20and%20How%20to%20Find%20Them.pdf)
+
+[7]  Thanks to [Ann Ryan](https://www.facebook.com/ann.ryan.35513/) for pointing out on Facebook that the $5 subfield which is included in the 655 field is not included in the 650 field.  If Overdrive had an LoC organization code it could, With a second indicator of 4 and its organization code in the $5 subfield, "legally" put anything it likes in a 655 field — but not in a 650 field.
+
+[8]  Adler, M. (2009). Transcending Library catalogs: A comparative Study of controlled terms in Library of Congress Subject Headings and user-generated tags in LibraryThing for Transgender books. Journal of Web Librarianship, 3(4), 309–331. https://doi.org/10.1080/19322900903341099
+
+[9]  Frick, Rachel L., and Merrilee Proffitt. 2022. *Reimagine Descriptive Workflows: A Community-informed Agenda for Reparative and Inclusive Descriptive Practice*. Dublin, OH: OCLC Research.  https://doi.org/10.25333/wd4b-bs51
+
+Related:
+
+[Culturally Safe Libraries: A collaborative step towards cultural change](https://blogs.ifla.org/arl/2022/04/26/culturally-safe-libraries-a-collaborative-step-towards-cultural-change/) which notes "increased cultural labour for some First Nations staff".  H/T to [@shigekisasagawa](https://twitter.com/shigekisasagawa)
+
+[10]  I gave a presentation on language coding to ALA ALCTS CaMMS CNIG (now ALA Core CNIG) June 9, 2020.  The slides (which include speaker's notes) are [here](https://github.com/lagbolt/library/blob/main/Why%20is%20Language%20Coding%20So%20Bad.pptx).
+
+
+
+
+
 
