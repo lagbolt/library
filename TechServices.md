@@ -121,11 +121,11 @@ But it doesn't matter what I think, or how I would re-organize this menu bar.  W
 
 ### Online Documentation
 
-Documentation is just any part of the web site where you're explaining how to do something.  It's not easy;  one reason it's prone to errors is because the writer can miss uncommon cases.
+Documentation is just any part of the web site where you're explaining how to do something.  It's not easy;  one reason it's prone to errors is because the writer can miss details.
  
 For example, on the FCPL web site, the FAQ for "Changing the Pickup Location for Holds" sounds as though you can set a default location for holds.  But you can't.  The procedure described in the FAQ is for changing the pickup location *for a single hold*.
 
-This is the sort of small error that can accumulate if nothing is done.  I come from a computer science background with a spattering of software engineering, so I naturally think in terms of techniques like "pair programming", code reviews and dedicated testing time.  It's possible that you can eliminate this kind of error from the web site with good intentions, but — depending on the quality you want to achieve — this might require process changes at a structural level.
+This is the sort of small error that can accumulate if nothing is done.  I come from a computer science background with a spattering of software engineering, so I naturally think in terms of techniques like "pair programming", code reviews and dedicated testing time.  It's possible that you can eliminate this kind of error from the web site with good intentions, but — depending on the quality you want to achieve — it might require process changes at a structural level.
 
 For digita media, like Hoopla, libraries don't really attempt any documentation, just linking to the product's web site and help.  That's unfortunate, in my opinion.
 
@@ -137,7 +137,7 @@ I don't want to beat on the Hoopla documentation; there's not a lot of point, bu
 
 Libraries can wish that Hoopla had better documentation — or they can start writing it themselves.
 
-It's no different with searching the catalog.  As far as I can see, there's no documentation on searching the FCPL catalog anywhere, other than a couple of bullet points on the advanced search page.
+It's no different with searching the catalog.  As far as I can see, there's no documentation anywhere on searching the FCPL catalog, other than a couple of bullet points on the advanced search page.
 
 I discovered, with a little luck followed by a little experimentation, that the FCPL OPAC has a whole undocumented query language which you can use in the search box.  For example, you can type:
 ```
@@ -312,7 +312,7 @@ The catalog is not something you solve or perfect, but the subject of dialog bet
 Looking back to my mind map, there are three goals in enhancing the catalog:
 * increasing catalog quality for better search results
 * enhancing the catalog to better support library programming
-* emhancing the catalog to better support the community
+* enhancing the catalog to better support the community
 
 One way or another, errors and omissions in the catalog mean that patrons will see incorrect results from a search.
 
@@ -332,7 +332,7 @@ I'm interested in three different, separate standards for catalog quality:
 
 #### Is this a big problem?
 
-Well, that's a good place to start!  How many of your catalog records have errors?  If you wanted to know what percentage of your patrons were taller than 6', you take a random sample and measure them.  It's the same with catalog records.  You need to take a random sample of, say, 100 records and check them.
+Well, that's a good place to start!  How many of your catalog records have errors?  If you wanted to know what percentage of your patrons were taller than 6', you'd take a random sample and measure them.  It's the same with catalog records.  You need to take a random sample of, say, 100 records and check them.
 
 I've done this once [ibid].  The most common "error" was missing series information, which I put in quotes since it's not clear that series information — however useful it is for patrons — is required by any cataloging standard.
 
@@ -366,7 +366,7 @@ And now this:
 
 This is disastrous!  Overdrive have invented their own subject heading, "LGBTQIA+ (Fiction)"; there are 338 items (ebooks and audiobooks) that use this heading.  First, these items will be invisible to a search using the "official" subject headings.  Second, if you're looking at one of these items, you'll see this subject heading and can click on it, but what will be returned will be these 338 ebooks and audiobooks.  You might possibly conclude that FCPL has no physical books of LGBTQIA+ Fiction at all.
 
-To be completely clear, there's nothing wrong with subject headings from a thesaurus other than LCSH.  It's not even so bad that Overdrive has made up their own code for the $2 subfield, although it's technically incorrect [7].  The problem is that the "LGBTQIA+ (Fiction)" subject heading is only included in some of the items it applies to, with the result that search results will be incomplete.
+To be completely clear, there's nothing wrong with subject headings from a thesaurus other than LCSH.  It's not even so bad that Overdrive has made up their own code for the $2 subfield, although it's technically incorrect [7].  The problem is that the invented "LGBTQIA+ (Fiction)" subject heading is only included in some of the items it applies to, with the result that search results will be incomplete.
 
 #### Tagging - 2
 
@@ -378,7 +378,7 @@ In the abstract to "Transcending Library Catalogs" [8], Adler says:
 
 Adler contradicts herself in the space of three sentences, going from "inhibit findability" to "enhance ... retrieval".  But she's not wrong.
 
-In "Queering the Catalog", Drabinski locates the work to be done in addressing bias in the catalog at the interaction between the librarian and the patron [C]:
+In "Queering the Catalog", Drabinski locates the work to be done in addressing bias in the catalog at the interaction between the librarian and the patron [4]:
 
 >"Defining the problem of biased classification and cataloging as queer and analytic shifts the burden of engaging and struggling with that bias from catalogers to reference and instruction librarians working with patrons at the desk or in the classroom."
 
@@ -488,9 +488,9 @@ Fobazi Ettarh & Chris Vidas (2022): “The Future of Libraries:” Vocational Aw
 
 [3]  Hendren, Sarah, *What Can a Body Do?: How We Meet the Built World*, Riverhead Books, NY, 2020.  http://www.worldcat.org/oclc/1255977027
 
-[4]  Drabinski, Emily. "Queering the catalog: Queer theory and the politics of correction." The Library Quarterly 83.2 (2013): 94-111.  https://doi.org/10.1086/669547
+[4]  Drabinski, Emily. *Queering the catalog: Queer theory and the politics of correction*. The Library Quarterly 83.2 (2013): 94-111.  https://doi.org/10.1086/669547
 
-[5] Beall, Jeffrey, 10 Ways to Improve Data Quality, American Libraries, Vol. 36, No. 3 (Mar., 2005), pp. 36-37
+[5] Beall, Jeffrey, *10 Ways to Improve Data Quality*, American Libraries, Vol. 36, No. 3 (Mar., 2005), pp. 36-37
 
 Here's the tenth entry:
 
@@ -503,7 +503,7 @@ Technicalities, V41, N1, January/February 2021.  A PDF copy is [online here](htt
 
 [7]  Thanks to [Ann Ryan](https://www.facebook.com/ann.ryan.35513/) for pointing out on Facebook that the $5 subfield which is included in the 655 field is not included in the 650 field.  If Overdrive had an LoC organization code it could, With a second indicator of 4 and its organization code in the $5 subfield, "legally" put anything it likes in a 655 field — but not in a 650 field.
 
-[8]  Adler, M. (2009). Transcending Library catalogs: A comparative Study of controlled terms in Library of Congress Subject Headings and user-generated tags in LibraryThing for Transgender books. Journal of Web Librarianship, 3(4), 309–331. https://doi.org/10.1080/19322900903341099
+[8]  Adler, M. (2009). *Transcending Library catalogs: A comparative Study of controlled terms in Library of Congress Subject Headings and user-generated tags in LibraryThing for Transgender books*. Journal of Web Librarianship, 3(4), 309–331. https://doi.org/10.1080/19322900903341099
 
 [9]  Frick, Rachel L., and Merrilee Proffitt. 2022. *Reimagine Descriptive Workflows: A Community-informed Agenda for Reparative and Inclusive Descriptive Practice*. Dublin, OH: OCLC Research.  https://doi.org/10.25333/wd4b-bs51
 
