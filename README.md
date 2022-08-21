@@ -30,6 +30,17 @@ My initial reaction to the deployment of a BiblioCommons OPAC at the Las Vegas L
 
 The letter I would send to an imaginary new library director.
 
+#### [Book review of Polger's *Library Signage and Wayfinding Design*](https://github.com/lagbolt/library/blob/main/Polgerbookreview.md)
+
+Rather than a book review, this is my thoughts on signage and wayfinding in reaction to Polger's book.
+
+#### [Technical Services:  The Next Three Years](https://github.com/lagbolt/library/blob/main/TechServices.md)
+
+This is my input to:
+
+   * The Frederick County Public Libraries (FCPL) 2023-2025 Three Year Plan, and
+   * An effort in an unnamed Virginia public library to "update and reinvigorate Technical Services"
+
 ## Conference Presentations
 
 #### [Filling in missing series information](https://github.com/lagbolt/library/blob/main/Filling%20in%20missing%20series%20information.pptx)
