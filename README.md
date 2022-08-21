@@ -32,7 +32,7 @@ The letter I would send to an imaginary new library director.
 
 #### [Book review of Polger's *Library Signage and Wayfinding Design*](https://github.com/lagbolt/library/blob/main/Polgerbookreview.md)
 
-Rather than a book review, this is my thoughts on signage and wayfinding in reaction to Polger's book.
+Rather than a book review, these are my thoughts on signage and wayfinding in reaction to Polger's book.
 
 #### [Technical Services:  The Next Three Years](https://github.com/lagbolt/library/blob/main/TechServices.md)
 
