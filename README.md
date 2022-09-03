@@ -41,6 +41,10 @@ This is my input to:
    * The Frederick County Public Libraries (FCPL) 2023-2025 Three Year Plan, and
    * An effort in an unnamed Virginia public library to "update and reinvigorate Technical Services"
 
+#### [Guidelines for a Patron-centered OPAC](https://github.com/lagbolt/library/blob/main/patron-centered-opac.md)
+
+A laundry list of OPAC features that are useful to patrons, prefaced with some motivation for the features mentioned.  This *might* be useful in preparing an RFP for an ILS or discovery layer.
+
 ## Conference Presentations
 
 #### [Filling in missing series information](https://github.com/lagbolt/library/blob/main/Filling%20in%20missing%20series%20information.pptx)
