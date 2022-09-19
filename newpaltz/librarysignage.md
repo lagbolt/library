@@ -6,7 +6,7 @@ I also include some context on why library signage is important and references t
 
 License:   [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-This note can be found online at 
+This note can be found online at https://github.com/lagbolt/library/blob/main/newpaltz/librarysignage.md
 
 Graeme Williams  
 Las Vegas, NV  
