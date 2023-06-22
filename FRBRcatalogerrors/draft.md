@@ -43,7 +43,7 @@ So, when we look at the catalog page for a particular item, we might see series 
 
 #### Catalog Enhancements
 
-As I mentioned above, all four discovery layers pull in data from external sources.  In fact, if you click on ﻿"See all related resources" in Vega, the browser collects data from all of the following domains in addition to the catalog:
+As I mentioned above, all four discovery layers pull in data from external sources.  In fact, if you click on "See all related resources" in Vega, the browser collects data from all of the following domains in addition to the catalog:
 
     iivega.com
     syndetics.com
@@ -62,13 +62,13 @@ including multiple subdomains such as unbound.syndetics.com, as well as fonts fr
 
 It's not easy to see how FRBR compliance can be extracted from MARC records.  Thus, with correct MARC records, a library can end up with this:
 
-<LVCCLD many untamed shrews.png>
+![Alt text](<images/LVCCLD many untamed shrews.png>)
 
 which is not helping the (public library) patron one bit.  Even someone who cares about the exact text — a student or actor, for example — is forced to click through to each item in turn to find the particular edition they're looking for.
 
 The problem is that there's a difference between the bibliographic model that the catalog is based on, and the model that would best serve the (public library) patron.  Patrons have an internalized model that maps roughly to W-E-M-I, but with different boundaries.  For patrons for example, different editions of the same work in the same format probably count as the same manifestation.
 
-FRBR-ized catalogs don't follow either model.  They have a three-level model (like BIBFRAME!) that usually groups "books" (books, large print, ebooks and audiobooks) into a "work" but treats movies separately.  That's not unreasonable from a patron perspective, but as we saw, it lacks a patron-friendly way of handling multiple editions of the same book.
+FRBR-ized catalogs don't follow either model.  Their model is closest to E-M-I.  All kinds of "books" (books, large print, ebooks and audiobooks) are grouped into an "expression" but movies are treated separately.  That's not unreasonable from a patron perspective.  Unfortunately, the catalogs refer to the groups as "works", which I don't think is strictly correct, but since it's common usage, I'll follow it.
 
 #### Series Information
 
@@ -78,13 +78,14 @@ CARL•Connect is unlike the other discovery layers in relying entirely on MARC 
 
 For the three other catalogs, the display of series information depends on *how* information on a "work" is generated.  We can see from this screenshot:
 
-<Montgomery County Series info from multiple formats.png>
+![Alt text](<images/Montgomery County Series info from multiple formats.png>)
+
 
 that Aspen Discover is rolling up series information from all the item MARC records.  There are a few different problems that are interacting to produce this odd-looking result.  The MARC record makes no distinction between series information about the work, and series information from the publisher (like "Audible Studios on BrillianceAudio").  Similarly, there is no distinction between information about the work and information about the expression.  With no help in the MARC records to determine which is which, the discovery layer has no alternative to using everything.
 
 The other problem is that series information can be slightly different in the records for different formats.  That's how we get this:
 
-<Montgomery County multiple series names on grouped work.png>
+![Alt text](<images/Montgomery County multiple series names on grouped work.png>)
 
 This screenshot is the first item returned when doing a series search for "Sophie Kimball mysteries".  Above the first item you can see the result of rolling up different spellings of the author's name from all the results.
 
@@ -98,7 +99,8 @@ As I mentioned above, some systems get series information from Novelist and some
 
 Unfortunately, series information from Novelist is not very accurate.  Here's the Lock In series by John Scalzi:
 
-<Montgomery County unreliable Novelist data + no indication of not held.png>
+![Alt text](<images/Montgomery County unreliable Novelist data + no indication of not held.png>)
+
 
 The series order is wrong ("Unlocked" is a prequel and should be first) and there's no indication whether the library actually holds the items or not.
 
@@ -106,7 +108,6 @@ Aspen Discovery is complicated, since it gets series data from both Novelist and
 
 There's also the question of what to do with a series that only contains one item.  Here is BiblioCommons trying to show series information for Notorious Sorcerer by Davinia Evans:
 
-<LVCCLD Notorious Sorcerer - series info.png>
+![Alt text](<images/LVCCLD Notorious Sorcerer - series info.png>)
 
 Technically, that's correct:  there aren't any other titles in the series.
-
