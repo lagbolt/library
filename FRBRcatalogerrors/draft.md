@@ -1,6 +1,6 @@
 ## Catalog errors in modern discovery layers
 
-I'm interested in how patrons interact with the public library OPAC.  In this note, I'm going to focus on catalog data, specifically how the extra functionality of modern discovery layers magnifies the effect of poor catalog data. 
+The most recent discovery layers can roll individual items in different formats into a single title entity.  That is, the discovery layer has been "FRBR-ized".  We'll see that this particular feature can result in some problems, particularly how it magnifies the effect of poor catalog data. 
 
 I'll discuss four discovery layers:
   - Aspen Discovery
@@ -8,18 +8,46 @@ I'll discuss four discovery layers:
   - BiblioCommons
   - CARL•Connect Discovery
 
-I'll start off with an introduction discussing some general concepts before I introduce examples from each of the systems.
+The four systems are not all alike.  Vega Discover is the most different, heavy on thumbnails (e.g., cover images) in addition to text, and displaying subject headings as "topics" and "concepts".  CARL•Connect Discovery is the most conventional, based solidly on MARC records.
 
 ### Introduction
 
-The four systems are not all alike.  Vega Discover is the most different, heavy on thumbnails (e.g., cover images) rather than text, and displaying subject headings as "topics" and "concepts".  CARL•Connect Discovery is the most conventional, based solidly on MARC records.  What these four systems have in common is that they can roll individual items in different formats into a single title entity.  That is, the catalog has been "FRBR-ized".  We'll see that this particular feature can result in some problems.
+#### How are items grouped?
 
-All four discovery layers also pull in "catalog enhancements" from external sources:
-          BiblioCommons -- Novelist
-          Aspen -- Novelist and Syndetics Unbound
-          Vega -- Syndetics Unbound
-          CARL•Connect -- Syndetics Unbound
-I'll discuss this further below.
+The FRBR W-E-M-I bibliographic model is just one of three models that help to understand what each discovery layer does.
+
+Each discovery layer also has a model that determines which items are grouped and which are separated.
+
+...
+
+Thus, even with correct MARC records, a library can end up with this (from BiblioCommons):
+
+![Alt text](<images/LVCCLD many untamed shrews.png>)
+
+which is not helping the (public library) patron one bit.  Even someone who cares about the exact text — a student or actor, for example — is forced to click through to each item in turn to find the particular edition they're looking for.
+
+The problem is that there's a difference between the bibliographic model that the catalog is based on, and the model that would best serve the (public library) patron.  Patrons have an internalized model that maps roughly to W-E-M-I, but with different boundaries.  For patrons for example, different editions of the same work in the same format probably count as the same manifestation.
+
+FRBR-ized catalogs don't follow either model.  Their model is closest to E-M-I.  All kinds of "books" (books, large print, ebooks and audiobooks) are grouped into an "expression" but movies are treated separately.  That's not unreasonable from a patron perspective.  Unfortunately, the catalogs refer to the groups as "works", which I don't think is strictly correct, but since it's common usage, I'll follow it.
+
+
+
+#### Catalog Enhancements
+
+All four discovery layers  pull in "catalog enhancements" from external sources:
+
+          BiblioCommons -- Novelist 
+          Aspen -- Novelist and Syndetics Unbound 
+          Vega -- Syndetics Unbound 
+          CARL•Connect -- Syndetics Unbound 
+
+For example, if you click on "See all related resources" in Vega, the browser collects data from each of the following domains in addition to the catalog:
+
+    iivega.com
+    syndetics.com
+    librarything.com
+
+including multiple subdomains such as unbound.syndetics.com, as well as fonts from google and tracking from pendo.io.
 
 #### Clickable fields
 
@@ -29,9 +57,15 @@ When a patron clicks on this clickable field, we don't actually know whether the
 
 In some systems, the link might perform an author search for "Wilson, Robert", in some an author search for "Wilson, Robert, 1957-".  In **some** newer systems, the link might link to the specific author who wrote the book we are looking at.  The link might look something like:
 
-     mylib.myils.com/author/750347935782
+         mylib.myils.com/author/750347935782
 
-where the number is an identifier, internal to the system, for a particular author.
+where the number is an identifier, internal to the system, for a particular author.  In this last case, the system has the opportunity to format the web page differently than the usual search results page.
+
+Any place a system displays a thumbnail, that can also be clickable in the same way.
+
+
+
+ 
 
 #### Series information
 
@@ -39,36 +73,11 @@ Series information can come from the MARC record but also from a "catalog enhanc
 
 Series information can be included in the MARC record in the MARC 490 field (transcribed) and the MARC 80X-83X fields (controlled).  Because one field is transcribed and the other controlled, it's possible for the MARC record to include two different series names.
 
-So, when we look at the catalog page for a particular item, we might see series information from multiple places in multiple MARC records as well as multiple external data sources.
-
-#### Catalog Enhancements
-
-As I mentioned above, all four discovery layers pull in data from external sources.  In fact, if you click on "See all related resources" in Vega, the browser collects data from all of the following domains in addition to the catalog:
-
-    iivega.com
-    syndetics.com
-    librarything.com
-
-including multiple subdomains such as unbound.syndetics.com, as well as fonts from google and tracking from pendo.io.
-
-
-
+So, when we look at the catalog page for a grouped work, we might see series information from multiple places in multiple MARC records as well as multiple external data sources.
 
 
 
 ## Examples =============
-
-### Failure to FRBR
-
-It's not easy to see how FRBR compliance can be extracted from MARC records.  Thus, with correct MARC records, a library can end up with this:
-
-![Alt text](<images/LVCCLD many untamed shrews.png>)
-
-which is not helping the (public library) patron one bit.  Even someone who cares about the exact text — a student or actor, for example — is forced to click through to each item in turn to find the particular edition they're looking for.
-
-The problem is that there's a difference between the bibliographic model that the catalog is based on, and the model that would best serve the (public library) patron.  Patrons have an internalized model that maps roughly to W-E-M-I, but with different boundaries.  For patrons for example, different editions of the same work in the same format probably count as the same manifestation.
-
-FRBR-ized catalogs don't follow either model.  Their model is closest to E-M-I.  All kinds of "books" (books, large print, ebooks and audiobooks) are grouped into an "expression" but movies are treated separately.  That's not unreasonable from a patron perspective.  Unfortunately, the catalogs refer to the groups as "works", which I don't think is strictly correct, but since it's common usage, I'll follow it.
 
 #### Series Information
 
