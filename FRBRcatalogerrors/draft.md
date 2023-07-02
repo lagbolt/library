@@ -22,9 +22,11 @@ Patrons have an internalized model that maps roughly to W-E-M-I, but with differ
 
 Which is how a discovery layer can end up with this (from BiblioCommons):
 
-![Alt text](<images/LVCCLD many untamed shrews.png>)
+<img src="images/LVCCLD many untamed shrews.png" alt="" height="300">
 
-which is not helping the (public library) patron one bit.  Even someone who cares about the exact text — a student or actor, for example — is forced to click through to each item in turn to find the particular edition they're looking for.
+[Note:  You can see any image fullsize by clicking on it.]
+
+Thisis not helping the (public library) patron one bit.  Even someone who cares about the exact text — a student or actor, for example — is forced to click through to each item in turn to find the particular edition they're looking for.
 
 Vega does better with this situation:
 
@@ -155,10 +157,8 @@ Which is not to say that other systems do this any better.  Las Vegas Clark Coun
 
 You can make the argument that the catalog data from these several examples would be just as confusing in any discovery layer, but I don't think that's true.  For example, in CARL•Connect the author information in the 245 $c is included in an author search, but is not displayed.  And details matter.  Typically, the controlled information from the 100 field will be at the top of the page, and clickable, while other data is displayed further down the page.
 
-My point is not that Vega is worse than other discovery layers, but that because it shows more it relies more heavily on metadata being correct and complete.  What Vega is doing *in practice* — displaying undifferentiated thumbnails — increases the likelihood of confusing patrons.
+My point is not that Vega is worse than other discovery layers, but that because it shows more it relies more heavily on metadata being correct and complete.  What Vega is doing *in practice* — displaying undifferentiated thumbnails generated from not-good-enough metadata — increases the likelihood of confusing patrons.
 
-One final appalling example of the need for accurate metadata.
-
-#### Subject Headings
+### Conclusion
 
 
