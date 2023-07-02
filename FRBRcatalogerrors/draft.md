@@ -24,13 +24,13 @@ Which is how a discovery layer can end up with this (from BiblioCommons):
 
 <img src="images/LVCCLD many untamed shrews.png" alt="" height="300">
 
-[Note:  You can see any image fullsize by clicking on it.]
+[Note:  If you're reading this on GitHub, you can see any image fullsize by clicking on it.]
 
 Thisis not helping the (public library) patron one bit.  Even someone who cares about the exact text — a student or actor, for example — is forced to click through to each item in turn to find the particular edition they're looking for.
 
 Vega does better with this situation:
 
-![Alt text](<images/Washington County Shrew with editions link.png>)
+<img src="images/Washington County Shrew with editions link.png" alt="" height="300">
 
 where information on individual editions is hidden behind a clickable link — much closer to a patron's internal bibliographic model.
 
@@ -83,24 +83,24 @@ CARL•Connect is unlike the other discovery layers in relying entirely on MARC 
 
 For the three other catalogs, the display of series information depends on *how* information on a "work" is generated.  We can see from this screenshot:
 
-![Alt text](<images/Montgomery County Series info from multiple formats.png>)
+<img src="images/Montgomery County Series info from multiple formats.png" alt="" height="300">
 
 
 that Aspen Discover is rolling up series information from all the item MARC records.  There are a few different problems that are interacting to produce this odd-looking result.  The MARC record makes no distinction between series information about the work, and series information from the publisher (like "Audible Studios on BrillianceAudio").  Similarly, there is no distinction between information about the work and information about the expression.  With no help in the MARC records to determine which is which, the discovery layer has no alternative to using everything.
 
 You can see the same issue in Vega:
 
-![Alt text](<images/Washington County audio series info on book.png>)
+<img src="images/Washington County audio series info on book.png" alt="" height="300">
 
 The other problem is that series information can be slightly different in the records for different formats.  That's how we get this (from Aspen Discovery):
 
-![Alt text](<images/Montgomery County multiple series names on grouped work.png>)
+<img src="images/Montgomery County multiple series names on grouped work.png>)" alt="" height="300">
 
 This screenshot is the first item returned when doing a series search for "Sophie Kimball mysteries".  Above the first item you can see the result of rolling up different spellings of the author's name from all the results.
 
 On the other hand, Vega is doing something clever with its search algorithm.  Here's a search on "The Emma Djan Investigations":
 
-![Alt text](<images/Ferguson County series search with different series names.png>)
+<img src="images/Ferguson County series search with different series names.png" alt="" height="300">
 
 The search has correctly returned all three books in the series, although each book has a different series name, particularly the last book returned, where the series is "The Emma Djan Mysteries".
 
@@ -110,7 +110,7 @@ As I mentioned above, some systems get series information from Novelist and some
 
 Unfortunately, series information from Novelist is not very accurate.  Here's the Lock In series by John Scalzi:
 
-![Alt text](<images/Montgomery County unreliable Novelist data + no indication of not held.png>)
+<img src="images/Montgomery County unreliable Novelist data + no indication of not held.png" alt="" height="300">
 
 
 The series order is wrong ("Unlocked" is a prequel and should be first) and there's no indication whether the library actually holds the items or not.  (Other systems grey out series members that the library doesn't hold.)
@@ -119,7 +119,7 @@ Aspen Discovery is complicated, since it gets series data from both Novelist and
 
 There's also the question of what to do with a series that only contains one item.  Here is BiblioCommons trying to show series information for Notorious Sorcerer by Davinia Evans:
 
-![Alt text](<images/LVCCLD Notorious Sorcerer - series info.png>)
+<img src="images/LVCCLD Notorious Sorcerer - series info.png" alt="" height="300">
 
 Technically, that's correct:  there aren't any other titles in the series.  But I'm not sure that's the best way of communicating that fact.
 
@@ -133,13 +133,13 @@ Contributors can be specific to a particular format, such as the narrator of an 
 
 Here's an excerpt from the "work" page for "The Secret Life of Addie Larue" from the MidPointe Library System (using Vega), demonstrating all of the above:
 
-![Alt text](<images/MidPointe excess contributors.png>)
+<img src="images/MidPointe excess contributors.png" alt="" height="300">
 
 I can't tell where this data is coming from (Vega doesn't expose MARC data on the patron side of the system) but you can see from the resource counts underneath each image that the duplicate identities have different data in the catalog.
 
 We saw above that duplicate series names can be generated by rolling up data from several item records (i.e., items in different formats for the same title).   The same thing can happen with author names.  Here's an excerpt from the work page for "Naked in Death" by J.D. Robb, from Montgomery County Public Libraries (using Apen Discovery):
 
-![Alt text](<images/Montgomery County Naked in Death duplicate authors.png>)
+<img src="images/Montgomery County Naked in Death duplicate authors.png" alt="" height="300">
 
 The two author names differ by just one space.  Thanks to Aspen's excellent documentation, we can tell what happened.  Apen, like other systems, groups items into a single work by author and title.  Before trying to match two author names or titles, the names or title are normalized by stripping out punctuation, like spaces and commas.  Thus, to the grouping algorithm, the slightly different author names were identical, and were combined into the one work.  When displaying the work, not wanting to lose information, both variants were displayed.
 
@@ -149,7 +149,7 @@ Pseudonyms can be expressed in MARC authority records, but not necessarily coded
 
 Here's an example of how pseudonyms work in Vega, from The Ferguson Library in Connecticut.  JD Robb is a pseudonym for Nora Roberts.  Here's an excerpt from the work page for Robb's novel, "Midnight in Death":
 
-![Alt text](<images/Ferguson Library Midnight in Death pseudonym.png>)
+<img src="images/Ferguson Library Midnight in Death pseudonym.png" alt="" height="300">
 
 There's no argument that Nora Roberts is a "contributor", but the patron is left to guess why the same woman is appearing twice in the list of contributors.  Again, this isn't the best way of communicating this information.
 
@@ -160,5 +160,4 @@ You can make the argument that the catalog data from these several examples woul
 My point is not that Vega is worse than other discovery layers, but that because it shows more it relies more heavily on metadata being correct and complete.  What Vega is doing *in practice* — displaying undifferentiated thumbnails generated from not-good-enough metadata — increases the likelihood of confusing patrons.
 
 ### Conclusion
-
 
