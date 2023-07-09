@@ -100,7 +100,7 @@ This screenshot is the first item returned when doing a series search for "Sophi
 
 On the other hand, Vega is doing something clever with its search algorithm.  Here's a search on "The Emma Djan Investigations":
 
-<img src="images\Ferguson County series search with different series names.png" alt="" height="400">
+<img src="images\Ferguson County series search with different series names.png" alt="" height="500">
 
 The search has correctly returned all three books in the series, although each book has a different series name, particularly the last book returned, where the series is "The Emma Djan Mysteries".
 
