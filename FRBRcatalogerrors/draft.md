@@ -22,7 +22,7 @@ Patrons have an internalized model that maps roughly to W-E-M-I, but with differ
 
 Which is how a discovery layer can end up with this (from BiblioCore):
 
-<img src="images\LVCCLD many untamed shrews.png" alt="" height="300">
+<img src="images\LVCCLD many untamed shrews.png" alt="" height="500">
 
 [Note:  If you're reading this on GitHub, you can see any image fullsize by clicking on it.]
 
@@ -83,7 +83,7 @@ CARL•Connect is unlike the other discovery layers in relying entirely on MARC 
 
 For the three other catalogs, the display of series information depends on *how* information on a "work" is generated.  We can see from this screenshot:
 
-<img src="images\Montgomery County Series info from multiple formats.png" alt="" height="300">
+<img src="images\Montgomery County Series info from multiple formats.png" alt="" height="400">
 
 
 that Aspen Discover is rolling up series information from all the item MARC records.  There are a few different problems that are interacting to produce this odd-looking result.  The MARC record makes no distinction between series information about the work, and series information from the publisher (like "Audible Studios on BrillianceAudio").  Similarly, there is no distinction between information about the work and information about the expression.  With no help in the MARC records to determine which is which, the discovery layer has no alternative to using everything.
@@ -94,13 +94,13 @@ You can see the same issue in Vega:
 
 The other problem is that series information can be slightly different in the records for different formats.  That's how we get this (from Aspen Discovery):
 
-<img src="images\Montgomery County multiple series names on grouped work.png" alt="" height="300">
+<img src="images\Montgomery County Multiple series names on grouped work.png" alt="" height="400">
 
 This screenshot is the first item returned when doing a series search for "Sophie Kimball mysteries".  Above the first item you can see the result of rolling up different spellings of the author's name from all the results.
 
 On the other hand, Vega is doing something clever with its search algorithm.  Here's a search on "The Emma Djan Investigations":
 
-<img src="images\Ferguson County series search with different series names.png" alt="" height="300">
+<img src="images\Ferguson County series search with different series names.png" alt="" height="400">
 
 The search has correctly returned all three books in the series, although each book has a different series name, particularly the last book returned, where the series is "The Emma Djan Mysteries".
 
@@ -133,7 +133,7 @@ Contributors can be specific to a particular format, such as the narrator of an 
 
 Here's an excerpt from the "work" page for "The Secret Life of Addie Larue" from the MidPointe Library System (using Vega), demonstrating all of the above:
 
-<img src="images\MidPointe excess contributors.png" alt="" height="300">
+<img src="images\MidPointe excess contributors.png" alt="" height="400">
 
 I can't tell where this data is coming from (Vega doesn't expose MARC data on the patron side of the system) but you can see from the resource counts underneath each image that the duplicate identities have different data in the catalog.
 
