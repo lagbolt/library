@@ -3,10 +3,10 @@
 The most recent discovery layers can roll individual items in different formats into a single title entity.  That is, the discovery layer has been "FRBR-ized".  We'll see that this and other features can result in some problems, particularly how it magnifies the effect of poor catalog data. 
 
 I'll discuss four discovery layers:
-  - Aspen Discovery
-  - Vega Discover
-  - BiblioCommons
-  - CARL•Connect Discovery
+  - Aspen Discovery (at Montgomery County Public Libraries, Maryland)
+  - Vega Discover (at Washington County Free Library, Maryland, The Ferguson Library, Connecticut and MidPointe Library System, Ohio)
+  - BiblioCore (at Las Vegas Clark County Library District, Nevada)
+  - CARL•Connect Discovery (at Frederick County Public Libraries, Maryland)
 
 The four systems are not all alike.  Vega Discover is the most different, heavy on thumbnails (e.g., cover images) in addition to text, and displaying subject headings as "topics" and "concepts".  CARL•Connect Discovery is the most conventional, based solidly on MARC records.
 
@@ -20,7 +20,7 @@ Each discovery layer also has a model that determines which items are grouped an
 
 Patrons have an internalized model that maps roughly to W-E-M-I, but with different boundaries.  For patrons for example, different editions of the same work in the same format probably count as "the same thing", although in most (all?) library systems different editions would be different bibliographic records.
 
-Which is how a discovery layer can end up with this (from BiblioCommons):
+Which is how a discovery layer can end up with this (from BiblioCore):
 
 <img src="images\LVCCLD many untamed shrews.png" alt="" height="300">
 
@@ -42,9 +42,9 @@ When a patron clicks on this clickable field, we don't actually know whether the
 
 In some systems, the link might perform an author search for "Wilson, Robert", in some an author search for "Wilson, Robert, 1957-".  In **some** newer systems, the link might link to the specific author who wrote the book we are looking at.  The link might look something like:
 
-         mylib.myils.com/author/750347935782
+         mylib.thevendor.com/author/750347935782
 
-where the number is an identifier, internal to the system, for a particular author.  In this last case, the system has the opportunity to format the web page differently than the usual search results page.
+where the number is an identifier, internal to the system, for a particular author.  In this case, the system has the opportunity to format the web page differently than the usual search results page.  This is how Vega produces custom "author pages" (and "concept pages" in place of a subject heading search).
 
 Any place a system displays a thumbnail, that can also be clickable in the same way.
 
@@ -52,7 +52,7 @@ Any place a system displays a thumbnail, that can also be clickable in the same 
 
 All four discovery layers  pull in "catalog enhancements" from external sources:
 
-          BiblioCommons -- Novelist 
+          BiblioCore -- Novelist [1]
           Aspen -- Novelist and Syndetics Unbound 
           Vega -- Syndetics Unbound 
           CARL•Connect -- Syndetics Unbound 
@@ -117,7 +117,7 @@ The series order is wrong ("Unlocked" is a prequel and should be first) and ther
 
 Aspen Discovery is complicated, since it gets series data from both Novelist and Syndetics Unbound.  For the Lock In series, it displays incorrect information from Novelist, and correct information from Syndetics Unbound.  Unfortunately, the former is always displayed, and the latter is a click away.
 
-There's also the question of what to do with a series that only contains one item.  Here is BiblioCommons trying to show series information for Notorious Sorcerer by Davinia Evans:
+There's also the question of what to do with a series that only contains one item.  Here is BiblioCore trying to show series information for Notorious Sorcerer by Davinia Evans:
 
 <img src="images\LVCCLD Notorious Sorcerer - series info.png" alt="" height="300">
 
@@ -153,11 +153,22 @@ Here's an example of how pseudonyms work in Vega, from The Ferguson Library in C
 
 There's no argument that Nora Roberts is a "contributor", but the patron is left to guess why the same woman is appearing twice in the list of contributors.  Again, this isn't the best way of communicating this information.
 
-Which is not to say that other systems do this any better.  Las Vegas Clark County Library District (BiblioCommons) has a poorly worded note; neither Frederick County Public Libraries (CARL•Connect) nor Montgomery County Public Libraries (Aspen) have any mention of Nora Roberts.
+Which is not to say that other systems do this any better.  Las Vegas Clark County Library District (BiblioCore) has a poorly worded note; neither Frederick County Public Libraries (CARL•Connect) nor Montgomery County Public Libraries (Aspen) have any mention of Nora Roberts.
 
-You can make the argument that the catalog data from these several examples would be just as confusing in any discovery layer, but I don't think that's true.  For example, in CARL•Connect the author information in the 245 $c is included in an author search, but is not displayed.  And details matter.  Typically, the controlled information from the 100 field will be at the top of the page, and clickable, while other data is displayed further down the page.
+You can make the argument that the catalog data from these several examples would be just as confusing in any discovery layer, but I don't think that's true.  For example, in CARL•Connect the author information in the 245 $c is included in an author search, but is not displayed.  And details of layout matter.  Typically, the controlled information from the 100 field will be at the top of the page, and clickable, while other data is displayed further down the page.
 
-My point is not that Vega is worse than other discovery layers, but that because it shows more it relies more heavily on metadata being correct and complete.  What Vega is doing *in practice* — displaying undifferentiated thumbnails generated from not-good-enough metadata — increases the likelihood of confusing patrons.
+My point is not that Vega is worse than other discovery layers. Rather, its features rely more heavily on metadata being correct and complete.  What Vega is doing *in practice* — displaying undifferentiated thumbnails generated from not-good-enough metadata — increases the likelihood of confusing patrons.
 
 ### Conclusion
+
+FRBR clearly benefits patrons because it can summarize different formats and availability in one place.  But if different formats have different bibliographic data, is it the responsibility of the cataloger to provide the data which will accommodate the choices made by the OPAC software, or the responsibility of the software to make sense of the data provided by the catalog?  Both!
+
+For example, RDA relator terms help to make sense of contributors, but only if the OPAC displays something other than an unsorted list.  Tracing a series will solve differences in a (transcribed) series name across formats and members of the series, but only if the OPAC handles 490 and 830 fields correctly *and* every item is traced.
+
+There is work to do both for catalogers and OPAC vendors.
+
+
+### Notes
+
+[1]  BiblioCore supports enhanced content from Syndetics Unbound, but I've never seen it in the wild.
 
