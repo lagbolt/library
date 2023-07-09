@@ -94,7 +94,7 @@ You can see the same issue in Vega:
 
 The other problem is that series information can be slightly different in the records for different formats.  That's how we get this (from Aspen Discovery):
 
-<img src="images\Montgomery County Multiple series names on grouped work.png" alt="" height="400">
+<img src="images\Montgomery County multiple series names on grouped work.png" alt="" height="400">
 
 This screenshot is the first item returned when doing a series search for "Sophie Kimball mysteries".  Above the first item you can see the result of rolling up different spellings of the author's name from all the results.
 
