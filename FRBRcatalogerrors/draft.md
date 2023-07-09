@@ -100,7 +100,7 @@ This screenshot is the first item returned when doing a series search for "Sophi
 
 On the other hand, Vega is doing something clever with its search algorithm.  Here's a search on "The Emma Djan Investigations":
 
-<img src="images\Ferguson County series search with different series names.png" alt="" height="500">
+<img src="images\Ferguson County series search with different series names.png" alt="" height="600">
 
 The search has correctly returned all three books in the series, although each book has a different series name, particularly the last book returned, where the series is "The Emma Djan Mysteries".
 
@@ -133,7 +133,7 @@ Contributors can be specific to a particular format, such as the narrator of an 
 
 Here's an excerpt from the "work" page for "The Secret Life of Addie Larue" from the MidPointe Library System (using Vega), demonstrating all of the above:
 
-<img src="images\MidPointe excess contributors.png" alt="" height="400">
+<img src="images\MidPointe excess contributors.png" alt="" height="500">
 
 I can't tell where this data is coming from (Vega doesn't expose MARC data on the patron side of the system) but you can see from the resource counts underneath each image that the duplicate identities have different data in the catalog.
 
