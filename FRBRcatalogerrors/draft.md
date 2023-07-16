@@ -8,7 +8,7 @@ I'll discuss four discovery layers:
   - BiblioCore (at Las Vegas Clark County Library District, Nevada)
   - CARL•Connect Discovery (at Frederick County Public Libraries, Maryland)
 
-The four systems are not all alike.  Vega Discover is the most different, heavy on thumbnails (e.g., cover images) in addition to text, and displaying subject headings as "topics" and "concepts".  CARL•Connect Discovery is the most conventional, based solidly on MARC records.
+The four systems are not all alike.  Vega Discover is the most different, heavy on thumbnails (e.g., cover images and author photos) in addition to text, and displaying subject headings as "topics" and "concepts".  CARL•Connect Discovery is the most conventional, based solidly on MARC records.
 
 ### Introduction
 
@@ -46,7 +46,7 @@ In some systems, the link might perform an author search for "Wilson, Robert", i
 
 where the number is an identifier, internal to the system, for a particular author.  In this case, the system has the opportunity to format the web page differently than the usual search results page.  This is how Vega produces custom "author pages" (and "concept pages" in place of a subject heading search).
 
-Any place a system displays a thumbnail, that can also be clickable in the same way.
+Any place a system displays a thumbnail image, that can also be clickable in the same way.
 
 #### Catalog Enhancements
 
@@ -65,6 +65,20 @@ For example, if you click on "See all related resources" in Vega, the browser co
 
 including multiple subdomains such as unbound.syndetics.com, as well as fonts from google and tracking from pendo.io.
 
+#### Displaying works vs items
+
+The different systems have different ways of displaying a grouped work on a "work page".
+
+BiblioCore and CARL•Connect are similar.  They display one item at a time, and you can switch from item to item using buttons (BiblioCore) or tabs (CARL•Connect).  For example, here's CARL•Connect displaying a work that includes both book and ebook formats:
+
+<img src="images/Frederick County work page accurate author from item.png" alt="" height="300">
+
+When CARL•Connect builds a "work" out of a set of bibliographic records, it simply selects one of the records (nominally the most reliable) to represent the work.  Thus, when the work is displayed, the information displayed (author, title, etc.) is from that record.  You can see in the screen shot above that the ebook has a garbled the name of the author but the primary author entry, taken from the book record, at the top of the screen is correct.
+
+Aspen Discovery, on the other hand, combines the information from the records of the multiple items that make up the work.  We'll see some problems with that approach in what follows.
+
+Vega Discover doesn't display any of the underlying data, such as MARC records, so I don't have any visibility into how it's building work pages.
+
 #### Series information
 
 Series information can come from the MARC record but also from a "catalog enhancement" vendor like Syndetics Unbound or Novelist.  In Aspen Discovery, the catalog includes information from *both* Syndetics Unbound and Novelist.
@@ -75,18 +89,24 @@ So, when we look at the catalog page for a grouped work, we might see series inf
 
 ### Examples
 
+#### Failing to group items into a work
+
+Each discovery layer promises to group items into a work, but that depends on consistency in titles and author names.  One way this can fail is when series information leaks into a subtitle:
+
+<img src="images/Frederick County series info in subtitle.png" alt="" height="300">
+
+This would cause problems in any catalog, of course, since searching on the second title (e.g., by clicking on it) would not return the first title, leaving the patron to conclude that the library did not have the title as a book.
+
+You'd have the same sort of problem if an author name was not properly controlled.
+
 #### Series Information
 
-FRBR-ized catalogs typically have two kinds of pages:  one for individual items, and one for the "work" as a whole.  On the item page, series information is obviously going to come directly from the MARC record, as it does on any catalog.  The work page, on the other hand, has the challenge of combining and selecting information from the multiple records of the different items that make up the work.
-
-CARL•Connect is unlike the other discovery layers in relying entirely on MARC item records.  When CARL•Connect builds a "work" out of a set of bibliographic records, it simply selects one of the records (nominally the most reliable) to represent the work.  Thus, when the work is displayed, the information displayed (author, title, etc.) is from that record.  CARL•Connect does not display series information on the work page.
-
-For the three other catalogs, the display of series information depends on *how* information on a "work" is generated.  We can see from this screenshot:
+As I explained above, Aspen Discover is rolling up information from all the item MARC records, which can produce odd-looking series information like this:
 
 <img src="images\Montgomery County Series info from multiple formats.png" alt="" height="400">
 
 
-that Aspen Discover is rolling up series information from all the item MARC records.  There are a few different problems that are interacting to produce this odd-looking result.  The MARC record makes no distinction between series information about the work, and series information from the publisher (like "Audible Studios on BrillianceAudio").  Similarly, there is no distinction between information about the work and information about the expression.  With no help in the MARC records to determine which is which, the discovery layer has no alternative to using everything.
+There are a few different problems that are interacting to produce this result.  The MARC record makes no distinction between series information about the work, and series information from the publisher (like "Audible Studios on BrillianceAudio").  Similarly, there is no distinction between information about the work and information about the expression.  With no help in the MARC records to determine which is which, the discovery layer has no alternative to using everything.
 
 You can see the same issue in Vega:
 
