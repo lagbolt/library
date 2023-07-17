@@ -38,8 +38,6 @@ where information on individual editions is hidden behind a clickable link — m
 
 Suppose we're looking at the item page for a book by Robert Wilson.  There are several Robert Wilsons (which is why I'm using him as an example).  Let's assume we're looking at a book by "Wilson, Robert, 1957-".  The page includes a clickable field for "Robert Wilson".  But what does the link do?  What do we *want* the link to do?
 
-When a patron clicks on this clickable field, we don't actually know whether they're looking for books by *this* Robert Wilson or by *any* Robert Wilson, but this sort of UI/UX question is way out of scope for this note.  We'll (always) assume the narrower interpretation.
-
 In some systems, the link might perform an author search for "Wilson, Robert", in some an author search for "Wilson, Robert, 1957-".  In **some** newer systems, the link might link to the specific author who wrote the book we are looking at.  The link might look something like:
 
          mylib.thevendor.com/author/750347935782
