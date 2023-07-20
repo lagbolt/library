@@ -1,4 +1,4 @@
-## Catalog errors in modern discovery layers
+## Catalog errors in FRBR-ized discovery layers
 
 The most recent discovery layers can roll individual items in different formats into a single title entity.  That is, the discovery layer has been "FRBR-ized".  We'll see that this and other features can result in some problems, particularly how it magnifies the effect of poor catalog data. 
 
@@ -71,7 +71,7 @@ BiblioCore and CARL•Connect are similar.  They display one item at a time, and
 
 <img src="images/Frederick County work page accurate author from item.png" alt="" height="300">
 
-When CARL•Connect builds a "work" out of a set of bibliographic records, it simply selects one of the records (nominally the most reliable) to represent the work.  Thus, when the work is displayed, the information displayed (author, title, etc.) is from that record.  You can see in the screen shot above that the ebook has a garbled the name of the author but the primary author entry, taken from the book record, at the top of the screen is correct.
+When CARL•Connect builds a "work" out of a set of bibliographic records, it simply selects one of the records (nominally the most reliable) to represent the work.  Thus, when the work is displayed, the information displayed (author, title, etc.) is from that record.  You can see in the screen shot above that the ebook has a garbled the name of the author but the primary author entry at the top of the screen is correct, since it's taken from the book record.
 
 Aspen Discovery, on the other hand, combines the information from the records of the multiple items that make up the work.  We'll see some problems with that approach in what follows.
 
@@ -105,6 +105,8 @@ As I explained above, Aspen Discover is rolling up information from all the item
 
 
 There are a few different problems that are interacting to produce this result.  The MARC record makes no distinction between series information about the work, and series information from the publisher (like "Audible Studios on BrillianceAudio").  Similarly, there is no distinction between information about the work and information about the expression.  With no help in the MARC records to determine which is which, the discovery layer has no alternative to using everything.
+
+By the way, the series names from Thorndike Press and Audible Studios clearly violate the rule against series-like phrases in LC-PCC Policy Statement 2.12, so the MARC records aren't correct, or at least not LC-PCC-compliant.
 
 You can see the same issue in Vega:
 
