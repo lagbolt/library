@@ -32,7 +32,7 @@ Vega does better with this situation:
 
 <img src="images\Washington County Shrew with editions link.png" alt="" height="300">
 
-where information on individual editions is hidden behind a clickable link — much closer to a patron's internal bibliographic model.
+where information on individual editions is hidden behind a clickable link — much closer to a patron's internal bibliographic model.  Aspen Discovery has a similar feature.
 
 #### Clickable fields
 
