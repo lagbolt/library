@@ -151,7 +151,7 @@ The difference between a controlled and transcribed name can be the presence of 
 
 Contributors can be specific to a particular format, such as the narrator of an audiobook.  And eresource publishers such as Overdrive can appear in the MARC 710 field and be included in "contributors".
 
-Here's an excerpt from the "work" page for "The Secret Life of Addie Larue" from the MidPointe Library System (using Vega), demonstrating all of the above:
+Here's an excerpt from the "work" page for "The Invisible Life of Addie Larue" from the MidPointe Library System (using Vega), demonstrating all of the above:
 
 <img src="images\MidPointe excess contributors.png" alt="" height="500">
 
