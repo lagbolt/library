@@ -171,7 +171,7 @@ Here's an example of how pseudonyms work in Vega, from The Ferguson Library in C
 
 <img src="images\Ferguson Library Midnight in Death pseudonym.png" alt="" height="300">
 
-There's no argument that Nora Roberts is a "contributor", but the patron is left to guess why the same woman is appearing twice in the list of contributors.  Again, this isn't the best way of communicating this information.
+There's no argument that Nora Roberts is a "contributor", but the patron is left to guess why the same person is appearing twice in the list of contributors.  Again, this isn't the best way of communicating this information.
 
 Which is not to say that other systems do this any better.  Las Vegas Clark County Library District (BiblioCore) has a poorly worded note; neither Frederick County Public Libraries (CARL•Connect) nor Montgomery County Public Libraries (Aspen) have any mention of Nora Roberts.
 
